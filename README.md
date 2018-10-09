@@ -14,12 +14,12 @@ This app is meant to facilitate the search for incoming hackthons to the user.
 The following **required** user stories are complete:
 
 - [ ] Gives you information on what you need to participate
-- [ ] 
+- [ ] Helps you narrow your preferences in finding a specific hackathon you are able to attend
 
 The following **optional** user stories are implemented:
 
 - [ ] Add a calendar to the selected hackthons desired 
-- [ ] 
+
 
 
 
