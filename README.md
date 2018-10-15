@@ -13,8 +13,8 @@ This app is meant to facilitate the search for incoming hackthons to the user.
 ## User Stories
 
 The following **required** user stories are complete:
-- [] app icon in home screen, styled launch screen
-- [] **List View** user can change location of nearby hackathons to list
+- [ ] app icon in home screen, styled launch screen
+- [ ] **List View** user can change location of nearby hackathons to list
 - [] **List View** user can scroll through list of hackathons
 - [] **Map View** display map using location of user
 - [] **Map View** have pins for nearby hackathons by default
