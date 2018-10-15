@@ -1,7 +1,8 @@
 # hackfinder
 # Group Project - *hackerfinder*
 
-**hackfinder** is a Hackathon search app using the [__API]().
+
+**hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
 Time spent: **X** hours spent in total
 Description: 
@@ -13,14 +14,34 @@ This app is meant to facilitate the search for incoming hackthons to the user.
 
 The following **required** user stories are complete:
 
-- [ ] Gives you information on what you need to participate
-- [ ] Helps you narrow your preferences in finding a specific hackathon you are able to attend
+- [] app icon in home screen, styled launch screen
+  **List View**
+- [] user can change location of nearby hackathons to list
+- [] user can scroll through list of hackathons
+  **Map View**
+- [] display map using location of user
+- [] have pins for nearby hackathons by default
+- [] user can click on pin to bring up detail view of event
+  **Detail View**
+- [] show all information provided by eventbrite api
+- [] user is redirected to eventbrite website/app to RSVP
 
 The following **optional** user stories are implemented:
 
-- [ ] Add a calendar to the selected hackthons desired 
+- [] creating an API for MLH
+- [] creating an API for hackathon.com
+- [] calendar view
+- [] networking error
+- [] caching of events for offline
+- [] direction integration or redirection to eventbrite's website
+- [] user notified when new hackathons are in their area
+  **User View**
+- [] user can save upcoming hackathons in a separate list
+- [] user will be periodically notified when saved hackathon is coming up
+- [] user can save default locations
 
 
+The following **stretch** user stories are implemented:
 
 
 
