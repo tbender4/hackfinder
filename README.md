@@ -16,7 +16,6 @@ The following **required** user stories are complete:
 
 - [] app icon in home screen, styled launch screen
 
-  **List View**
     
 - [] user can change location of nearby hackathons to list
 - [] user can scroll through list of hackathons
