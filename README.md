@@ -17,15 +17,18 @@ The following **required** user stories are complete:
 - [] app icon in home screen, styled launch screen
 
   **List View**
+    
 - [] user can change location of nearby hackathons to list
 - [] user can scroll through list of hackathons
 
   **Map View**
+  
 - [] display map using location of user
 - [] have pins for nearby hackathons by default
 - [] user can click on pin to bring up detail view of event
 
   **Detail View**
+
 - [] show all information provided by eventbrite api
 - [] user is redirected to eventbrite website/app to RSVP
 
@@ -40,6 +43,7 @@ The following **optional** user stories are implemented:
 - [] user notified when new hackathons are in their area
 
   **User View**
+
 - [] user can save upcoming hackathons in a separate list
 - [] user will be periodically notified when saved hackathon is coming up
 - [] user can save default locations
