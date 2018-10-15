@@ -36,9 +36,6 @@ The following **optional** user stories are implemented:
 - [ ] **User View** user can save default locations
 
 
-The following **stretch** user stories are implemented:
-
-
 
 ## Video Walkthrough
 
