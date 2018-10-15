@@ -15,25 +15,25 @@ This app is meant to facilitate the search for incoming hackthons to the user.
 The following **required** user stories are complete:
 - [ ] app icon in home screen, styled launch screen
 - [ ] **List View** user can change location of nearby hackathons to list
-- [] **List View** user can scroll through list of hackathons
-- [] **Map View** display map using location of user
-- [] **Map View** have pins for nearby hackathons by default
-- [] **Map View** user can click on pin to bring up detail view of event
-- [] **Detail View** show all information provided by eventbrite api
-- [] **Detail View** user is redirected to eventbrite website/app to RSVP
+- [ ] **List View** user can scroll through list of hackathons
+- [ ] **Map View** display map using location of user
+- [ ] **Map View** have pins for nearby hackathons by default
+- [ ] **Map View** user can click on pin to bring up detail view of event
+- [ ] **Detail View** show all information provided by eventbrite api
+- [ ] **Detail View** user is redirected to eventbrite website/app to RSVP
 
 The following **optional** user stories are implemented:
 
-- [] creating an API for MLH
-- [] creating an API for hackathon.com
-- [] calendar view
-- [] networking error
-- [] caching of events for offline
-- [] direction integration or redirection to eventbrite's website
-- [] user notified when new hackathons are in their area
-- [] **User View** user can save upcoming hackathons in a separate list
-- [] **User View** user will be periodically notified when saved hackathon is coming up
-- [] **User View** user can save default locations
+- [ ] creating an API for MLH
+- [ ] creating an API for hackathon.com
+- [ ] calendar view
+- [ ] networking error
+- [ ] caching of events for offline
+- [ ] direction integration or redirection to eventbrite's website
+- [ ] user notified when new hackathons are in their area
+- [ ] **User View** user can save upcoming hackathons in a separate list
+- [ ] **User View** user will be periodically notified when saved hackathon is coming up
+- [ ] **User View** user can save default locations
 
 
 The following **stretch** user stories are implemented:
