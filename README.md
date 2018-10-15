@@ -13,7 +13,6 @@ This app is meant to facilitate the search for incoming hackthons to the user.
 ## User Stories
 
 The following **required** user stories are complete:
-
 - [] app icon in home screen, styled launch screen
 - [] **List View** user can change location of nearby hackathons to list
 - [] **List View** user can scroll through list of hackathons
@@ -32,12 +31,9 @@ The following **optional** user stories are implemented:
 - [] caching of events for offline
 - [] direction integration or redirection to eventbrite's website
 - [] user notified when new hackathons are in their area
-
-  **User View**
-
-- [] user can save upcoming hackathons in a separate list
-- [] user will be periodically notified when saved hackathon is coming up
-- [] user can save default locations
+- [] **User View** user can save upcoming hackathons in a separate list
+- [] **User View** user will be periodically notified when saved hackathon is coming up
+- [] **User View** user can save default locations
 
 
 The following **stretch** user stories are implemented:
