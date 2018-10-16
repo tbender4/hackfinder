@@ -5,10 +5,9 @@
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
 Time spent: **X** hours spent in total
-Description: 
-The problem is the difficultly to search hackthon at seperate companies or schools with one application you can access the information.
-This app is meant to facilitate the search for incoming hackthons to the user.
 
+Description: 
+Hackfinder is an iOS App that will help users find nearby hackathons using Location Services, or by searching for a specific location.
 
 ## User Stories
 
