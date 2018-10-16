@@ -35,7 +35,9 @@ The following **optional** user stories are implemented:
 - [ ] **User View** user will be periodically notified when saved hackathon is coming up
 - [ ] **User View** user can save default locations
 
+## Wireframe
 
+<img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.jpg'>
 
 ## Video Walkthrough
 
