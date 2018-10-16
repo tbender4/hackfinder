@@ -37,7 +37,7 @@ The following **optional** user stories are implemented:
 
 ## Wireframe
 
-<img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.jpg'>
+<img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.png'>
 
 ## Video Walkthrough
 
