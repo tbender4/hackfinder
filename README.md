@@ -38,6 +38,12 @@ The following **optional** user stories are implemented:
 
 <img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.png'>
 
+## API Endpoints
+
+The Eventbrite API is used for finding Hackathons events.
+
+The Google Maps API is used for the map view to all events.
+
 ## Model Classes
 - Event
   - `title`
