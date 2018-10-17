@@ -38,6 +38,51 @@ The following **optional** user stories are implemented:
 
 <img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.png'>
 
+## Model Classes
+- Event
+  - `title`
+  - `overview`
+  - `backdrop`
+  - `avatar`
+- EventApiManager
+  - `apikey`
+  - `url`
+  - `session`
+
+- Map
+  - `MapPins`
+
+- EventCell
+  - `title`
+  - `overview`
+  - `avatar`
+  - `date`
+  - `rsvp`
+  - 
+
+- MapViewController
+  - `map`
+  - `search`
+
+- ListViewController
+  - `search`
+  - `filter`
+  - `cell`
+
+- DetailViewController
+  - `title`
+  - `overview`
+  - `date`
+  - `rsvp`
+  - `backdrop`
+  - `avatar`
+
+- FilterViewController
+  - `sortBy`
+  - `location`
+  - `date`
+  - `isFree`
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
