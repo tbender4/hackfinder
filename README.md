@@ -40,9 +40,9 @@ The following **optional** user stories are implemented:
 
 ## API Endpoints
 
-The Eventbrite API is used for finding Hackathons events.
+The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for finding Hackathons events.
 
-The Google Maps API is used for the map view to all events.
+The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the map view integration.
 
 ## Model Classes
 - Event
@@ -103,7 +103,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [2018] [Team: Thomas, Jamil, Claudia]
+Copyright [2018] [Team: Thomas Bender, Jamil Jalal, Claudia Martinez]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
