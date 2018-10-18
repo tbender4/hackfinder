@@ -1,5 +1,5 @@
 # hackfinder
-# Group Project - *hackerfinder*
+# Group Project - *hackfinder*
 
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
