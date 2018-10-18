@@ -32,6 +32,13 @@ xcuserdata/
 timeline.xctimeline
 playground.xcworkspace
 
+## Authorization token
+token.swift
+
+## .DS_Store
+.DS_Store
+
+
 # Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
