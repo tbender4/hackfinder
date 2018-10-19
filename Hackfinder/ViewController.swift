@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  let dummy = Eventbrite()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    Eventbrite.userToken
     // Do any additional setup after loading the view, typically from a nib.
   }
 

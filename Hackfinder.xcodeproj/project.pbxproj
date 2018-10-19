@@ -13,8 +13,8 @@
 		E905AD872175775D0043BEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E905AD862175775D0043BEC7 /* Assets.xcassets */; };
 		E905AD8A2175775D0043BEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905AD882175775D0043BEC7 /* LaunchScreen.storyboard */; };
 		E93E1C942176B0E500028D57 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E93E1C932176B0E500028D57 /* README.md */; };
+		E9ABD089217946740040E800 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD088217946740040E800 /* Token.swift */; };
 		E9DD51822179367200620C9F /* Eventbrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD51812179367200620C9F /* Eventbrite.swift */; };
-		E9DD518421793A1B00620C9F /* token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD518321793A1B00620C9F /* token.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		E905AD892175775D0043BEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E905AD8B2175775D0043BEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93E1C932176B0E500028D57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		E9ABD088217946740040E800 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		E9DD51812179367200620C9F /* Eventbrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventbrite.swift; sourceTree = "<group>"; };
-		E9DD518321793A1B00620C9F /* token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = token.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				E9DD51812179367200620C9F /* Eventbrite.swift */,
-				E9DD518321793A1B00620C9F /* token.swift */,
+				E9ABD088217946740040E800 /* Token.swift */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 				E9DD51822179367200620C9F /* Eventbrite.swift in Sources */,
 				E905AD822175775C0043BEC7 /* ViewController.swift in Sources */,
 				E905AD802175775C0043BEC7 /* AppDelegate.swift in Sources */,
-				E9DD518421793A1B00620C9F /* token.swift in Sources */,
+				E9ABD089217946740040E800 /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
