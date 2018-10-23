@@ -1,0 +1,998 @@
+2018-10-22 20:27:31.523913-0400 Hackfinder[18117:10378274] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+Generating default url
+https://www.eventbriteapi.com/v3/events/search/?q=hackathon&sort_by=best&location.address=los+angeles&location.within=50mi&price=&token=KB5QEQ6C22MFGF7HJKIS
+https://www.eventbriteapi.com/v3/events/search/?q=hackathon&sort_by=best&location.address=los+angeles&location.within=50mi&price=&token=KB5QEQ6C22MFGF7HJKIS
+DEBUG CALLED
+Name:
+Collaboration Tree Hackathon - Los Angeles
+
+Description:
+Free pizza for lunch!!!
+Join us for our monthly hackathon to work on the open source Collaboration Tree (cTree) demo site: a collaborative design/innovation web platform.  Work with other contributors in LA and online to develop this exciting new open source technology as a community.  Attendees are encouraged to join one or more of the teams working on a specific part of the project.  For newer programmers and designers, open source project teams are a great way to build up your resume.
+Programmers: get experience with Google's Polymer platform and web components (no web experience needed)Designers: help shape the user experience for this uniquely complex projectEveryone Else: learn more about the project and how you can get involved early
+
+
+
+Before the event
+We recommend joining our Slack group and checking out the project before the event, as well as signing up for GitHub if you don't already have an account.  Programmers are also encouraged to set up the project in advance, and we can help resolve any issues during the event.
+If you're looking to jump in a bit early we're also at Hack for LA most Tuesday nights.
+
+
+
+Free parking
+Parking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.  Take the stairs down from the center of the parking lot and follow the signs to the lobby.
+
+ID:
+43962499018
+
+URL:
+https://www.eventbrite.com/e/collaboration-tree-hackathon-los-angeles-tickets-43962499018?aff=ebapi
+
+Date: 
+2018-11-03T18:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+Amazon Alexa Skill Development Workshop & Hackathon
+
+Description:
+Attend this Free event presented by Amazon and Code District and dive deep into Amazon’s new devices for smart home, smart screen and developer tools! Also, learn how to build skills for Alexa-enabled devices! 
+Lucky participants will win a free Amazon Alexa devices.  The perfect holiday gift!
+
+
+About this Event
+
+New Device Preview
+Amazon launched more than 70 new products, features and tools in September alone -- new Echo Auto, Echo Show, Echo Dot, Fire TV Recast and even a wall clock -- as it continues to put Alexa everywhere. See some of these new devices and learn how you can use them to make your home and business smarter and reach new customers with increased capabilities. 
+
+Alexa Skill Training Workshop - December 8, 10:00 p.m. - 5:00 p.m.
+
+Updated content for new Amazon developer console and new AWS lambda function interface. Alexa is a cloud-based voice service from Amazon and the brain behind tens of millions of devices including the Echo family of devices, FireTV, Fire Tablet, and third-party devices with Alexa built-in. Learn how to build capabilities, or skills, that make Alexa smarter and make everyday tasks faster, easier, and more delightful for customers. Hands-on labs will teach you how to code cool skills for Alexa. 
+
+What you will learn:
+
+
+How to build engaging voice experiences
+
+
+Create natural, engaging voice experiences and reach and delight customers through Alexa-enabled devices.
+
+
+How to add visual and touch elements
+
+
+Learn how to design, build, and deploy visually rich experiences to tens of millions of Alexa devices with screens.
+
+
+How to make money with Alexa when you build delightful skills with compelling content. 
+
+
+
+Hackathon - December 9, 10:00 p.m. - 5:00 p.m.
+Got a great idea for an Alexa skill? Start building it in this full day Alexa skill hackathon. Skills that are built during this hackathon that pass the Alexa certification test will be published to the Amazon Alexa skills store for anyone to enjoy! 
+First and Second Prize for Best Skills 
+First and second place prizes will be awarded. Winners will be selected based on the uniqueness of the skill, creativity and best use of the Alexa Skill Kit especially the use of in-skill purchasing. Prizes will be Alexa-enabled devices! 
+
+Pre-requisites For this Event
+
+
+Get a developer account: developer.amazon.com (free)
+
+
+Get an aws account:  aws.amazon.com (free - but CC required for signup)
+
+
+Download sample templates to your desktop: https://github.com/alexa
+
+
+Laptop computer and a willingness to learn
+
+
+
+
+
+
+ID:
+51302573378
+
+URL:
+https://www.eventbrite.com/e/amazon-alexa-skill-development-workshop-hackathon-tickets-51302573378?aff=ebapi
+
+Date: 
+2018-12-08T18:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+Southern California Korean-American Annual Hackathon
+
+Description:
+재미과학기술자협회 남가주지부(KSEA-SC), 미주중앙일보(K-Daily), SoCal K-Group가 주최하고, SoDAVi, LA 총영사관이 후원하는 소프트웨어 해커톤을 개최합니다.
+해커톤 기간: 2018년 11월 17일 오전 9시 – 11월 18일 오후 1시
+해커톤 장소: 미주중앙일보 갤러리 (690 Wilshire Place, LA, CA, 90005)
+참가비 (RSVP):
+
+
+해커톤 참가: 학생 $10, 일반인 $20
+
+
+해커톤 참관: 학생 $15, 일반인 $30
+
+
+학생 등록자는 해커톤 입장 시 학생증 지참 필수
+
+
+해커톤 참여 인원: 80명 선착순
+해커톤 참관 인원: 50명 선착순
+등록 마감: 11월 11일 밤 11시 30분
+
+
+ID:
+50705003029
+
+URL:
+https://www.eventbrite.com/e/southern-california-korean-american-annual-hackathon-tickets-50705003029?aff=ebapi
+
+Date: 
+2018-11-17T17:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+Polymer Web Components Hackathon - Los Angeles
+
+Description:
+Free pizza for lunch!!!
+Get started with the new web components standard and Google's Polymer web components framework as part of an open source project: the Collaboration Tree.  Web components allow you to create new HTML tags which can be used with any other HTML based web technology.  Polymer adds data binding for cascading changes, as well as a broad library of polished components.  The Collaboration Tree (cTree) is an open source project in progress, built on Polymer, who's goal is to create a new large scale collaborative discussion platform (read: open think tank).
+This event will introduce you to the project and help you get hands on with Polymer web components.  If you want to continue learning and working with Polymer on a real project you can join a cTree team working on a specific part of the project.  For newer developers, open source project teams are a great way to build up your resume.
+
+
+
+Before the event
+We recommend joining our Slack group and seting up the project in advance.  If you have any issues we can help you resolve them during the event.  We also encourage you to sign up for GitHub if you don't already have an account
+If you're looking to jump in a bit early we're also at Hack for LA most Tuesday nights.
+
+
+
+Free parking
+Parking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.  Take the stairs down from the center of the parking lot and follow the signs to the lobby.
+
+ID:
+45923336937
+
+URL:
+https://www.eventbrite.com/e/polymer-web-components-hackathon-los-angeles-tickets-45923336937?aff=ebapi
+
+Date: 
+2018-11-03T18:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+DV Hacks: AI | A 48-hour hackathon by BCG Digital Ventures
+
+Description:
+Applications are due October 10!
+Calling all data scientists, designers, neuroscientists, idea people, coders, data engineers, business builders and app developers!
+First DV Hacks tackled blockchain, then the future of mobility. Now, we’re looking for the next big innovation in artificial intelligence. Get your best team together and join us for DV Hacks: AI to push the boundaries of how we interact with machines, and how they interact with us.
+
+DV Hacks is a 48-hour hackathon series that brings together an invite-only crowd to compete for bragging rights, access to the DV network and $20k in prizes.
+Learn more and apply at dvhacks.com.
+
+
+ID:
+49560487753
+
+URL:
+https://www.eventbrite.com/e/dv-hacks-ai-a-48-hour-hackathon-by-bcg-digital-ventures-tickets-49560487753?aff=ebapi
+
+Date: 
+2018-11-30T20:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+How To Develop a Successful IT Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course
+
+Description:
+Learn to Develop a Successful IT Startup Company Today!
+Always wanted to start an tech startup? Now we have a complete blueprint for you start your own IT Startup. During our tech startup program you will learn and navigate through tools, software, hardware, platforms, resources, projects, processes, methods and strategies to penetrate your own IT Startup into the market.
+During this IT Startup workshop we will cover:
+
+Session 1: IT Basics
+During this session we will explore the very foundation and the basic systems and platforms for you to integrate into your own tech startup process. 
+
+IT Hardware
+IT Software
+IT Platforms
+IT Projects
+IT Systems
+IT Blueprint
+IT Tools
+IT Resources
+
+Session 2: Tech Startup IdeasDuring this session we will explore tech startup ideas for you to implement and integrate into your own tech startup or use them as an inspirational source for developing your own products, projects, prototypes or services in your tech startup
+
+IT Consulting Chatbot
+Remote IT Support
+
+
+IT Support Chatbot
+Operative System Scripting
+Database Maintenance
+IT Monitoring Dashboard
+IT Systems Performance Analytics
+Operative System Logging
+Network Maintenance
+IT Networking Chatbot
+IT Operations VR/AR Lab
+Agriculture Industry
+Healthcare Industry
+IT Drone Management
+IT Repairment
+Data BD Analytics Dashboard
+Cloud Solution Configurations
+Storage/Backup Solutions
+IT Automation
+ITIL Process Improvement
+IoT Data Integrations
+Technician Chatbot
+SySAdmin Tasks Automation
+Ticket Issue System Management
+Technical Documentation
+Database Design Solutions
+System Analytics
+Server Migration Solutions
+Configure Management
+Web/Application Server Management
+OS Virtualization Management
+IT Architectual Solutions
+SLA Agreements
+Hosting Solutions
+File Server Solutions
+Mail Server Solutions
+IT Project Management
+BioInfrastructure
+IPTV & VoIP
+VR SysOps
+Augmented Administration
+Automated DevOps
+Healthcare Infrastructure
+IoT DevOps
+Vehicle Infrastructure
+Real Time Monitoring
+Streaming Services
+Gaming Industry
+E-Commerce Industry
+Hosting On Demand
+Airport DevOps
+App/Cloud Hosting
+Cloud Healthcare
+AgriCloud
+GeoCloud
+Logistical Cloud
+VR Cloud
+Fintech Cloud
+CryptoCloud
+Cloud Retail
+Industrial Cloud
+Cloud Monitoring
+Cloud 3D Mapping
+Cloud Intranet
+Traffic System
+Food Cloud
+and much more
+
+ 
+Session 3: R&DDuring this session we will explore the research process, how you can research a specific niche industry, the market and tech trends.
+
+R&D/Research
+R&D Tools
+Startup Tools
+Market Research
+Surveys
+Consumer Analytics
+Market Analytics
+Industry Analytics
+Trends Researching
+
+ 
+Session 4: Creativity
+During this session we will explore the creativity process, how to increase your own creativity intelligence and implement quality tech ideas into your own tech startup process.
+
+Creativity Tools
+Creativity Techniques
+Creativity Strategy
+Mind mapping
+Brainstorming
+Meditation
+Idea Exploring
+Idea Blender
+Key-Point System
+Problem Solving Strategy
+Incubation
+Creative intelligence
+Outside the Box Thinking
+Lateral Thinking
+Productivity Tools
+Mind Relaxation
+Meditation
+Higher Consciousnesses
+Inspiration Tools
+Idea Storage
+
+ 
+Session 5: Capital/FundingDuring this session we will explore the capital and funding process of your tech startup. How to raise capital and make systematic attempts to penetrate into the market.
+
+Capital/Funding
+Capital/Funding Tools
+Capital/Funding Strategy
+Venture Capitalists
+Angel Investors
+Seed Funding
+Incubators
+Accelerator Programs
+Co-Founder
+Capitalization Table
+Crowdfunding
+Business Trade Fairs
+
+ 
+Session 6: Clients/CustomersDuring this session we will explore the client acquisition process. Find your first clients and customers for your tech startup and implement the right tools, methods and strategies for creating an successful sale system for your specific niche industry/technology.
+
+Clients
+Client Acquisition Strategy
+Client Acquisition Process
+PR Strategies
+Social Media Marketing
+Competitive Analysis
+E-Mail Marketing
+Newsletters
+Analytics
+SEO
+Digital Marketing
+Ad Systems
+Competitor Research
+Sale System
+Sale Strategy
+Growth Hacking
+Sales Funnel
+Email Hunting
+
+ 
+Session 7: Business PlatformDuring this session we will explore the business organizing process. How to implement an organized and professional platform for your tech startup for creating efficient workflow.
+
+Business Automation
+Business Process
+Business Strategy
+Business Model
+Business Management
+ERP
+CRM
+Human Resources (HR)
+Recruitment
+Intranet
+Collaboration
+Project Management
+Document Management
+Customer Support
+Business Automation Tools
+
+ 
+Session 8: Business FormationDuring this session we will explore the business formation process. Which platforms, models and tools to integrate into your tech startup formation for creating an successful launch process.Business Formation
+
+Legal
+Contracts
+Business Model
+Corporate Structure
+Payment Platforms
+Payment Gateway
+Invoicing System
+Credit Cards/Payments
+Pricing Strategies
+Accounting
+Subscriptions
+Office Space
+Virtual Address
+Virtual Phone
+Virtual Office
+Remote Office
+Virtual Assistant
+Virtual Receptionist
+Virtual Support
+Outsourcing
+Product Demo
+Product Launch
+
+ 
+Session 9: Startup CodingDuring this session we will explore the coding process of your tech startup.Coding/Programming
+
+IDE
+API
+SDK
+GUI
+Code Analysis
+Data Visualization
+Python
+C#
+Forms
+Wireframing
+Front-End
+Back-End
+Library
+Frameworks
+Testing
+Programming Platforms
+Programming Tools
+Agile Development
+Software Code Management
+
+ 
+Session 10: Startup Hardware/PrototypingDuring this session we will explore the hardware and prototyping process of your tech startup. Using different tools and platform to innovate and integrate your own tech startup projects.
+
+Electronics
+IoT
+Raspberry Pi
+Arduino
+Microcontrollers
+Sensors
+Projects
+Microchips
+Hardware Boards
+Hardware Tools
+Hardware Platform
+PCB
+3D Design
+3D Models
+3D Printing
+DIY Tech
+Tech Lab
+Embedded Systems
+
+ 
+Session 11 : Startup IT OperationsDuring this session we will explore the IT infrastructure process of your tech startup. Which platforms to use for setup an organized database system, cloud system and other technical solutions for your tech startup to work efficiently
+
+IT Infrastructure
+Cloud
+Servers
+Database
+DevOps
+Monitoring
+Remote Access
+Backup
+Technical Documentation
+Data Recovery
+Encryption
+Security
+FTP
+NAS
+Deployment
+VPN
+VPS
+Automation
+Log Management
+Networking
+Virtualization
+
+ 
+Session 12 : Startup ConsultingDuring this session we will explore the consulting process for your tech startup. An strategic approach, where you can receive more experience before you launch your own specific products/projects.
+
+Tech Startup Consulting
+Tech Consulting Services
+Tech Consulting Structure
+Tech Consulting Approach
+Tech Consulting Strategy
+Tech Consulting Contracts
+Tech Consulting Referrals
+Tech Consulting Portfolio
+Tech Consulting ISO
+Tech Consulting Integration
+Tech Consulting Projects
+
+ 
+Session 13 : Startup ManagementDuring this session we will explore management process of your tech startup. How to manage your internal and external environments for increasing the probability of your tech startup to succeed.
+
+Tech Startup Management
+Motivational Skills
+Time Management
+Team Management
+Leadership Skills
+Learning Skills
+Goal Setting Skills
+Decision Making Skills
+Stress Management
+Communication Skills
+Procrastination Hacks
+Productivity Hacks
+Confidence Hacks
+Growth Mindset Skills
+Problem Solving Skills
+Analytical Skills
+Strategic Thinking Skills
+Learning Management
+
+Session 14: Tech WorkshopsDuring this session we will explore tech trends, emerging markets and disruptive technologies and future workshops
+
+Future Workshops
+Disruptive Technologies
+Emerging Markets
+Emerging Industries
+Tech Trends
+
+
+Workshop Curriculum
+
+
+Basic Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing
+
+
+Unlimited Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations
+
+
+VIP Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops
+
+
+Gold Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited Attendees Registration
+
+
+Testimonials:
+"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased." - Johnny M."Not able to tell you how happy I am with Atechup Startup Workshops." - Elisabeth F. T.
+"Atechup Startup Workshops, is a visionary product, shaping future tomorrow" - Cohen. A
+""I am completely blown away by the quality and generous material. Thank you very much" - Steven  D.
+
+For detailed information go to:
+https://www.atechup.com/product/operations-tech-startup-program-premium-edition/
+[This is an online Event/Workshop]
+
+ID:
+46469157501
+
+URL:
+https://www.eventbrite.com/e/how-to-develop-a-successful-it-tech-startup-business-los-angeles-entrepreneur-workshop-hackathon-tickets-46469157501?aff=ebapi
+
+Date: 
+2018-10-25T20:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+How To Develop a Successful Cybersecurity Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course
+
+Description:
+Learn to Develop a Successful Cybersecurity Startup Company Today!
+Always wanted to start an tech startup? Now we have a complete blueprint for you start your own Cybersecurity Startup. During our tech startup program you will learn and navigate through tools, software, hardware, platforms, resources, projects, processes, methods and strategies to penetrate your own Cybersecurity Startup into the market.
+During this Cybersecurity Startup Workshop we will cover:
+
+Session 1: Cybersecurity Basics
+During this session we will explore the very foundation and the basic systems and platforms for you to integrate into your own tech startup process. 
+
+Cybersecurity Hardware
+Cybersecurity Software
+Cybersecurity Platforms
+Cybersecurity Projects
+Cybersecurity Systems
+Cybersecurity Blueprint
+Cybersecurity Tools
+Cybersecurity Resources
+
+Session 2: Tech Startup IdeasDuring this session we will explore tech startup ideas for you to implement and integrate into your own tech startup or use them as an inspirational source for developing your own products, projects, prototypes or services in your tech startup
+
+CyberSecurity Cloud
+CyberSecurity IoT
+Payment Encryption
+Industrial CyberSecurity
+Healthcare CyberSecurity
+Online Casino CyberSecurity
+CyberSecurity Sensors
+Real Time CyberSecurity
+CyberSecurity AI
+CyberSecurity Data Center
+IPTV CyberSecurity
+Holographic CyberSecurity
+CyberSecurity Monitoring
+DoS Prevention Systems
+CyberSecurity Telematics
+Email Server Security
+Medical CyberSecurity
+Data Theft Forensics
+Industrial Espionage Security
+AR CyberSecurity
+CyberSecurity Visualizations/Dashboards
+Automotive CyberSecurity
+Drone CyberSecurity
+CyberSecurity:
+Darknet Forensics
+and much more
+
+Session 3: R&DDuring this session we will explore the research process, how you can research a specific niche industry, the market and tech trends.
+
+R&D/Research
+R&D Tools
+Startup Tools
+Market Research
+Surveys
+Consumer Analytics
+Market Analytics
+Industry Analytics
+Trends Researching
+
+ 
+Session 4: Creativity
+During this session we will explore the creativity process, how to increase your own creativity intelligence and implement quality tech ideas into your own tech startup process.
+
+Creativity Tools
+Creativity Techniques
+Creativity Strategy
+Mind mapping
+Brainstorming
+Meditation
+Idea Exploring
+Idea Blender
+Key-Point System
+Problem Solving Strategy
+Incubation
+Creative intelligence
+Outside the Box Thinking
+Lateral Thinking
+Productivity Tools
+Mind Relaxation
+Meditation
+Higher Consciousnesses
+Inspiration Tools
+Idea Storage
+
+ 
+Session 5: Capital/FundingDuring this session we will explore the capital and funding process of your tech startup. How to raise capital and make systematic attempts to penetrate into the market.
+
+Capital/Funding
+Capital/Funding Tools
+Capital/Funding Strategy
+Venture Capitalists
+Angel Investors
+Seed Funding
+Incubators
+Accelerator Programs
+Co-Founder
+Capitalization Table
+Crowdfunding
+Business Trade Fairs
+
+ 
+Session 6: Clients/CustomersDuring this session we will explore the client acquisition process. Find your first clients and customers for your tech startup and implement the right tools, methods and strategies for creating an successful sale system for your specific niche industry/technology.
+
+Clients
+Client Acquisition Strategy
+Client Acquisition Process
+PR Strategies
+Social Media Marketing
+Competitive Analysis
+E-Mail Marketing
+Newsletters
+Analytics
+SEO
+Digital Marketing
+Ad Systems
+Competitor Research
+Sale System
+Sale Strategy
+Growth Hacking
+Sales Funnel
+Email Hunting
+
+ 
+Session 7: Business PlatformDuring this session we will explore the business organizing process. How to implement an organized and professional platform for your tech startup for creating efficient workflow.
+
+Business Automation
+Business Process
+Business Strategy
+Business Model
+Business Management
+ERP
+CRM
+Human Resources (HR)
+Recruitment
+Intranet
+Collaboration
+Project Management
+Document Management
+Customer Support
+Business Automation Tools
+
+ 
+Session 8: Business FormationDuring this session we will explore the business formation process. Which platforms, models and tools to integrate into your tech startup formation for creating an successful launch process.Business Formation
+
+Legal
+Contracts
+Business Model
+Corporate Structure
+Payment Platforms
+Payment Gateway
+Invoicing System
+Credit Cards/Payments
+Pricing Strategies
+Accounting
+Subscriptions
+Office Space
+Virtual Address
+Virtual Phone
+Virtual Office
+Remote Office
+Virtual Assistant
+Virtual Receptionist
+Virtual Support
+Outsourcing
+Product Demo
+Product Launch
+
+ 
+Session 9: Startup CodingDuring this session we will explore the coding process of your tech startup.Coding/Programming
+
+IDE
+API
+SDK
+GUI
+Code Analysis
+Data Visualization
+Python
+C#
+Forms
+Wireframing
+Front-End
+Back-End
+Library
+Frameworks
+Testing
+Programming Platforms
+Programming Tools
+Agile Development
+Software Code Management
+
+ 
+Session 10: Startup Hardware/PrototypingDuring this session we will explore the hardware and prototyping process of your tech startup. Using different tools and platform to innovate and integrate your own tech startup projects.
+
+Electronics
+IoT
+Raspberry Pi
+Arduino
+Microcontrollers
+Sensors
+Projects
+Microchips
+Hardware Boards
+Hardware Tools
+Hardware Platform
+PCB
+3D Design
+3D Models
+3D Printing
+DIY Tech
+Tech Lab
+Embedded Systems
+
+ 
+Session 11 : Startup IT OperationsDuring this session we will explore the IT infrastructure process of your tech startup. Which platforms to use for setup an organized database system, cloud system and other technical solutions for your tech startup to work efficiently
+
+IT Infrastructure
+Cloud
+Servers
+Database
+DevOps
+Monitoring
+Remote Access
+Backup
+Technical Documentation
+Data Recovery
+Encryption
+Security
+FTP
+NAS
+Deployment
+VPN
+VPS
+Automation
+Log Management
+Networking
+Virtualization
+
+ 
+Session 12 : Startup ConsultingDuring this session we will explore the consulting process for your tech startup. An strategic approach, where you can receive more experience before you launch your own specific products/projects.
+
+Tech Startup Consulting
+Tech Consulting Services
+Tech Consulting Structure
+Tech Consulting Approach
+Tech Consulting Strategy
+Tech Consulting Contracts
+Tech Consulting Referrals
+Tech Consulting Portfolio
+Tech Consulting ISO
+Tech Consulting Integration
+Tech Consulting Projects
+
+ 
+Session 13 : Startup ManagementDuring this session we will explore management process of your tech startup. How to manage your internal and external environments for increasing the probability of your tech startup to succeed.
+
+Tech Startup Management
+Motivational Skills
+Time Management
+Team Management
+Leadership Skills
+Learning Skills
+Goal Setting Skills
+Decision Making Skills
+Stress Management
+Communication Skills
+Procrastination Hacks
+Productivity Hacks
+Confidence Hacks
+Growth Mindset Skills
+Problem Solving Skills
+Analytical Skills
+Strategic Thinking Skills
+Learning Management
+
+Session 14: Tech WorkshopsDuring this session we will explore tech trends, emerging markets and disruptive technologies and future workshops
+
+Future Workshops
+Disruptive Technologies
+Emerging Markets
+Emerging Industries
+Tech Trends
+
+
+Workshop Curriculum
+
+
+Basic Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing
+
+
+Unlimited Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations
+
+
+VIP Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops
+
+
+Gold Edition: Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited Attendees Registration
+
+
+Testimonials:
+"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased." - Johnny M."Not able to tell you how happy I am with Atechup Startup Workshops." - Elisabeth F. T.
+"Atechup Startup Workshops, is a visionary product, shaping future tomorrow" - Cohen. A
+""I am completely blown away by the quality and generous material. Thank you very much" - Steven  D.
+
+For detailed information go to:
+https://www.atechup.com/product/cybersecurity-tech-startup-webinar/
+[This is an Online Web Event/Workshop]
+
+ID:
+46469188594
+
+URL:
+https://www.eventbrite.com/e/how-to-develop-a-successful-cybersecurity-tech-startup-business-los-angeles-entrepreneur-workshop-tickets-46469188594?aff=ebapi
+
+Date: 
+2018-10-25T20:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+Hack SoCal
+
+Description:
+Hack SoCal is one of SoCal's first co-ed all highschool hackathon.
+Hosted from February 16th to February 17th at General Assembly in the LA area.
+Follow the following for more updates:
+Instagram: @hacksocaltwitter: @hacksocal2018Facebook: Hack SoCal
+Contact us at:hacksocal@gmail.com
+
+ID:
+50031542691
+
+URL:
+https://www.eventbrite.com/e/hack-socal-tickets-50031542691?aff=ebapi
+
+Date: 
+2019-02-16T20:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+#ADDIHACKS - Smart Cities & Future of Work
+
+Description:
+During the weekend of February 8th-10th, the American Digital Diversity Initiative will be hosting a hackathon at California State Univerisity Long Beach where more than 150 Hackathon participants (e.g. web developers, designers, UX/UI, project managers, Military Veterans) to compete for thousands of dollars in prizes to develop solutions to improve and the quality of life for individuals in cities and the future of work. Over the weekend, all participants will have the opportunity to work alongside veterans on software solutions to address these challenges:
+
+
+Civic Engagement 
+
+
+Smart Transportation 
+
+
+Community Safety 
+
+
+Future of Work 
+
+
+Top Prize: $3,000
+2nd Place: $1,500
+3rd Place: $500
+Top Collegiant team: $1,500
+**Team Size of 6 Max**
+**In order to qualify for the collegiate prize, half of your team must be enrolled in a 2 or 4 year institution. If your team is at an odd number, it must be higher of the half. Example: Teams of 5 must have 3, teams of 3 must have 2.**
+For more information please visit: http://thehackathon.us
+Questions??? 
+Peter Rojas
+Associate Director 
+American Digital Diversity Initiative 
+(424) 543-4387
+peter@digitalequity.tech
+
+ID:
+46629805002
+
+URL:
+https://www.eventbrite.com/e/addihacks-smart-cities-future-of-work-tickets-46629805002?aff=ebapi
+
+Date: 
+2019-02-09T02:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+DEBUG CALLED
+Name:
+2018 Climathon - Long Beach, CA
+
+Description:
+Climathon is a global 24-hour climate change hackathon which will take place simultaneously in major cities around the world on October 26th 2018.
+It brings together the challenges of the world’s cities with the people who have the passion and ability to solve them. Climathon attracts innovators, entrepreneurs, students and professionals to create innovative solutions to cities climate challenges.
+2018 Climathon Challenge Long Beach:  Sustainable Housing
+The Long Beach Challenge will focus on solutions to create sustainable housing. Specifically, solutions that will help Long Beach meet the objectives set out in the city’s Climate Action and Adaptation Plan. As the climate continues to change, there is a need to find innovative and creative solutions that reduce fossil fuel use to meet energy and transportation needs. The city of Long Beach along with other communities are addressing many challenges in developing sustainable housing that meets the needs of a growing population. Numerous approaches have been proposed to generate sustainable housing such as more high-density units, tiny houses, heating and cooling via solar energy, linking housing and transportation needs, and more.
+This year's program will provide real data download from the California State University Long Beach, the City of Long Beach and the private sector.  Workshops will include; Team Buidling, Ideation, Storyboarding, Prototyping, Storytelling, Experimental Work and Perfecting Your Pitch.  Complete schedule coming soon.
+Come with your business ideas or come to lend a hand on a very critical topic that needs all of our help. 
+Join us!  Friday, October 26th 10am - Saturday October 27th 10am
+On campus, Duncan Anderson Gallery, Department of Design, CSULB Campus
+Check out FAQ about this event!  For questions, contact us at CSULB-IIE@csulb.edu
+
+ID:
+50022967041
+
+URL:
+https://www.eventbrite.com/e/2018-climathon-long-beach-ca-registration-50022967041?aff=ebapi
+
+Date: 
+2018-10-26T17:00:00Z
+
+Capacity
+Capacity N/A
+
+END DEBUG
+

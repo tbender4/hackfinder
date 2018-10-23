@@ -10,9 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-  let dummyAPI = Eventbrite()
-  var exampleEvent = Event()
-  
   var events: [Event] = []    //once one event can be parsed, do the rest
   
   
