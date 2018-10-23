@@ -16,12 +16,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperBG" translatesAutoresizingMaskIntoConstraints="NO" id="kyl-Rz-t8H">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-Ka-dzo">
+                                <rect key="frame" x="113.5" y="54" width="148.5" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Y4-wD-Psc">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Af-3J-mUp">
+                                        <rect key="frame" x="67" y="0.0" width="81.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9gK-as-vnx"/>
+                            <constraint firstItem="Vbd-Ka-dzo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="Azr-6g-3DY"/>
+                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Oji-HQ-dR9"/>
+                            <constraint firstItem="Vbd-Ka-dzo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QEo-4o-1De"/>
+                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Y1L-Vl-oYl"/>
+                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="waW-Uk-pyL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="windowShopperBG" width="414" height="736"/>
+    </resources>
 </document>
