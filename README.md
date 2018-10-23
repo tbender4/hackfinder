@@ -4,7 +4,7 @@
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 Description: 
 Hackfinder is an iOS App that will help users find nearby hackathons using Location Services, or by searching for a specific location.
