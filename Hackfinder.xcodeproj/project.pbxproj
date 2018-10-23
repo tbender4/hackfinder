@@ -14,6 +14,7 @@
 		E905AD8A2175775D0043BEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905AD882175775D0043BEC7 /* LaunchScreen.storyboard */; };
 		E93E1C942176B0E500028D57 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E93E1C932176B0E500028D57 /* README.md */; };
 		E9ABD089217946740040E800 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD088217946740040E800 /* Token.swift */; };
+		E9ABD08B21798C4E0040E800 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD08A21798C4E0040E800 /* Event.swift */; };
 		E9DD51822179367200620C9F /* Eventbrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD51812179367200620C9F /* Eventbrite.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		E905AD8B2175775D0043BEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93E1C932176B0E500028D57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E9ABD088217946740040E800 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E9ABD08A21798C4E0040E800 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E9DD51812179367200620C9F /* Eventbrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventbrite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				E9DD51802179364E00620C9F /* APIs */,
+				E9ABD08A21798C4E0040E800 /* Event.swift */,
 				E905AD7F2175775C0043BEC7 /* AppDelegate.swift */,
 				E905AD812175775C0043BEC7 /* ViewController.swift */,
 				E905AD832175775C0043BEC7 /* Main.storyboard */,
@@ -157,6 +160,7 @@
 				E905AD822175775C0043BEC7 /* ViewController.swift in Sources */,
 				E905AD802175775C0043BEC7 /* AppDelegate.swift in Sources */,
 				E9ABD089217946740040E800 /* Token.swift in Sources */,
+				E9ABD08B21798C4E0040E800 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

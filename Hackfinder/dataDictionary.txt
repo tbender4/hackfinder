@@ -1,0 +1,856 @@
+2018-10-19 19:06:23.244305-0400 Hackfinder[72517:7927616] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+Generating default url
+////////////////////
+https://www.eventbriteapi.com/v3/events/search/?q=hackathon&sort_by=best&location.address=los+angeles&location.within=50mi&price=&token=KB5QEQ6C22MFGF7HJKIS
+////////////////////
+["events": <__NSArrayI 0x6000027b7800>(
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-10-17T09:29:47Z";
+    created = "2018-03-08T04:12:03Z";
+    currency = USD;
+    description =     {
+        html = "<P><STRONG>Free pizza for lunch!!!</STRONG></P>\n<P>Join us for our monthly hackathon to work on the open source\U00a0<A HREF=\"http://www.innovativefuture.org/collaboration-tree/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Collaboration Tree</A>\U00a0(cTree)\U00a0<A HREF=\"https://github.com/F4IF/ctree-demo\" TARGET=\"_blank\" TITLE=\"GitHub\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">demo site</A>: a collaborative design/innovation web platform.\U00a0 Work with other contributors in LA and online to develop this exciting new open source technology as a community.\U00a0 Attendees are encouraged to join one or more of the teams working on a specific part of the project.\U00a0 For newer programmers and designers, open source project teams are a great way to build up your resume.</P>\n<P><SPAN><STRONG>Programmers:</STRONG> get experience with Google's Polymer platform and web components (no web experience needed)</SPAN><BR><SPAN><STRONG>Designers:</STRONG> help shape the user experience for this uniquely complex project</SPAN><BR><SPAN><STRONG>Everyone Else:</STRONG> learn more about the project and how you can get involved early</SPAN></P>\n<P><BR></P>\n<HR>\n<P><BR></P>\n<P><STRONG>Before the event</STRONG></P>\n<P>We recommend joining our <A HREF=\"http://slack.ctree.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Slack group</A> and checking out <A HREF=\"http://dev.ctree.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">the project</A> before the event, as well as signing up for <A HREF=\"https://github.com/join\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">GitHub</A> if you don't already have an account.\U00a0 Programmers are also encouraged to set up the project in advance, and we can help resolve any issues during the event.</P>\n<P><BR>If you're looking to jump in a bit early we're also at\U00a0<A HREF=\"https://www.meetup.com/hackforla/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Hack for LA</A>\U00a0most Tuesday nights.</P>\n<P><BR></P>\n<HR>\n<P><BR></P>\n<P><STRONG>Free parking</STRONG></P>\n<P><STRONG></STRONG>Parking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.\U00a0 Take the stairs down from the center of the parking lot and follow the signs to the lobby.</P>";
+        text = "Free pizza for lunch!!!\nJoin us for our monthly hackathon to work on the open source\U00a0Collaboration Tree\U00a0(cTree)\U00a0demo site: a collaborative design/innovation web platform.\U00a0 Work with other contributors in LA and online to develop this exciting new open source technology as a community.\U00a0 Attendees are encouraged to join one or more of the teams working on a specific part of the project.\U00a0 For newer programmers and designers, open source project teams are a great way to build up your resume.\nProgrammers: get experience with Google's Polymer platform and web components (no web experience needed)Designers: help shape the user experience for this uniquely complex projectEveryone Else: learn more about the project and how you can get involved early\n\n\n\nBefore the event\nWe recommend joining our Slack group and checking out the project before the event, as well as signing up for GitHub if you don't already have an account.\U00a0 Programmers are also encouraged to set up the project in advance, and we can help resolve any issues during the event.\nIf you're looking to jump in a bit early we're also at\U00a0Hack for LA\U00a0most Tuesday nights.\n\n\n\nFree parking\nParking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.\U00a0 Take the stairs down from the center of the parking lot and follow the signs to the lobby.";
+    };
+    end =     {
+        local = "2018-11-03T17:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-04T00:00:00Z";
+    };
+    "format_id" = 10;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 43962499018;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 1;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 524;
+            "top_left" =             {
+                x = 0;
+                y = 87;
+            };
+            width = 1048;
+        };
+        "edge_color" = "#575b3e";
+        "edge_color_set" = 1;
+        id = 41902961;
+        original =         {
+            height = 699;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41902961%2F166160958419%2F1%2Foriginal.jpg?auto=compress&s=774bbd79412f5a20ab13766acfa1871a";
+            width = 1048;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41902961%2F166160958419%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C87%2C1048%2C524&s=5daa96a34d6ac61eb02356352be0433e";
+    };
+    "logo_id" = 41902961;
+    name =     {
+        html = "Collaboration Tree Hackathon - Los Angeles";
+        text = "Collaboration Tree Hackathon - Los Angeles";
+    };
+    "online_event" = 0;
+    "organization_id" = 166160958419;
+    "organizer_id" = 13646084582;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/43962499018/";
+    "series_id" = 43962135932;
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-11-03T11:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-03T18:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 2004;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/collaboration-tree-hackathon-los-angeles-tickets-43962499018?aff=ebapi";
+    "venue_id" = 24451725;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-10-11T20:04:47Z";
+    created = "2018-10-11T18:13:30Z";
+    currency = USD;
+    description =     {
+        html = "<H2><SPAN>Attend this Free event presented by Amazon and Code District and dive deep into Amazon\U2019s new devices for smart home, smart screen and developer tools! Also, learn how to build skills for Alexa-enabled devices!\U00a0</SPAN></H2>\n<P><STRONG><BR>Lucky p<SPAN>articipants will win a free Amazon Alexa devices.\U00a0 The perfect holiday gift!</SPAN></STRONG></P>\n<P><BR></P>\n<P><IMG ALT=\"Alexa\" SRC=\"https://cdn.evbuc.com/eventlogos/168398848/alexadevices.jpg\"></P>\n<H2><SPAN>About this Event</SPAN></H2>\n<H3><BR></H3>\n<H3>New Device Preview</H3>\n<P>Amazon launched more than 70 new products, features and tools in September alone -- new Echo Auto, Echo Show, Echo Dot, Fire TV Recast and even a wall clock -- as it continues to put Alexa everywhere. See some of these new devices and learn how you can use them to make your home and business smarter and reach new customers with increased capabilities.\U00a0</P>\n<H3><BR></H3>\n<H3><SPAN>Alexa Skill Training Workshop - December 8, 10:00 p.m. - 5:00 p.m.</SPAN></H3>\n<P><BR></P>\n<P><SPAN><STRONG>Updated content for new Amazon developer console and new AWS lambda function interface</STRONG>.\U00a0</SPAN><SPAN>Alexa is a cloud-based voice service from Amazon and the brain behind tens of millions of devices including the Echo family of devices, FireTV, Fire Tablet, and third-party devices with Alexa built-in. Learn how to build capabilities, or skills, that make Alexa smarter and make everyday tasks faster, easier, and more delightful for customers. <STRONG>Hands-on labs will teach you how to code cool skills for Alexa.\U00a0</STRONG></SPAN></P>\n<P><BR></P>\n<P><STRONG><SPAN>What you will learn:</SPAN></STRONG></P>\n<UL>\n<LI>\n<P>How to build engaging voice experiences</P>\n</LI>\n<LI>\n<P>Create natural, engaging voice experiences and reach and delight customers through Alexa-enabled devices.</P>\n</LI>\n<LI>\n<P>How to add visual and touch elements</P>\n</LI>\n<LI>\n<P>Learn how to design, build, and deploy visually rich experiences to tens of millions of Alexa devices with screens.</P>\n</LI>\n<LI>\n<P>How to make money with Alexa when you build delightful skills with compelling content.\U00a0</P>\n</LI>\n</UL>\n<P><BR></P>\n<H3>Hackathon - December 9, 10:00 p.m. - 5:00 p.m.</H3>\n<P>Got a great idea for an Alexa skill? Start building it in this full day Alexa skill hackathon. Skills that are built during this hackathon that pass the Alexa certification test will be published to the Amazon Alexa skills store for anyone to enjoy!\U00a0<BR><BR></P>\n<H3>First and Second Prize for Best Skills\U00a0</H3>\n<P>First and second place prizes will be awarded. Winners will be selected based on the uniqueness of the skill, creativity and best use of the Alexa Skill Kit especially the use of in-skill purchasing. Prizes will be Alexa-enabled devices!\U00a0</P>\n<P><BR></P>\n<H3>Pre-requisites For this Event</H3>\n<UL>\n<LI>\n<P>Get a developer account: developer.amazon.com (free)</P>\n</LI>\n<LI>\n<P>Get an aws account:\U00a0<A HREF=\"http://aws.amazon.com\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"> aws.amazon.com</A> (free - but CC required for signup)</P>\n</LI>\n<LI>\n<P>Download sample templates to your desktop:<A HREF=\"%20https://github.com/alexa\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"> https://github.com/alexa</A></P>\n</LI>\n<LI>\n<P>Laptop computer and a willingness to learn</P>\n</LI>\n</UL>\n<P><BR></P>\n<P><BR></P>\n<P><STRONG><SPAN><IMG ALT=\"justin\" SRC=\"https://cdn.evbuc.com/eventlogos/168398848/justin2.png\"></SPAN></STRONG></P>";
+        text = "Attend this Free event presented by Amazon and Code District and dive deep into Amazon\U2019s new devices for smart home, smart screen and developer tools! Also, learn how to build skills for Alexa-enabled devices!\U00a0\nLucky participants will win a free Amazon Alexa devices.\U00a0 The perfect holiday gift!\n\n\nAbout this Event\n\nNew Device Preview\nAmazon launched more than 70 new products, features and tools in September alone -- new Echo Auto, Echo Show, Echo Dot, Fire TV Recast and even a wall clock -- as it continues to put Alexa everywhere. See some of these new devices and learn how you can use them to make your home and business smarter and reach new customers with increased capabilities.\U00a0\n\nAlexa Skill Training Workshop - December 8, 10:00 p.m. - 5:00 p.m.\n\nUpdated content for new Amazon developer console and new AWS lambda function interface.\U00a0Alexa is a cloud-based voice service from Amazon and the brain behind tens of millions of devices including the Echo family of devices, FireTV, Fire Tablet, and third-party devices with Alexa built-in. Learn how to build capabilities, or skills, that make Alexa smarter and make everyday tasks faster, easier, and more delightful for customers. Hands-on labs will teach you how to code cool skills for Alexa.\U00a0\n\nWhat you will learn:\n\n\nHow to build engaging voice experiences\n\n\nCreate natural, engaging voice experiences and reach and delight customers through Alexa-enabled devices.\n\n\nHow to add visual and touch elements\n\n\nLearn how to design, build, and deploy visually rich experiences to tens of millions of Alexa devices with screens.\n\n\nHow to make money with Alexa when you build delightful skills with compelling content.\U00a0\n\n\n\nHackathon - December 9, 10:00 p.m. - 5:00 p.m.\nGot a great idea for an Alexa skill? Start building it in this full day Alexa skill hackathon. Skills that are built during this hackathon that pass the Alexa certification test will be published to the Amazon Alexa skills store for anyone to enjoy!\U00a0\nFirst and Second Prize for Best Skills\U00a0\nFirst and second place prizes will be awarded. Winners will be selected based on the uniqueness of the skill, creativity and best use of the Alexa Skill Kit especially the use of in-skill purchasing. Prizes will be Alexa-enabled devices!\U00a0\n\nPre-requisites For this Event\n\n\nGet a developer account: developer.amazon.com (free)\n\n\nGet an aws account:\U00a0 aws.amazon.com (free - but CC required for signup)\n\n\nDownload sample templates to your desktop: https://github.com/alexa\n\n\nLaptop computer and a willingness to learn\n\n\n\n\n";
+    };
+    end =     {
+        local = "2018-12-09T17:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-12-10T01:00:00Z";
+    };
+    "format_id" = 9;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 51302573378;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 474;
+            "top_left" =             {
+                x = 0;
+                y = 0;
+            };
+            width = 948;
+        };
+        "edge_color" = "#080707";
+        "edge_color_set" = 1;
+        id = 51184099;
+        original =         {
+            height = 475;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F51184099%2F169577639936%2F1%2Foriginal.jpg?auto=compress&s=ad16f825f93bc435ecd3d41b21bf0eea";
+            width = 950;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F51184099%2F169577639936%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C0%2C948%2C474&s=a71c15e5a309db691cc291d7e6d1826f";
+    };
+    "logo_id" = 51184099;
+    name =     {
+        html = "Amazon Alexa Skill Development Workshop &amp; Hackathon";
+        text = "Amazon Alexa Skill Development Workshop & Hackathon";
+    };
+    "online_event" = 0;
+    "organization_id" = 169577639936;
+    "organizer_id" = 11808066895;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/51302573378/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-12-08T10:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-12-08T18:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 2004;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/amazon-alexa-skill-development-workshop-hackathon-tickets-51302573378?aff=ebapi";
+    "vanity_url" = "https://december-alexa-training.eventbrite.com";
+    "venue_id" = 27321840;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = "<null>";
+    changed = "2018-10-16T05:19:44Z";
+    created = "2018-09-26T18:56:13Z";
+    currency = USD;
+    description =     {
+        html = "<P><SPAN><SPAN>\Uc7ac\Ubbf8\Uacfc\Ud559\Uae30\Uc220\Uc790\Ud611\Ud68c \Ub0a8\Uac00\Uc8fc\Uc9c0\Ubd80(KSEA-SC), \Ubbf8\Uc8fc\Uc911\Uc559\Uc77c\Ubcf4(K-Daily), SoCal K-Group<SPAN>\Uac00 \Uc8fc\Ucd5c\Ud558\Uace0,</SPAN> SoDAVi, LA \Ucd1d\Uc601\Uc0ac\Uad00\Uc774 \Ud6c4\Uc6d0\Ud558\Ub294\U00a0</SPAN></SPAN>\Uc18c\Ud504\Ud2b8\Uc6e8\Uc5b4 \Ud574\Ucee4\Ud1a4\Uc744 \Uac1c\Ucd5c\Ud569\Ub2c8\Ub2e4.</P>\n<P>\Ud574\Ucee4\Ud1a4 \Uae30\Uac04:\U00a0<SPAN><SPAN>2018\Ub144 11\Uc6d4 17\Uc77c \Uc624\Uc804 9\Uc2dc \U2013 11\Uc6d4 18\Uc77c \Uc624\Ud6c4 1\Uc2dc</SPAN></SPAN></P>\n<P><SPAN><SPAN>\Ud574\Ucee4\Ud1a4 \Uc7a5\Uc18c:\U00a0<SPAN><SPAN>\Ubbf8\Uc8fc\Uc911\Uc559\Uc77c\Ubcf4 \Uac24\Ub7ec\Ub9ac (690 Wilshire Place, LA, CA, 90005)</SPAN></SPAN></SPAN></SPAN></P>\n<P><SPAN><SPAN>\Ucc38\Uac00\Ube44 <SPAN>(RSVP):</SPAN></SPAN></SPAN></P>\n<UL>\n<LI>\n<P>\Ud574\Ucee4\Ud1a4 \Ucc38\Uac00:\U00a0\Ud559\Uc0dd $10, \Uc77c\Ubc18\Uc778 $20</P>\n</LI>\n<LI>\n<P>\Ud574\Ucee4\Ud1a4 \Ucc38\Uad00: \Ud559\Uc0dd $15, \Uc77c\Ubc18\Uc778 $30</P>\n</LI>\n<LI>\n<P>\Ud559\Uc0dd \Ub4f1\Ub85d\Uc790\Ub294\U00a0<SPAN>\Ud574\Ucee4\Ud1a4 \Uc785\Uc7a5 \Uc2dc \Ud559\Uc0dd\Uc99d \Uc9c0\Ucc38 \Ud544\Uc218</SPAN></P>\n</LI>\n</UL>\n<P><SPAN><SPAN>\Ud574\Ucee4\Ud1a4 \Ucc38\Uc5ec \Uc778\Uc6d0: 80\Uba85 \Uc120\Ucc29\Uc21c</SPAN></SPAN></P>\n<P>\Ud574\Ucee4\Ud1a4 \Ucc38\Uad00 \Uc778\Uc6d0: 50\Uba85 \Uc120\Ucc29\Uc21c</P>\n<P>\Ub4f1\Ub85d \Ub9c8\Uac10: 11\Uc6d4 11\Uc77c \Ubc24 11\Uc2dc 30\Ubd84</P>\n<P><SPAN><SPAN><BR></SPAN></SPAN></P>";
+        text = "\Uc7ac\Ubbf8\Uacfc\Ud559\Uae30\Uc220\Uc790\Ud611\Ud68c \Ub0a8\Uac00\Uc8fc\Uc9c0\Ubd80(KSEA-SC), \Ubbf8\Uc8fc\Uc911\Uc559\Uc77c\Ubcf4(K-Daily), SoCal K-Group\Uac00 \Uc8fc\Ucd5c\Ud558\Uace0, SoDAVi, LA \Ucd1d\Uc601\Uc0ac\Uad00\Uc774 \Ud6c4\Uc6d0\Ud558\Ub294\U00a0\Uc18c\Ud504\Ud2b8\Uc6e8\Uc5b4 \Ud574\Ucee4\Ud1a4\Uc744 \Uac1c\Ucd5c\Ud569\Ub2c8\Ub2e4.\n\Ud574\Ucee4\Ud1a4 \Uae30\Uac04:\U00a02018\Ub144 11\Uc6d4 17\Uc77c \Uc624\Uc804 9\Uc2dc \U2013 11\Uc6d4 18\Uc77c \Uc624\Ud6c4 1\Uc2dc\n\Ud574\Ucee4\Ud1a4 \Uc7a5\Uc18c:\U00a0\Ubbf8\Uc8fc\Uc911\Uc559\Uc77c\Ubcf4 \Uac24\Ub7ec\Ub9ac (690 Wilshire Place, LA, CA, 90005)\n\Ucc38\Uac00\Ube44 (RSVP):\n\n\n\Ud574\Ucee4\Ud1a4 \Ucc38\Uac00:\U00a0\Ud559\Uc0dd $10, \Uc77c\Ubc18\Uc778 $20\n\n\n\Ud574\Ucee4\Ud1a4 \Ucc38\Uad00: \Ud559\Uc0dd $15, \Uc77c\Ubc18\Uc778 $30\n\n\n\Ud559\Uc0dd \Ub4f1\Ub85d\Uc790\Ub294\U00a0\Ud574\Ucee4\Ud1a4 \Uc785\Uc7a5 \Uc2dc \Ud559\Uc0dd\Uc99d \Uc9c0\Ucc38 \Ud544\Uc218\n\n\n\Ud574\Ucee4\Ud1a4 \Ucc38\Uc5ec \Uc778\Uc6d0: 80\Uba85 \Uc120\Ucc29\Uc21c\n\Ud574\Ucee4\Ud1a4 \Ucc38\Uad00 \Uc778\Uc6d0: 50\Uba85 \Uc120\Ucc29\Uc21c\n\Ub4f1\Ub85d \Ub9c8\Uac10: 11\Uc6d4 11\Uc77c \Ubc24 11\Uc2dc 30\Ubd84\n";
+    };
+    end =     {
+        local = "2018-11-18T13:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-18T21:00:00Z";
+    };
+    "format_id" = 100;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 50705003029;
+    "is_externally_ticketed" = 0;
+    "is_free" = 0;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 1024;
+            "top_left" =             {
+                x = 0;
+                y = 0;
+            };
+            width = 2048;
+        };
+        "edge_color" = "#2511b1";
+        "edge_color_set" = 1;
+        id = 50527384;
+        original =         {
+            height = 1024;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50527384%2F257223310848%2F1%2Foriginal.jpg?auto=compress&s=5b65f0f93bf8eb427ce0d79549d42975";
+            width = 2048;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F50527384%2F257223310848%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C0%2C2048%2C1024&s=98a2711591663a1a42de1565019fba88";
+    };
+    "logo_id" = 50527384;
+    name =     {
+        html = "Southern California Korean-American Annual Hackathon";
+        text = "Southern California Korean-American Annual Hackathon";
+    };
+    "online_event" = 0;
+    "organization_id" = 257223310848;
+    "organizer_id" = 17796282018;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/50705003029/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-11-17T09:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-17T17:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = "<null>";
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/southern-california-korean-american-annual-hackathon-tickets-50705003029?aff=ebapi";
+    "venue_id" = 27041001;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-10-17T09:30:07Z";
+    created = "2018-05-09T02:43:44Z";
+    currency = USD;
+    description =     {
+        html = "<P><STRONG>Free pizza for lunch!!!</STRONG><BR></P>\n<P>Get started with the new web components standard and Google's Polymer web components framework as part of an open source project: the Collaboration Tree.\U00a0 <A HREF=\"http://webcomponents.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Web components</A> allow you to create new HTML tags which can be used with any other HTML based web technology.\U00a0 <A HREF=\"http://polymer-project.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Polymer</A> adds data binding for cascading changes, as well as a broad library of polished components.\U00a0 The <A HREF=\"http://github.com/F4IF/ctree-demo\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Collaboration Tree</A>\U00a0(cTree) is an open source project in progress, built on Polymer, who's goal is to create a new large scale collaborative discussion platform (read: open think tank).</P>\n<P>This event will introduce you to the project and help you get hands on with Polymer web components.\U00a0 If you want to continue learning and working with Polymer on a real project you can join a cTree team working on a specific part of the project.<SPAN>\U00a0 For newer developers, open source project teams are a great way to build up your resume.</SPAN></P>\n<P><BR></P>\n<HR>\n<P><BR></P>\n<P><STRONG>Before the event</STRONG></P>\n<P>We recommend joining our <A HREF=\"http://slack.ctree.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Slack group</A> and\U00a0seting up <A HREF=\"http://dev.ctree.org\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">the project</A> in advance.\U00a0 If you have any issues we can help you resolve them during the event.\U00a0 We also encourage you to sign<SPAN>\U00a0up for\U00a0</SPAN><A HREF=\"https://github.com/join\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">GitHub</A><SPAN>\U00a0if you don't already have an account</SPAN></P>\n<P><BR><SPAN>If you're looking to jump in a bit early we're also at\U00a0</SPAN><A HREF=\"https://www.meetup.com/hackforla/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Hack for LA</A><SPAN>\U00a0most Tuesday nights.</SPAN><BR></P>\n<P><BR></P>\n<HR>\n<P><BR></P>\n<P><STRONG>Free parking</STRONG></P>\n<P><STRONG></STRONG>Parking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.\U00a0 Take the stairs down from the center of the parking lot and follow the signs to the lobby.</P>";
+        text = "Free pizza for lunch!!!\nGet started with the new web components standard and Google's Polymer web components framework as part of an open source project: the Collaboration Tree.\U00a0 Web components allow you to create new HTML tags which can be used with any other HTML based web technology.\U00a0 Polymer adds data binding for cascading changes, as well as a broad library of polished components.\U00a0 The Collaboration Tree\U00a0(cTree) is an open source project in progress, built on Polymer, who's goal is to create a new large scale collaborative discussion platform (read: open think tank).\nThis event will introduce you to the project and help you get hands on with Polymer web components.\U00a0 If you want to continue learning and working with Polymer on a real project you can join a cTree team working on a specific part of the project.\U00a0 For newer developers, open source project teams are a great way to build up your resume.\n\n\n\nBefore the event\nWe recommend joining our Slack group and\U00a0seting up the project in advance.\U00a0 If you have any issues we can help you resolve them during the event.\U00a0 We also encourage you to sign\U00a0up for\U00a0GitHub\U00a0if you don't already have an account\nIf you're looking to jump in a bit early we're also at\U00a0Hack for LA\U00a0most Tuesday nights.\n\n\n\nFree parking\nParking is available up the ramp off Beverly Blvd, just next to 2731 Beverly Blvd.\U00a0 Take the stairs down from the center of the parking lot and follow the signs to the lobby.";
+    };
+    end =     {
+        local = "2018-11-03T17:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-04T00:00:00Z";
+    };
+    "format_id" = 9;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 45923336937;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 1;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 322;
+            "top_left" =             {
+                x = 0;
+                y = 4;
+            };
+            width = 644;
+        };
+        "edge_color" = "#ffffff";
+        "edge_color_set" = 1;
+        id = 44630044;
+        original =         {
+            height = 327;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44630044%2F166160958419%2F1%2Foriginal.jpg?auto=compress&s=7f98a00009df4560db3e506e16912c40";
+            width = 644;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F44630044%2F166160958419%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C4%2C644%2C322&s=d403919b174893238eba9830b4ebc04c";
+    };
+    "logo_id" = 44630044;
+    name =     {
+        html = "Polymer Web Components Hackathon - Los Angeles";
+        text = "Polymer Web Components Hackathon - Los Angeles";
+    };
+    "online_event" = 0;
+    "organization_id" = 166160958419;
+    "organizer_id" = 13646084582;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/45923336937/";
+    "series_id" = 45923272745;
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-11-03T11:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-03T18:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 2004;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/polymer-web-components-hackathon-los-angeles-tickets-45923336937?aff=ebapi";
+    "venue_id" = 24452013;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-10-04T18:32:45Z";
+    created = "2018-08-27T16:46:36Z";
+    currency = USD;
+    description =     {
+        html = "<P><STRONG>Applications are due October 10!</STRONG></P>\n<P>Calling all data scientists, designers, neuroscientists, idea people, coders, data engineers, business builders and app developers!</P>\n<P>First DV Hacks tackled blockchain, then the future of mobility. Now, we\U2019re looking for the next big innovation in artificial intelligence. Get your best team together and join us for DV Hacks: AI to push the boundaries of how we interact with machines, and how they interact with us.</P>\n<DIV CLASS=\"text_exposed_show\">\n<P>DV Hacks is a 48-hour hackathon series that brings together an invite-only crowd to compete for bragging rights, access to the DV network and $20k in prizes.</P>\n<P>Learn more and apply at\U00a0<A HREF=\"https://dvhacks.com?utm_source=eventbrite&utm_medium=referral&utm_campaign=dvhacks\" TARGET=\"_blank\" TITLE=\"DVHacks.com\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">dvhacks.com.</A></P>\n</DIV>";
+        text = "Applications are due October 10!\nCalling all data scientists, designers, neuroscientists, idea people, coders, data engineers, business builders and app developers!\nFirst DV Hacks tackled blockchain, then the future of mobility. Now, we\U2019re looking for the next big innovation in artificial intelligence. Get your best team together and join us for DV Hacks: AI to push the boundaries of how we interact with machines, and how they interact with us.\n\nDV Hacks is a 48-hour hackathon series that brings together an invite-only crowd to compete for bragging rights, access to the DV network and $20k in prizes.\nLearn more and apply at\U00a0dvhacks.com.\n";
+    };
+    end =     {
+        local = "2018-12-02T15:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-12-02T23:00:00Z";
+    };
+    "format_id" = 14;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 49560487753;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 600;
+            "top_left" =             {
+                x = 0;
+                y = 13;
+            };
+            width = 1200;
+        };
+        "edge_color" = "<null>";
+        "edge_color_set" = 1;
+        id = 48940150;
+        original =         {
+            height = 627;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F48940150%2F213617945098%2F1%2Foriginal.jpg?auto=compress&s=d9f57da6a0c3c73c4eff49e9f77e475d";
+            width = 1200;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F48940150%2F213617945098%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C13%2C1200%2C600&s=c364a09c0453d8ff59e513868a7dd6b6";
+    };
+    "logo_id" = 48940150;
+    name =     {
+        html = "DV Hacks: AI | A 48-hour hackathon by BCG Digital Ventures";
+        text = "DV Hacks: AI | A 48-hour hackathon by BCG Digital Ventures";
+    };
+    "online_event" = 0;
+    "organization_id" = 174363633004;
+    "organizer_id" = 17633043290;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/49560487753/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-11-30T12:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-11-30T20:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 2999;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/dv-hacks-ai-a-48-hour-hackathon-by-bcg-digital-ventures-tickets-49560487753?aff=ebapi";
+    "vanity_url" = "https://dv-hacks-ai.eventbrite.com";
+    "venue_id" = 26427599;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 101;
+    changed = "2018-09-17T19:51:52Z";
+    created = "2018-05-26T11:15:08Z";
+    currency = USD;
+    description =     {
+        html = "<H2>Learn to Develop a Successful IT Startup Company Today!</H2>\n<P>Always wanted to start an tech startup? Now we have a complete blueprint\U00a0for you start your own IT Startup.\U00a0During our tech startup program you will learn and navigate through\U00a0tools, software, hardware, platforms, resources, projects, processes, methods and strategies\U00a0to penetrate your own IT Startup into the market.<BR><BR></P>\n<H3>During this IT Startup workshop we will cover:</H3>\n<H3><BR></H3>\n<P><STRONG>Session 1: IT Basics</STRONG></P>\n<P>During this session we will explore the very foundation and the basic systems\U00a0and platforms for you to integrate into your own tech startup process.\U00a0<BR></P>\n<UL>\n<LI>IT Hardware</LI>\n<LI>IT Software</LI>\n<LI>IT Platforms</LI>\n<LI>IT Projects</LI>\n<LI>IT Systems</LI>\n<LI>IT Blueprint</LI>\n<LI>IT Tools</LI>\n<LI>IT\U00a0Resources<BR><BR><BR><BR></LI>\n</UL>\n<P><BR><STRONG>Session 2:\U00a0Tech Startup Ideas</STRONG><BR>During this session we will explore tech startup ideas for you\U00a0to implement and integrate into your own tech startup or\U00a0use them as an inspirational source for developing your own\U00a0products, projects, prototypes or services in your tech startup</P>\n<UL>\n<LI>IT Consulting Chatbot</LI>\n<LI>Remote IT Support</LI>\n</UL>\n<UL>\n<LI>IT Support Chatbot</LI>\n<LI>Operative System Scripting</LI>\n<LI>Database Maintenance</LI>\n<LI>IT Monitoring Dashboard</LI>\n<LI>IT Systems Performance Analytics</LI>\n<LI>Operative System Logging</LI>\n<LI>Network Maintenance</LI>\n<LI>IT Networking Chatbot</LI>\n<LI>IT Operations VR/AR Lab</LI>\n<LI>Agriculture Industry</LI>\n<LI>Healthcare Industry</LI>\n<LI>IT Drone Management</LI>\n<LI>IT Repairment</LI>\n<LI>Data BD Analytics Dashboard</LI>\n<LI>Cloud Solution Configurations</LI>\n<LI>Storage/Backup Solutions</LI>\n<LI>IT Automation</LI>\n<LI>ITIL Process Improvement</LI>\n<LI>IoT Data Integrations</LI>\n<LI>Technician Chatbot</LI>\n<LI>SySAdmin Tasks Automation</LI>\n<LI>Ticket Issue System Management</LI>\n<LI>Technical Documentation</LI>\n<LI>Database Design Solutions</LI>\n<LI>System Analytics</LI>\n<LI>Server Migration Solutions</LI>\n<LI>Configure Management</LI>\n<LI>Web/Application Server Management</LI>\n<LI>OS Virtualization Management</LI>\n<LI>IT Architectual Solutions</LI>\n<LI>SLA Agreements</LI>\n<LI>Hosting Solutions</LI>\n<LI>File Server Solutions</LI>\n<LI>Mail Server Solutions</LI>\n<LI>IT Project Management</LI>\n<LI>BioInfrastructure</LI>\n<LI>IPTV &amp; VoIP</LI>\n<LI>VR SysOps</LI>\n<LI>Augmented Administration</LI>\n<LI>Automated DevOps</LI>\n<LI>Healthcare Infrastructure</LI>\n<LI>IoT DevOps</LI>\n<LI>Vehicle Infrastructure</LI>\n<LI>Real Time Monitoring</LI>\n<LI>Streaming Services</LI>\n<LI>Gaming Industry</LI>\n<LI>E-Commerce Industry</LI>\n<LI>Hosting On Demand</LI>\n<LI>Airport DevOps</LI>\n<LI>App/Cloud Hosting</LI>\n<LI>Cloud Healthcare</LI>\n<LI>AgriCloud</LI>\n<LI>GeoCloud</LI>\n<LI>Logistical Cloud</LI>\n<LI>VR Cloud</LI>\n<LI>Fintech Cloud</LI>\n<LI>CryptoCloud</LI>\n<LI>Cloud Retail</LI>\n<LI>Industrial Cloud</LI>\n<LI>Cloud Monitoring</LI>\n<LI>Cloud 3D Mapping</LI>\n<LI>Cloud Intranet</LI>\n<LI>Traffic System</LI>\n<LI>Food Cloud</LI>\n<LI>and much more<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 3: R&D</STRONG><BR>During this session we will explore the research process,\U00a0how you can research a specific niche industry, the market and tech trends.<BR></P>\n<UL>\n<LI>R&D/Research</LI>\n<LI>R&D Tools</LI>\n<LI>Startup Tools</LI>\n<LI>Market Research</LI>\n<LI>Surveys</LI>\n<LI>Consumer Analytics</LI>\n<LI>Market Analytics</LI>\n<LI>Industry Analytics</LI>\n<LI>Trends Researching<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 4: Creativity</STRONG></P>\n<P>During this session we will explore the creativity process,\U00a0how to increase your own creativity intelligence and implement\U00a0quality tech ideas into your own tech startup process.<BR></P>\n<UL>\n<LI>Creativity Tools</LI>\n<LI>Creativity Techniques</LI>\n<LI>Creativity Strategy</LI>\n<LI>Mind mapping</LI>\n<LI>Brainstorming</LI>\n<LI>Meditation</LI>\n<LI>Idea Exploring</LI>\n<LI>Idea Blender</LI>\n<LI>Key-Point System</LI>\n<LI>Problem Solving Strategy</LI>\n<LI>Incubation</LI>\n<LI>Creative intelligence</LI>\n<LI>Outside the Box Thinking</LI>\n<LI>Lateral Thinking</LI>\n<LI>Productivity Tools</LI>\n<LI>Mind Relaxation</LI>\n<LI>Meditation</LI>\n<LI>Higher Consciousnesses</LI>\n<LI>Inspiration Tools</LI>\n<LI>Idea Storage<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 5: Capital/Funding</STRONG><BR>During this session we will explore the capital and funding process\U00a0of your tech startup. How to raise capital and make systematic\U00a0attempts to penetrate into the market.<BR></P>\n<UL>\n<LI>Capital/Funding</LI>\n<LI>Capital/Funding Tools</LI>\n<LI>Capital/Funding Strategy</LI>\n<LI>Venture Capitalists</LI>\n<LI>Angel Investors</LI>\n<LI>Seed Funding</LI>\n<LI>Incubators</LI>\n<LI>Accelerator Programs</LI>\n<LI>Co-Founder</LI>\n<LI>Capitalization Table</LI>\n<LI>Crowdfunding</LI>\n<LI>Business Trade Fairs<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 6: Clients/Customers</STRONG><BR>During this session we will explore the client acquisition process.\U00a0Find your first clients and customers for your tech startup and\U00a0implement the right tools, methods and strategies for creating\U00a0an successful sale system for your specific niche industry/technology.<BR></P>\n<UL>\n<LI>Clients</LI>\n<LI>Client Acquisition Strategy</LI>\n<LI>Client Acquisition Process</LI>\n<LI>PR Strategies</LI>\n<LI>Social Media Marketing</LI>\n<LI>Competitive Analysis</LI>\n<LI>E-Mail Marketing</LI>\n<LI>Newsletters</LI>\n<LI>Analytics</LI>\n<LI>SEO</LI>\n<LI>Digital Marketing</LI>\n<LI>Ad Systems</LI>\n<LI>Competitor Research</LI>\n<LI>Sale System</LI>\n<LI>Sale Strategy</LI>\n<LI>Growth Hacking</LI>\n<LI>Sales Funnel</LI>\n<LI>Email Hunting<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 7: Business Platform</STRONG><BR>During this session we will explore the business organizing process.\U00a0How to implement an organized and professional platform for your\U00a0tech startup for creating efficient workflow.<BR><BR></P>\n<UL>\n<LI>Business Automation</LI>\n<LI>Business Process</LI>\n<LI>Business Strategy</LI>\n<LI>Business Model</LI>\n<LI>Business Management</LI>\n<LI>ERP</LI>\n<LI>CRM</LI>\n<LI>Human Resources (HR)</LI>\n<LI>Recruitment</LI>\n<LI>Intranet</LI>\n<LI>Collaboration</LI>\n<LI>Project Management</LI>\n<LI>Document Management</LI>\n<LI>Customer Support</LI>\n<LI>Business Automation Tools<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 8:\U00a0<STRONG>Business Formation</STRONG></STRONG><BR>During this session we will explore the business formation process.\U00a0Which platforms, models and tools to integrate into your tech startup\U00a0formation for creating an successful launch process.<BR>Business Formation<BR></P>\n<UL>\n<LI>Legal</LI>\n<LI>Contracts</LI>\n<LI>Business Model</LI>\n<LI>Corporate Structure</LI>\n<LI>Payment Platforms</LI>\n<LI>Payment Gateway</LI>\n<LI>Invoicing System</LI>\n<LI>Credit Cards/Payments</LI>\n<LI>Pricing Strategies</LI>\n<LI>Accounting</LI>\n<LI>Subscriptions</LI>\n<LI>Office Space</LI>\n<LI>Virtual Address</LI>\n<LI>Virtual Phone</LI>\n<LI>Virtual Office</LI>\n<LI>Remote Office</LI>\n<LI>Virtual Assistant</LI>\n<LI>Virtual Receptionist</LI>\n<LI>Virtual Support</LI>\n<LI>Outsourcing</LI>\n<LI>Product Demo</LI>\n<LI>Product Launch<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 9: Startup Coding</STRONG><BR>During this session we will explore the coding process of your tech startup.<BR>Coding/Programming<BR></P>\n<UL>\n<LI>IDE</LI>\n<LI>API</LI>\n<LI>SDK</LI>\n<LI>GUI</LI>\n<LI>Code Analysis</LI>\n<LI>Data Visualization</LI>\n<LI>Python</LI>\n<LI>C#</LI>\n<LI>Forms</LI>\n<LI>Wireframing</LI>\n<LI>Front-End</LI>\n<LI>Back-End</LI>\n<LI>Library</LI>\n<LI>Frameworks</LI>\n<LI>Testing</LI>\n<LI>Programming Platforms</LI>\n<LI>Programming Tools</LI>\n<LI>Agile Development</LI>\n<LI>Software Code Management<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 10: Startup\U00a0Hardware/Prototyping</STRONG><BR>During this session we will explore the hardware and prototyping process\U00a0of your tech startup. Using different tools and platform to innovate\U00a0and integrate your own tech startup projects.<BR><BR></P>\n<UL>\n<LI>Electronics</LI>\n<LI>IoT</LI>\n<LI>Raspberry Pi</LI>\n<LI>Arduino</LI>\n<LI>Microcontrollers</LI>\n<LI>Sensors</LI>\n<LI>Projects</LI>\n<LI>Microchips</LI>\n<LI>Hardware Boards</LI>\n<LI>Hardware Tools</LI>\n<LI>Hardware Platform</LI>\n<LI>PCB</LI>\n<LI>3D Design</LI>\n<LI>3D Models</LI>\n<LI>3D Printing</LI>\n<LI>DIY Tech</LI>\n<LI>Tech Lab</LI>\n<LI>Embedded Systems<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 11 : Startup IT Operations</STRONG><BR>During this session we will explore the IT infrastructure process of your tech startup.\U00a0Which platforms to use for setup an organized database system, cloud system and\U00a0other technical solutions for your tech startup to work efficiently<BR></P>\n<UL>\n<LI>IT Infrastructure</LI>\n<LI>Cloud</LI>\n<LI>Servers</LI>\n<LI>Database</LI>\n<LI>DevOps</LI>\n<LI>Monitoring</LI>\n<LI>Remote Access</LI>\n<LI>Backup</LI>\n<LI>Technical Documentation</LI>\n<LI>Data Recovery</LI>\n<LI>Encryption</LI>\n<LI>Security</LI>\n<LI>FTP</LI>\n<LI>NAS</LI>\n<LI>Deployment</LI>\n<LI>VPN</LI>\n<LI>VPS</LI>\n<LI>Automation</LI>\n<LI>Log Management</LI>\n<LI>Networking</LI>\n<LI>Virtualization<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 12 : Startup Consulting</STRONG><BR>During this session we will explore the consulting process for your tech startup.\U00a0An strategic approach, where you can receive more experience before you launch\U00a0your own specific products/projects.<BR></P>\n<UL>\n<LI>Tech Startup Consulting</LI>\n<LI>Tech Consulting Services</LI>\n<LI>Tech Consulting Structure</LI>\n<LI>Tech Consulting Approach</LI>\n<LI>Tech Consulting Strategy</LI>\n<LI>Tech Consulting Contracts</LI>\n<LI>Tech Consulting Referrals</LI>\n<LI>Tech Consulting Portfolio</LI>\n<LI>Tech Consulting ISO</LI>\n<LI>Tech Consulting Integration</LI>\n<LI>Tech Consulting Projects<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 13 : Startup Management</STRONG><BR>During this session we will explore management process of your tech startup.\U00a0How to manage your internal and external environments for increasing the\U00a0probability of your tech startup to succeed.<BR></P>\n<UL>\n<LI>Tech Startup Management</LI>\n<LI>Motivational Skills</LI>\n<LI>Time Management</LI>\n<LI>Team Management</LI>\n<LI>Leadership Skills</LI>\n<LI>Learning Skills</LI>\n<LI>Goal Setting Skills</LI>\n<LI>Decision Making Skills</LI>\n<LI>Stress Management</LI>\n<LI>Communication Skills</LI>\n<LI>Procrastination Hacks</LI>\n<LI>Productivity Hacks</LI>\n<LI>Confidence Hacks</LI>\n<LI>Growth Mindset Skills</LI>\n<LI>Problem Solving Skills</LI>\n<LI>Analytical Skills</LI>\n<LI>Strategic Thinking Skills</LI>\n<LI>Learning Management<BR><BR></LI>\n</UL>\n<P><STRONG>Session 14: Tech Workshops<BR></STRONG>During this session we will explore tech trends, emerging markets and disruptive technologies and future workshops</P>\n<UL>\n<LI>Future Workshops</LI>\n<LI>Disruptive Technologies</LI>\n<LI>Emerging Markets</LI>\n<LI>Emerging Industries</LI>\n<LI>Tech Trends<BR><BR></LI>\n</UL>\n<H3><BR></H3>\n<P><STRONG>Workshop Curriculum</STRONG></P>\n<UL>\n<LI>\n<P><STRONG>Basic Edition:\U00a0</STRONG>Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing</P>\n</LI>\n<LI>\n<P><STRONG>Unlimited Edition:</STRONG>\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations</P>\n</LI>\n<LI>\n<P><STRONG>VIP Edition:</STRONG>\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops</P>\n</LI>\n<LI>\n<P><STRONG>Gold Edition:\U00a0</STRONG>Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited\U00a0Attendees\U00a0Registration<BR><BR></P>\n</LI>\n</UL>\n<P><STRONG>Testimonials:</STRONG></P>\n<P><I>\"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased.\"\U00a0- Johnny M.<BR><BR><I>\"Not able to tell you how happy I am with Atechup Startup Workshops.\"\U00a0</I></I><I><I>-\U00a0</I>Elisabeth F. T.</I></P>\n<P><I>\"Atechup Startup Workshops, is a visionary product, shaping future tomorrow\"\U00a0</I><I>- Cohen. A</I></P>\n<P>\"<I>\"I am completely blown away by the quality and generous material. Thank you very much\" -\U00a0</I><I>Steven\U00a0 D.<BR><BR></I></P>\n<P><IMG ALT=\"\" SRC=\"https://cdn.evbuc.com/eventlogos/231943413/1-2.jpg\"></P>\n<P><STRONG>For detailed information go to:</STRONG></P>\n<P><A HREF=\"https://www.atechup.com/webinars/robotic-tech-startup-webinar/\" TARGET=\"_blank\" TITLE=\"https://www.atechup.com/webinars/robotic-tech-startup-webinar/\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.atechup.com/product/operations-tech-startup-program-premium-edition/</A><A HREF=\"https://www.atechup.com/webinars/robotic-tech-startup-webinar/\" TARGET=\"_blank\" TITLE=\"https://www.atechup.com/webinars/robotic-tech-startup-webinar/\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><I><IMG ALT=\"\" SRC=\"https://imgur.com/a/Wn8mT\"></I></IMG></A></P>\n<P>[This is an online Event/Workshop]</P>";
+        text = "Learn to Develop a Successful IT Startup Company Today!\nAlways wanted to start an tech startup? Now we have a complete blueprint\U00a0for you start your own IT Startup.\U00a0During our tech startup program you will learn and navigate through\U00a0tools, software, hardware, platforms, resources, projects, processes, methods and strategies\U00a0to penetrate your own IT Startup into the market.\nDuring this IT Startup workshop we will cover:\n\nSession 1: IT Basics\nDuring this session we will explore the very foundation and the basic systems\U00a0and platforms for you to integrate into your own tech startup process.\U00a0\n\nIT Hardware\nIT Software\nIT Platforms\nIT Projects\nIT Systems\nIT Blueprint\nIT Tools\nIT\U00a0Resources\n\nSession 2:\U00a0Tech Startup IdeasDuring this session we will explore tech startup ideas for you\U00a0to implement and integrate into your own tech startup or\U00a0use them as an inspirational source for developing your own\U00a0products, projects, prototypes or services in your tech startup\n\nIT Consulting Chatbot\nRemote IT Support\n\n\nIT Support Chatbot\nOperative System Scripting\nDatabase Maintenance\nIT Monitoring Dashboard\nIT Systems Performance Analytics\nOperative System Logging\nNetwork Maintenance\nIT Networking Chatbot\nIT Operations VR/AR Lab\nAgriculture Industry\nHealthcare Industry\nIT Drone Management\nIT Repairment\nData BD Analytics Dashboard\nCloud Solution Configurations\nStorage/Backup Solutions\nIT Automation\nITIL Process Improvement\nIoT Data Integrations\nTechnician Chatbot\nSySAdmin Tasks Automation\nTicket Issue System Management\nTechnical Documentation\nDatabase Design Solutions\nSystem Analytics\nServer Migration Solutions\nConfigure Management\nWeb/Application Server Management\nOS Virtualization Management\nIT Architectual Solutions\nSLA Agreements\nHosting Solutions\nFile Server Solutions\nMail Server Solutions\nIT Project Management\nBioInfrastructure\nIPTV & VoIP\nVR SysOps\nAugmented Administration\nAutomated DevOps\nHealthcare Infrastructure\nIoT DevOps\nVehicle Infrastructure\nReal Time Monitoring\nStreaming Services\nGaming Industry\nE-Commerce Industry\nHosting On Demand\nAirport DevOps\nApp/Cloud Hosting\nCloud Healthcare\nAgriCloud\nGeoCloud\nLogistical Cloud\nVR Cloud\nFintech Cloud\nCryptoCloud\nCloud Retail\nIndustrial Cloud\nCloud Monitoring\nCloud 3D Mapping\nCloud Intranet\nTraffic System\nFood Cloud\nand much more\n\n\U00a0\nSession 3: R&DDuring this session we will explore the research process,\U00a0how you can research a specific niche industry, the market and tech trends.\n\nR&D/Research\nR&D Tools\nStartup Tools\nMarket Research\nSurveys\nConsumer Analytics\nMarket Analytics\nIndustry Analytics\nTrends Researching\n\n\U00a0\nSession 4: Creativity\nDuring this session we will explore the creativity process,\U00a0how to increase your own creativity intelligence and implement\U00a0quality tech ideas into your own tech startup process.\n\nCreativity Tools\nCreativity Techniques\nCreativity Strategy\nMind mapping\nBrainstorming\nMeditation\nIdea Exploring\nIdea Blender\nKey-Point System\nProblem Solving Strategy\nIncubation\nCreative intelligence\nOutside the Box Thinking\nLateral Thinking\nProductivity Tools\nMind Relaxation\nMeditation\nHigher Consciousnesses\nInspiration Tools\nIdea Storage\n\n\U00a0\nSession 5: Capital/FundingDuring this session we will explore the capital and funding process\U00a0of your tech startup. How to raise capital and make systematic\U00a0attempts to penetrate into the market.\n\nCapital/Funding\nCapital/Funding Tools\nCapital/Funding Strategy\nVenture Capitalists\nAngel Investors\nSeed Funding\nIncubators\nAccelerator Programs\nCo-Founder\nCapitalization Table\nCrowdfunding\nBusiness Trade Fairs\n\n\U00a0\nSession 6: Clients/CustomersDuring this session we will explore the client acquisition process.\U00a0Find your first clients and customers for your tech startup and\U00a0implement the right tools, methods and strategies for creating\U00a0an successful sale system for your specific niche industry/technology.\n\nClients\nClient Acquisition Strategy\nClient Acquisition Process\nPR Strategies\nSocial Media Marketing\nCompetitive Analysis\nE-Mail Marketing\nNewsletters\nAnalytics\nSEO\nDigital Marketing\nAd Systems\nCompetitor Research\nSale System\nSale Strategy\nGrowth Hacking\nSales Funnel\nEmail Hunting\n\n\U00a0\nSession 7: Business PlatformDuring this session we will explore the business organizing process.\U00a0How to implement an organized and professional platform for your\U00a0tech startup for creating efficient workflow.\n\nBusiness Automation\nBusiness Process\nBusiness Strategy\nBusiness Model\nBusiness Management\nERP\nCRM\nHuman Resources (HR)\nRecruitment\nIntranet\nCollaboration\nProject Management\nDocument Management\nCustomer Support\nBusiness Automation Tools\n\n\U00a0\nSession 8:\U00a0Business FormationDuring this session we will explore the business formation process.\U00a0Which platforms, models and tools to integrate into your tech startup\U00a0formation for creating an successful launch process.Business Formation\n\nLegal\nContracts\nBusiness Model\nCorporate Structure\nPayment Platforms\nPayment Gateway\nInvoicing System\nCredit Cards/Payments\nPricing Strategies\nAccounting\nSubscriptions\nOffice Space\nVirtual Address\nVirtual Phone\nVirtual Office\nRemote Office\nVirtual Assistant\nVirtual Receptionist\nVirtual Support\nOutsourcing\nProduct Demo\nProduct Launch\n\n\U00a0\nSession 9: Startup CodingDuring this session we will explore the coding process of your tech startup.Coding/Programming\n\nIDE\nAPI\nSDK\nGUI\nCode Analysis\nData Visualization\nPython\nC#\nForms\nWireframing\nFront-End\nBack-End\nLibrary\nFrameworks\nTesting\nProgramming Platforms\nProgramming Tools\nAgile Development\nSoftware Code Management\n\n\U00a0\nSession 10: Startup\U00a0Hardware/PrototypingDuring this session we will explore the hardware and prototyping process\U00a0of your tech startup. Using different tools and platform to innovate\U00a0and integrate your own tech startup projects.\n\nElectronics\nIoT\nRaspberry Pi\nArduino\nMicrocontrollers\nSensors\nProjects\nMicrochips\nHardware Boards\nHardware Tools\nHardware Platform\nPCB\n3D Design\n3D Models\n3D Printing\nDIY Tech\nTech Lab\nEmbedded Systems\n\n\U00a0\nSession 11 : Startup IT OperationsDuring this session we will explore the IT infrastructure process of your tech startup.\U00a0Which platforms to use for setup an organized database system, cloud system and\U00a0other technical solutions for your tech startup to work efficiently\n\nIT Infrastructure\nCloud\nServers\nDatabase\nDevOps\nMonitoring\nRemote Access\nBackup\nTechnical Documentation\nData Recovery\nEncryption\nSecurity\nFTP\nNAS\nDeployment\nVPN\nVPS\nAutomation\nLog Management\nNetworking\nVirtualization\n\n\U00a0\nSession 12 : Startup ConsultingDuring this session we will explore the consulting process for your tech startup.\U00a0An strategic approach, where you can receive more experience before you launch\U00a0your own specific products/projects.\n\nTech Startup Consulting\nTech Consulting Services\nTech Consulting Structure\nTech Consulting Approach\nTech Consulting Strategy\nTech Consulting Contracts\nTech Consulting Referrals\nTech Consulting Portfolio\nTech Consulting ISO\nTech Consulting Integration\nTech Consulting Projects\n\n\U00a0\nSession 13 : Startup ManagementDuring this session we will explore management process of your tech startup.\U00a0How to manage your internal and external environments for increasing the\U00a0probability of your tech startup to succeed.\n\nTech Startup Management\nMotivational Skills\nTime Management\nTeam Management\nLeadership Skills\nLearning Skills\nGoal Setting Skills\nDecision Making Skills\nStress Management\nCommunication Skills\nProcrastination Hacks\nProductivity Hacks\nConfidence Hacks\nGrowth Mindset Skills\nProblem Solving Skills\nAnalytical Skills\nStrategic Thinking Skills\nLearning Management\n\nSession 14: Tech WorkshopsDuring this session we will explore tech trends, emerging markets and disruptive technologies and future workshops\n\nFuture Workshops\nDisruptive Technologies\nEmerging Markets\nEmerging Industries\nTech Trends\n\n\nWorkshop Curriculum\n\n\nBasic Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing\n\n\nUnlimited Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations\n\n\nVIP Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops\n\n\nGold Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited\U00a0Attendees\U00a0Registration\n\n\nTestimonials:\n\"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased.\"\U00a0- Johnny M.\"Not able to tell you how happy I am with Atechup Startup Workshops.\"\U00a0-\U00a0Elisabeth F. T.\n\"Atechup Startup Workshops, is a visionary product, shaping future tomorrow\"\U00a0- Cohen. A\n\"\"I am completely blown away by the quality and generous material. Thank you very much\" -\U00a0Steven\U00a0 D.\n\nFor detailed information go to:\nhttps://www.atechup.com/product/operations-tech-startup-program-premium-edition/\n[This is an online Event/Workshop]";
+    };
+    end =     {
+        local = "2018-10-25T17:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-26T00:00:00Z";
+    };
+    "format_id" = 9;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 46469157501;
+    "is_externally_ticketed" = 0;
+    "is_free" = 0;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 1;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 300;
+            "top_left" =             {
+                x = 0;
+                y = 21;
+            };
+            width = 600;
+        };
+        "edge_color" = "#2a3c7d";
+        "edge_color_set" = 1;
+        id = 41456982;
+        original =         {
+            height = 344;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41456982%2F233567016891%2F1%2Foriginal.jpg?auto=compress&s=4d65b9a9c37ddee7b8486668c4f26716";
+            width = 600;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41456982%2F233567016891%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C21%2C600%2C300&s=1079a3389fb2e6895a463556a0afa15e";
+    };
+    "logo_id" = 41456982;
+    name =     {
+        html = "How To Develop a Successful IT Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course";
+        text = "How To Develop a Successful IT Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course";
+    };
+    "online_event" = 0;
+    "organization_id" = 233567016891;
+    "organizer_id" = 15646132597;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/46469157501/";
+    "series_id" = 43608385856;
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-10-25T13:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-25T20:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 1001;
+    "tx_time_limit" = 600;
+    url = "https://www.eventbrite.com/e/how-to-develop-a-successful-it-tech-startup-business-los-angeles-entrepreneur-workshop-hackathon-tickets-46469157501?aff=ebapi";
+    "venue_id" = 26806400;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 101;
+    changed = "2018-09-17T19:51:54Z";
+    created = "2018-05-26T11:15:18Z";
+    currency = USD;
+    description =     {
+        html = "<H2>Learn to Develop a Successful Cybersecurity Startup Company Today!</H2>\n<P>Always wanted to start an tech startup? Now we have a complete blueprint\U00a0for you start your own\U00a0Cybersecurity Startup.\U00a0During our tech startup program you will learn and navigate through\U00a0tools, software, hardware, platforms, resources, projects, processes, methods and strategies\U00a0to penetrate your own Cybersecurity Startup into the market.<BR><BR></P>\n<H3>During this Cybersecurity Startup Workshop we will cover:</H3>\n<H3><BR></H3>\n<P><STRONG>Session 1: Cybersecurity Basics</STRONG></P>\n<P>During this session we will explore the very foundation and the basic systems\U00a0and platforms for you to integrate into your own tech startup process.\U00a0<BR></P>\n<UL>\n<LI>Cybersecurity Hardware</LI>\n<LI>Cybersecurity Software</LI>\n<LI>Cybersecurity Platforms</LI>\n<LI>Cybersecurity Projects</LI>\n<LI>Cybersecurity Systems</LI>\n<LI>Cybersecurity Blueprint</LI>\n<LI>Cybersecurity Tools</LI>\n<LI>Cybersecurity Resources<BR><BR><BR><BR></LI>\n</UL>\n<P><BR><STRONG>Session 2:\U00a0Tech Startup Ideas</STRONG><BR>During this session we will explore tech startup ideas for you\U00a0to implement and integrate into your own tech startup or\U00a0use them as an inspirational source for developing your own\U00a0products, projects, prototypes or services in your tech startup</P>\n<UL>\n<LI>CyberSecurity Cloud</LI>\n<LI>CyberSecurity IoT</LI>\n<LI>Payment Encryption</LI>\n<LI>Industrial CyberSecurity</LI>\n<LI>Healthcare CyberSecurity</LI>\n<LI>Online Casino CyberSecurity</LI>\n<LI>CyberSecurity Sensors</LI>\n<LI>Real Time CyberSecurity</LI>\n<LI>CyberSecurity AI</LI>\n<LI>CyberSecurity Data Center</LI>\n<LI>IPTV CyberSecurity</LI>\n<LI>Holographic CyberSecurity</LI>\n<LI>CyberSecurity Monitoring</LI>\n<LI>DoS Prevention Systems</LI>\n<LI>CyberSecurity Telematics</LI>\n<LI>Email Server Security</LI>\n<LI>Medical CyberSecurity</LI>\n<LI>Data Theft Forensics</LI>\n<LI>Industrial Espionage Security</LI>\n<LI>AR CyberSecurity</LI>\n<LI>CyberSecurity Visualizations/Dashboards</LI>\n<LI>Automotive CyberSecurity</LI>\n<LI>Drone CyberSecurity</LI>\n<LI>CyberSecurity:</LI>\n<LI>Darknet Forensics</LI>\n<LI>and much more<BR><BR><BR><BR></LI>\n</UL>\n<P><STRONG>Session 3: R&D</STRONG><BR>During this session we will explore the research process,\U00a0how you can research a specific niche industry, the market and tech trends.<BR></P>\n<UL>\n<LI>R&D/Research</LI>\n<LI>R&D Tools</LI>\n<LI>Startup Tools</LI>\n<LI>Market Research</LI>\n<LI>Surveys</LI>\n<LI>Consumer Analytics</LI>\n<LI>Market Analytics</LI>\n<LI>Industry Analytics</LI>\n<LI>Trends Researching<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 4: Creativity</STRONG></P>\n<P>During this session we will explore the creativity process,\U00a0how to increase your own creativity intelligence and implement\U00a0quality tech ideas into your own tech startup process.<BR></P>\n<UL>\n<LI>Creativity Tools</LI>\n<LI>Creativity Techniques</LI>\n<LI>Creativity Strategy</LI>\n<LI>Mind mapping</LI>\n<LI>Brainstorming</LI>\n<LI>Meditation</LI>\n<LI>Idea Exploring</LI>\n<LI>Idea Blender</LI>\n<LI>Key-Point System</LI>\n<LI>Problem Solving Strategy</LI>\n<LI>Incubation</LI>\n<LI>Creative intelligence</LI>\n<LI>Outside the Box Thinking</LI>\n<LI>Lateral Thinking</LI>\n<LI>Productivity Tools</LI>\n<LI>Mind Relaxation</LI>\n<LI>Meditation</LI>\n<LI>Higher Consciousnesses</LI>\n<LI>Inspiration Tools</LI>\n<LI>Idea Storage<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 5: Capital/Funding</STRONG><BR>During this session we will explore the capital and funding process\U00a0of your tech startup. How to raise capital and make systematic\U00a0attempts to penetrate into the market.<BR></P>\n<UL>\n<LI>Capital/Funding</LI>\n<LI>Capital/Funding Tools</LI>\n<LI>Capital/Funding Strategy</LI>\n<LI>Venture Capitalists</LI>\n<LI>Angel Investors</LI>\n<LI>Seed Funding</LI>\n<LI>Incubators</LI>\n<LI>Accelerator Programs</LI>\n<LI>Co-Founder</LI>\n<LI>Capitalization Table</LI>\n<LI>Crowdfunding</LI>\n<LI>Business Trade Fairs<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 6: Clients/Customers</STRONG><BR>During this session we will explore the client acquisition process.\U00a0Find your first clients and customers for your tech startup and\U00a0implement the right tools, methods and strategies for creating\U00a0an successful sale system for your specific niche industry/technology.<BR></P>\n<UL>\n<LI>Clients</LI>\n<LI>Client Acquisition Strategy</LI>\n<LI>Client Acquisition Process</LI>\n<LI>PR Strategies</LI>\n<LI>Social Media Marketing</LI>\n<LI>Competitive Analysis</LI>\n<LI>E-Mail Marketing</LI>\n<LI>Newsletters</LI>\n<LI>Analytics</LI>\n<LI>SEO</LI>\n<LI>Digital Marketing</LI>\n<LI>Ad Systems</LI>\n<LI>Competitor Research</LI>\n<LI>Sale System</LI>\n<LI>Sale Strategy</LI>\n<LI>Growth Hacking</LI>\n<LI>Sales Funnel</LI>\n<LI>Email Hunting<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 7: Business Platform</STRONG><BR>During this session we will explore the business organizing process.\U00a0How to implement an organized and professional platform for your\U00a0tech startup for creating efficient workflow.<BR><BR></P>\n<UL>\n<LI>Business Automation</LI>\n<LI>Business Process</LI>\n<LI>Business Strategy</LI>\n<LI>Business Model</LI>\n<LI>Business Management</LI>\n<LI>ERP</LI>\n<LI>CRM</LI>\n<LI>Human Resources (HR)</LI>\n<LI>Recruitment</LI>\n<LI>Intranet</LI>\n<LI>Collaboration</LI>\n<LI>Project Management</LI>\n<LI>Document Management</LI>\n<LI>Customer Support</LI>\n<LI>Business Automation Tools<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 8:\U00a0<STRONG>Business Formation</STRONG></STRONG><BR>During this session we will explore the business formation process.\U00a0Which platforms, models and tools to integrate into your tech startup\U00a0formation for creating an successful launch process.<BR>Business Formation<BR></P>\n<UL>\n<LI>Legal</LI>\n<LI>Contracts</LI>\n<LI>Business Model</LI>\n<LI>Corporate Structure</LI>\n<LI>Payment Platforms</LI>\n<LI>Payment Gateway</LI>\n<LI>Invoicing System</LI>\n<LI>Credit Cards/Payments</LI>\n<LI>Pricing Strategies</LI>\n<LI>Accounting</LI>\n<LI>Subscriptions</LI>\n<LI>Office Space</LI>\n<LI>Virtual Address</LI>\n<LI>Virtual Phone</LI>\n<LI>Virtual Office</LI>\n<LI>Remote Office</LI>\n<LI>Virtual Assistant</LI>\n<LI>Virtual Receptionist</LI>\n<LI>Virtual Support</LI>\n<LI>Outsourcing</LI>\n<LI>Product Demo</LI>\n<LI>Product Launch<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 9: Startup Coding</STRONG><BR>During this session we will explore the coding process of your tech startup.<BR>Coding/Programming<BR></P>\n<UL>\n<LI>IDE</LI>\n<LI>API</LI>\n<LI>SDK</LI>\n<LI>GUI</LI>\n<LI>Code Analysis</LI>\n<LI>Data Visualization</LI>\n<LI>Python</LI>\n<LI>C#</LI>\n<LI>Forms</LI>\n<LI>Wireframing</LI>\n<LI>Front-End</LI>\n<LI>Back-End</LI>\n<LI>Library</LI>\n<LI>Frameworks</LI>\n<LI>Testing</LI>\n<LI>Programming Platforms</LI>\n<LI>Programming Tools</LI>\n<LI>Agile Development</LI>\n<LI>Software Code Management<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 10: Startup\U00a0Hardware/Prototyping</STRONG><BR>During this session we will explore the hardware and prototyping process\U00a0of your tech startup. Using different tools and platform to innovate\U00a0and integrate your own tech startup projects.<BR><BR></P>\n<UL>\n<LI>Electronics</LI>\n<LI>IoT</LI>\n<LI>Raspberry Pi</LI>\n<LI>Arduino</LI>\n<LI>Microcontrollers</LI>\n<LI>Sensors</LI>\n<LI>Projects</LI>\n<LI>Microchips</LI>\n<LI>Hardware Boards</LI>\n<LI>Hardware Tools</LI>\n<LI>Hardware Platform</LI>\n<LI>PCB</LI>\n<LI>3D Design</LI>\n<LI>3D Models</LI>\n<LI>3D Printing</LI>\n<LI>DIY Tech</LI>\n<LI>Tech Lab</LI>\n<LI>Embedded Systems<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 11 : Startup IT Operations</STRONG><BR>During this session we will explore the IT infrastructure process of your tech startup.\U00a0Which platforms to use for setup an organized database system, cloud system and\U00a0other technical solutions for your tech startup to work efficiently<BR></P>\n<UL>\n<LI>IT Infrastructure</LI>\n<LI>Cloud</LI>\n<LI>Servers</LI>\n<LI>Database</LI>\n<LI>DevOps</LI>\n<LI>Monitoring</LI>\n<LI>Remote Access</LI>\n<LI>Backup</LI>\n<LI>Technical Documentation</LI>\n<LI>Data Recovery</LI>\n<LI>Encryption</LI>\n<LI>Security</LI>\n<LI>FTP</LI>\n<LI>NAS</LI>\n<LI>Deployment</LI>\n<LI>VPN</LI>\n<LI>VPS</LI>\n<LI>Automation</LI>\n<LI>Log Management</LI>\n<LI>Networking</LI>\n<LI>Virtualization<BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 12 : Startup Consulting</STRONG><BR>During this session we will explore the consulting process for your tech startup.\U00a0An strategic approach, where you can receive more experience before you launch\U00a0your own specific products/projects.<BR></P>\n<UL>\n<LI>Tech Startup Consulting</LI>\n<LI>Tech Consulting Services</LI>\n<LI>Tech Consulting Structure</LI>\n<LI>Tech Consulting Approach</LI>\n<LI>Tech Consulting Strategy</LI>\n<LI>Tech Consulting Contracts</LI>\n<LI>Tech Consulting Referrals</LI>\n<LI>Tech Consulting Portfolio</LI>\n<LI>Tech Consulting ISO</LI>\n<LI>Tech Consulting Integration</LI>\n<LI>Tech Consulting Projects<BR><BR><BR></LI>\n</UL>\n<P>\U00a0</P>\n<P><STRONG>Session 13 : Startup Management</STRONG><BR>During this session we will explore management process of your tech startup.\U00a0How to manage your internal and external environments for increasing the\U00a0probability of your tech startup to succeed.<BR></P>\n<UL>\n<LI>Tech Startup Management</LI>\n<LI>Motivational Skills</LI>\n<LI>Time Management</LI>\n<LI>Team Management</LI>\n<LI>Leadership Skills</LI>\n<LI>Learning Skills</LI>\n<LI>Goal Setting Skills</LI>\n<LI>Decision Making Skills</LI>\n<LI>Stress Management</LI>\n<LI>Communication Skills</LI>\n<LI>Procrastination Hacks</LI>\n<LI>Productivity Hacks</LI>\n<LI>Confidence Hacks</LI>\n<LI>Growth Mindset Skills</LI>\n<LI>Problem Solving Skills</LI>\n<LI>Analytical Skills</LI>\n<LI>Strategic Thinking Skills</LI>\n<LI>Learning Management<BR><BR></LI>\n</UL>\n<P><STRONG>Session 14: Tech Workshops<BR></STRONG>During this session we will explore tech trends, emerging markets and disruptive technologies and future workshops</P>\n<UL>\n<LI>Future Workshops</LI>\n<LI>Disruptive Technologies</LI>\n<LI>Emerging Markets</LI>\n<LI>Emerging Industries</LI>\n<LI>Tech Trends<BR><BR></LI>\n</UL>\n<H3><BR></H3>\n<P><STRONG>Workshop Curriculum</STRONG></P>\n<UL>\n<LI>\n<P><STRONG>Basic Edition:\U00a0</STRONG>Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing</P>\n</LI>\n<LI>\n<P><STRONG>Unlimited Edition:</STRONG>\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations</P>\n</LI>\n<LI>\n<P><STRONG>VIP Edition:</STRONG>\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops</P>\n</LI>\n<LI>\n<P><STRONG>Gold Edition:\U00a0</STRONG>Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited\U00a0Attendees\U00a0Registration<BR><BR></P>\n</LI>\n</UL>\n<P><STRONG>Testimonials:</STRONG></P>\n<P><I>\"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased.\"\U00a0- Johnny M.<BR><BR><I>\"Not able to tell you how happy I am with Atechup Startup Workshops.\"\U00a0</I></I><I><I>-\U00a0</I>Elisabeth F. T.</I></P>\n<P><I>\"Atechup Startup Workshops, is a visionary product, shaping future tomorrow\"\U00a0</I><I>- Cohen. A</I></P>\n<P>\"<I>\"I am completely blown away by the quality and generous material. Thank you very much\" -\U00a0</I><I>Steven\U00a0 D.<BR><BR></I></P>\n<P><IMG ALT=\"\" SRC=\"https://cdn.evbuc.com/eventlogos/231943413/1-2.jpg\"></P>\n<P><STRONG>For detailed information go to:</STRONG></P>\n<P><A HREF=\"https://www.atechup.com/product/cybersecurity-tech-startup-webinar/\" TARGET=\"_blank\" TITLE=\"https://www.atechup.com/product/cybersecurity-tech-startup-webinar/\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">https://www.atechup.com/product/cybersecurity-tech-startup-webinar/</A><BR><A HREF=\"https://www.atechup.com/product/cybersecurity-tech-startup-webinar/\" TARGET=\"_blank\" TITLE=\"https://www.atechup.com/product/cybersecurity-tech-startup-webinar/\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\"><I><IMG ALT=\"\" SRC=\"https://imgur.com/a/Wn8mT\"></I></IMG></A></P>\n<P><SPAN>[This is an Online Web Event/Workshop]</SPAN></P>";
+        text = "Learn to Develop a Successful Cybersecurity Startup Company Today!\nAlways wanted to start an tech startup? Now we have a complete blueprint\U00a0for you start your own\U00a0Cybersecurity Startup.\U00a0During our tech startup program you will learn and navigate through\U00a0tools, software, hardware, platforms, resources, projects, processes, methods and strategies\U00a0to penetrate your own Cybersecurity Startup into the market.\nDuring this Cybersecurity Startup Workshop we will cover:\n\nSession 1: Cybersecurity Basics\nDuring this session we will explore the very foundation and the basic systems\U00a0and platforms for you to integrate into your own tech startup process.\U00a0\n\nCybersecurity Hardware\nCybersecurity Software\nCybersecurity Platforms\nCybersecurity Projects\nCybersecurity Systems\nCybersecurity Blueprint\nCybersecurity Tools\nCybersecurity Resources\n\nSession 2:\U00a0Tech Startup IdeasDuring this session we will explore tech startup ideas for you\U00a0to implement and integrate into your own tech startup or\U00a0use them as an inspirational source for developing your own\U00a0products, projects, prototypes or services in your tech startup\n\nCyberSecurity Cloud\nCyberSecurity IoT\nPayment Encryption\nIndustrial CyberSecurity\nHealthcare CyberSecurity\nOnline Casino CyberSecurity\nCyberSecurity Sensors\nReal Time CyberSecurity\nCyberSecurity AI\nCyberSecurity Data Center\nIPTV CyberSecurity\nHolographic CyberSecurity\nCyberSecurity Monitoring\nDoS Prevention Systems\nCyberSecurity Telematics\nEmail Server Security\nMedical CyberSecurity\nData Theft Forensics\nIndustrial Espionage Security\nAR CyberSecurity\nCyberSecurity Visualizations/Dashboards\nAutomotive CyberSecurity\nDrone CyberSecurity\nCyberSecurity:\nDarknet Forensics\nand much more\n\nSession 3: R&DDuring this session we will explore the research process,\U00a0how you can research a specific niche industry, the market and tech trends.\n\nR&D/Research\nR&D Tools\nStartup Tools\nMarket Research\nSurveys\nConsumer Analytics\nMarket Analytics\nIndustry Analytics\nTrends Researching\n\n\U00a0\nSession 4: Creativity\nDuring this session we will explore the creativity process,\U00a0how to increase your own creativity intelligence and implement\U00a0quality tech ideas into your own tech startup process.\n\nCreativity Tools\nCreativity Techniques\nCreativity Strategy\nMind mapping\nBrainstorming\nMeditation\nIdea Exploring\nIdea Blender\nKey-Point System\nProblem Solving Strategy\nIncubation\nCreative intelligence\nOutside the Box Thinking\nLateral Thinking\nProductivity Tools\nMind Relaxation\nMeditation\nHigher Consciousnesses\nInspiration Tools\nIdea Storage\n\n\U00a0\nSession 5: Capital/FundingDuring this session we will explore the capital and funding process\U00a0of your tech startup. How to raise capital and make systematic\U00a0attempts to penetrate into the market.\n\nCapital/Funding\nCapital/Funding Tools\nCapital/Funding Strategy\nVenture Capitalists\nAngel Investors\nSeed Funding\nIncubators\nAccelerator Programs\nCo-Founder\nCapitalization Table\nCrowdfunding\nBusiness Trade Fairs\n\n\U00a0\nSession 6: Clients/CustomersDuring this session we will explore the client acquisition process.\U00a0Find your first clients and customers for your tech startup and\U00a0implement the right tools, methods and strategies for creating\U00a0an successful sale system for your specific niche industry/technology.\n\nClients\nClient Acquisition Strategy\nClient Acquisition Process\nPR Strategies\nSocial Media Marketing\nCompetitive Analysis\nE-Mail Marketing\nNewsletters\nAnalytics\nSEO\nDigital Marketing\nAd Systems\nCompetitor Research\nSale System\nSale Strategy\nGrowth Hacking\nSales Funnel\nEmail Hunting\n\n\U00a0\nSession 7: Business PlatformDuring this session we will explore the business organizing process.\U00a0How to implement an organized and professional platform for your\U00a0tech startup for creating efficient workflow.\n\nBusiness Automation\nBusiness Process\nBusiness Strategy\nBusiness Model\nBusiness Management\nERP\nCRM\nHuman Resources (HR)\nRecruitment\nIntranet\nCollaboration\nProject Management\nDocument Management\nCustomer Support\nBusiness Automation Tools\n\n\U00a0\nSession 8:\U00a0Business FormationDuring this session we will explore the business formation process.\U00a0Which platforms, models and tools to integrate into your tech startup\U00a0formation for creating an successful launch process.Business Formation\n\nLegal\nContracts\nBusiness Model\nCorporate Structure\nPayment Platforms\nPayment Gateway\nInvoicing System\nCredit Cards/Payments\nPricing Strategies\nAccounting\nSubscriptions\nOffice Space\nVirtual Address\nVirtual Phone\nVirtual Office\nRemote Office\nVirtual Assistant\nVirtual Receptionist\nVirtual Support\nOutsourcing\nProduct Demo\nProduct Launch\n\n\U00a0\nSession 9: Startup CodingDuring this session we will explore the coding process of your tech startup.Coding/Programming\n\nIDE\nAPI\nSDK\nGUI\nCode Analysis\nData Visualization\nPython\nC#\nForms\nWireframing\nFront-End\nBack-End\nLibrary\nFrameworks\nTesting\nProgramming Platforms\nProgramming Tools\nAgile Development\nSoftware Code Management\n\n\U00a0\nSession 10: Startup\U00a0Hardware/PrototypingDuring this session we will explore the hardware and prototyping process\U00a0of your tech startup. Using different tools and platform to innovate\U00a0and integrate your own tech startup projects.\n\nElectronics\nIoT\nRaspberry Pi\nArduino\nMicrocontrollers\nSensors\nProjects\nMicrochips\nHardware Boards\nHardware Tools\nHardware Platform\nPCB\n3D Design\n3D Models\n3D Printing\nDIY Tech\nTech Lab\nEmbedded Systems\n\n\U00a0\nSession 11 : Startup IT OperationsDuring this session we will explore the IT infrastructure process of your tech startup.\U00a0Which platforms to use for setup an organized database system, cloud system and\U00a0other technical solutions for your tech startup to work efficiently\n\nIT Infrastructure\nCloud\nServers\nDatabase\nDevOps\nMonitoring\nRemote Access\nBackup\nTechnical Documentation\nData Recovery\nEncryption\nSecurity\nFTP\nNAS\nDeployment\nVPN\nVPS\nAutomation\nLog Management\nNetworking\nVirtualization\n\n\U00a0\nSession 12 : Startup ConsultingDuring this session we will explore the consulting process for your tech startup.\U00a0An strategic approach, where you can receive more experience before you launch\U00a0your own specific products/projects.\n\nTech Startup Consulting\nTech Consulting Services\nTech Consulting Structure\nTech Consulting Approach\nTech Consulting Strategy\nTech Consulting Contracts\nTech Consulting Referrals\nTech Consulting Portfolio\nTech Consulting ISO\nTech Consulting Integration\nTech Consulting Projects\n\n\U00a0\nSession 13 : Startup ManagementDuring this session we will explore management process of your tech startup.\U00a0How to manage your internal and external environments for increasing the\U00a0probability of your tech startup to succeed.\n\nTech Startup Management\nMotivational Skills\nTime Management\nTeam Management\nLeadership Skills\nLearning Skills\nGoal Setting Skills\nDecision Making Skills\nStress Management\nCommunication Skills\nProcrastination Hacks\nProductivity Hacks\nConfidence Hacks\nGrowth Mindset Skills\nProblem Solving Skills\nAnalytical Skills\nStrategic Thinking Skills\nLearning Management\n\nSession 14: Tech WorkshopsDuring this session we will explore tech trends, emerging markets and disruptive technologies and future workshops\n\nFuture Workshops\nDisruptive Technologies\nEmerging Markets\nEmerging Industries\nTech Trends\n\n\nWorkshop Curriculum\n\n\nBasic Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing\n\n\nUnlimited Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing, Startup Programming, Startup Prototyping/Hardware, Startup IT Operations\n\n\nVIP Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops\n\n\nGold Edition:\U00a0Tech Tools/System, Tech Startup Ideas, R&D, Startup Creativity, Startup Formation, Startup Automation, Startup Capital/Funding, Startup Clients/Marketing,\U00a0Startup Coding/Programming, Startup Prototyping/Hardware, Startup IT Operations, Startup Management, Startup Consulting, Startup Workshops + 24/7/365 Access + Unlimited\U00a0Attendees\U00a0Registration\n\n\nTestimonials:\n\"Atechup Startup Workshops is the most valuable business workshop we have EVER purchased.\"\U00a0- Johnny M.\"Not able to tell you how happy I am with Atechup Startup Workshops.\"\U00a0-\U00a0Elisabeth F. T.\n\"Atechup Startup Workshops, is a visionary product, shaping future tomorrow\"\U00a0- Cohen. A\n\"\"I am completely blown away by the quality and generous material. Thank you very much\" -\U00a0Steven\U00a0 D.\n\nFor detailed information go to:\nhttps://www.atechup.com/product/cybersecurity-tech-startup-webinar/\n[This is an Online Web Event/Workshop]";
+    };
+    end =     {
+        local = "2018-10-25T17:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-26T00:00:00Z";
+    };
+    "format_id" = 9;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 46469188594;
+    "is_externally_ticketed" = 0;
+    "is_free" = 0;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 1;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 300;
+            "top_left" =             {
+                x = 0;
+                y = 19;
+            };
+            width = 600;
+        };
+        "edge_color" = "#3e6d9d";
+        "edge_color_set" = 1;
+        id = 41340689;
+        original =         {
+            height = 338;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41340689%2F233567016891%2F1%2Foriginal.jpg?auto=compress&s=4c572324f5556c511a435322c76d1017";
+            width = 600;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41340689%2F233567016891%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C19%2C600%2C300&s=25021104f3adff87f06744ae8d311f9d";
+    };
+    "logo_id" = 41340689;
+    name =     {
+        html = "How To Develop a Successful Cybersecurity Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course";
+        text = "How To Develop a Successful Cybersecurity Tech Startup Business! Los Angeles - Entrepreneur - Workshop - Hackathon - Bootcamp - Virtual Class - Seminar - Training - Lecture - Webinar - Conference - Course";
+    };
+    "online_event" = 0;
+    "organization_id" = 233567016891;
+    "organizer_id" = 15646132597;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/46469188594/";
+    "series_id" = 43501313600;
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-10-25T13:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-25T20:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 1001;
+    "tx_time_limit" = 600;
+    url = "https://www.eventbrite.com/e/how-to-develop-a-successful-cybersecurity-tech-startup-business-los-angeles-entrepreneur-workshop-tickets-46469188594?aff=ebapi";
+    "venue_id" = 26805973;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-09-09T05:59:05Z";
+    created = "2018-09-09T05:59:02Z";
+    currency = USD;
+    description =     {
+        html = "<P>Hack SoCal is one of SoCal's first co-ed all highschool hackathon.</P>\n<P>Hosted from February 16th to February 17th at General Assembly in the LA area.</P>\n<P>Follow the following for more updates:</P>\n<P><STRONG>Instagram:</STRONG> @hacksocal<BR><STRONG>twitter:</STRONG> @hacksocal2018<BR><STRONG>Facebook:\U00a0</STRONG>Hack SoCal</P>\n<P><EM><STRONG>Contact us at:<BR></STRONG></EM>hacksocal@gmail.com</P>";
+        text = "Hack SoCal is one of SoCal's first co-ed all highschool hackathon.\nHosted from February 16th to February 17th at General Assembly in the LA area.\nFollow the following for more updates:\nInstagram: @hacksocaltwitter: @hacksocal2018Facebook:\U00a0Hack SoCal\nContact us at:hacksocal@gmail.com";
+    };
+    end =     {
+        local = "2019-02-17T12:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2019-02-17T20:00:00Z";
+    };
+    "format_id" = 10;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 50031542691;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 400;
+            "top_left" =             {
+                x = 0;
+                y = 261;
+            };
+            width = 800;
+        };
+        "edge_color" = "#fcba02";
+        "edge_color_set" = 1;
+        id = 49534981;
+        original =         {
+            height = 800;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49534981%2F271021502780%2F1%2Foriginal.jpg?auto=compress&s=df3be9d22f1ec503c3c6864e48960162";
+            width = 800;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49534981%2F271021502780%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C261%2C800%2C400&s=4f7a879b944d022768a74f633ca9ddf3";
+    };
+    "logo_id" = 49534981;
+    name =     {
+        html = "Hack SoCal";
+        text = "Hack SoCal";
+    };
+    "online_event" = 0;
+    "organization_id" = 271021502780;
+    "organizer_id" = 17815224695;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/50031542691/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2019-02-16T12:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2019-02-16T20:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 2999;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/hack-socal-tickets-50031542691?aff=ebapi";
+    "venue_id" = 26665918;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 199;
+    changed = "2018-07-19T22:47:15Z";
+    created = "2018-05-31T20:34:31Z";
+    currency = USD;
+    description =     {
+        html = "<P><SPAN>During the weekend of February 8th-10th, the American Digital Diversity Initiative will be hosting a hackathon at California State Univerisity Long Beach where more than 150 Hackathon participants (e.g. web developers, designers, UX/UI, project managers, Military Veterans) to compete for thousands of dollars in prizes to develop solutions to improve and the quality of life for individuals in cities and the future of work. Over the weekend, all participants will have the opportunity to work alongside veterans on software solutions to address these challenges:</SPAN></P>\n<UL>\n<LI>\n<P><SPAN>Civic Engagement\U00a0</SPAN></P>\n</LI>\n<LI>\n<P><SPAN>Smart Transportation\U00a0</SPAN></P>\n</LI>\n<LI>\n<P><SPAN>Community Safety\U00a0</SPAN></P>\n</LI>\n<LI>\n<P><SPAN>Future of Work</SPAN>\U00a0</P>\n</LI>\n</UL>\n<P><SPAN>Top Prize: $3,000</SPAN></P>\n<P>2nd Place: $1,500</P>\n<P>3rd Place: $500</P>\n<P><SPAN><SPAN>Top Collegiant team: $1,500</SPAN></SPAN></P>\n<P>**Team Size of 6 Max**</P>\n<P>**In order to qualify for the collegiate prize, half of your team must be enrolled in a 2 or 4 year institution. If your team is at an odd number, it must be higher of the half. Example: Teams of 5 must have 3, teams of 3 must have 2.**<BR></P>\n<P>For more information please visit: <A HREF=\"https://thehackathon.us/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">http://thehackathon.us</A></P>\n<P><SPAN><I>Questions???\U00a0</I></SPAN></P>\n<P><SPAN>Peter Rojas</SPAN></P>\n<P>Associate Director\U00a0</P>\n<P>American Digital Diversity Initiative\U00a0</P>\n<P>(424) 543-4387</P>\n<P>peter@digitalequity.tech</P>";
+        text = "During the weekend of February 8th-10th, the American Digital Diversity Initiative will be hosting a hackathon at California State Univerisity Long Beach where more than 150 Hackathon participants (e.g. web developers, designers, UX/UI, project managers, Military Veterans) to compete for thousands of dollars in prizes to develop solutions to improve and the quality of life for individuals in cities and the future of work. Over the weekend, all participants will have the opportunity to work alongside veterans on software solutions to address these challenges:\n\n\nCivic Engagement\U00a0\n\n\nSmart Transportation\U00a0\n\n\nCommunity Safety\U00a0\n\n\nFuture of Work\U00a0\n\n\nTop Prize: $3,000\n2nd Place: $1,500\n3rd Place: $500\nTop Collegiant team: $1,500\n**Team Size of 6 Max**\n**In order to qualify for the collegiate prize, half of your team must be enrolled in a 2 or 4 year institution. If your team is at an odd number, it must be higher of the half. Example: Teams of 5 must have 3, teams of 3 must have 2.**\nFor more information please visit: http://thehackathon.us\nQuestions???\U00a0\nPeter Rojas\nAssociate Director\U00a0\nAmerican Digital Diversity Initiative\U00a0\n(424) 543-4387\npeter@digitalequity.tech";
+    };
+    end =     {
+        local = "2019-02-10T18:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2019-02-11T02:00:00Z";
+    };
+    "format_id" = 1;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 46629805002;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 600;
+            "top_left" =             {
+                x = 0;
+                y = 48;
+            };
+            width = 1200;
+        };
+        "edge_color" = "<null>";
+        "edge_color_set" = 1;
+        id = 45604937;
+        original =         {
+            height = 660;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45604937%2F245580961915%2F1%2Foriginal.jpg?auto=compress&s=5c07df479c105f369851022353032b04";
+            width = 1200;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F45604937%2F245580961915%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C48%2C1200%2C600&s=9dba99519a50f208abe0df11ad9d67b5";
+    };
+    "logo_id" = 45604937;
+    name =     {
+        html = "#ADDIHACKS - Smart Cities &amp; Future of Work";
+        text = "#ADDIHACKS - Smart Cities & Future of Work";
+    };
+    "online_event" = 0;
+    "organization_id" = 245580961915;
+    "organizer_id" = 17221468292;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/46629805002/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2019-02-08T18:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2019-02-09T02:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = "<null>";
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/addihacks-smart-cities-future-of-work-tickets-46629805002?aff=ebapi";
+    "venue_id" = 25086972;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 101;
+    changed = "2018-09-11T21:01:54Z";
+    created = "2018-09-08T16:28:59Z";
+    currency = USD;
+    description =     {
+        html = "<P><A HREF=\"https://climathon.climate-kic.org/\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Climathon</A> is a global 24-hour climate change hackathon which will take place simultaneously in major cities around the world on October 26th 2018.</P>\n<P>It brings together the challenges of the world\U2019s cities with the people who have the passion and ability to solve them. Climathon attracts innovators, entrepreneurs, students and professionals to create innovative solutions to cities climate challenges.</P>\n<P CLASS=\"MsoNormal\"><A HREF=\"http://www.csulb.edu/institute-innovation-entrepreneurship/climathon-long-beach\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">2018 Climathon Challenge Long Beach</A>:\U00a0\U00a0Sustainable Housing</P>\n<P CLASS=\"MsoNormal\">The Long Beach Challenge will focus on solutions to create sustainable housing. Specifically, solutions that will help Long Beach meet the objectives set out in the city\U2019s Climate Action and Adaptation Plan. As the climate continues to change, there is a need to find innovative and creative solutions that reduce fossil fuel use to meet energy and transportation needs. The city of Long Beach along with other communities are addressing many challenges in developing sustainable housing that meets the needs of a growing population. Numerous approaches have been proposed to generate sustainable housing such as more high-density units, tiny houses, heating and cooling via solar energy, linking housing and transportation needs, and more.</P>\n<P CLASS=\"MsoNormal\">This year's program will provide real data download from the California State University Long Beach, the City of Long Beach and the private sector.\U00a0 Workshops will include; Team Buidling, Ideation, Storyboarding, Prototyping, Storytelling, Experimental Work and Perfecting Your Pitch.\U00a0 Complete schedule coming soon.</P>\n<P CLASS=\"MsoNormal\">Come with your business ideas or come to lend a hand on a very critical topic that needs all of our help.\U00a0</P>\n<P><SPAN>Join us!\U00a0\U00a0</SPAN>Friday, October 26th 10am - Saturday October 27th 10am</P>\n<P><SPAN>On campus,\U00a0<SPAN>Duncan Anderson Gallery, Department of Design, CSULB Campus</SPAN></SPAN></P>\n<P>Check out <A HREF=\"http://www.csulb.edu/institute-innovation-entrepreneurship/climathon-long-beach\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">FAQ</A> about this event!\U00a0 For questions, contact us at <A HREF=\"mailto:csulb-iie@csulb.edu\" TARGET=\"_blank\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">CSULB-IIE@csulb.edu</A></P>";
+        text = "Climathon is a global 24-hour climate change hackathon which will take place simultaneously in major cities around the world on October 26th 2018.\nIt brings together the challenges of the world\U2019s cities with the people who have the passion and ability to solve them. Climathon attracts innovators, entrepreneurs, students and professionals to create innovative solutions to cities climate challenges.\n2018 Climathon Challenge Long Beach:\U00a0\U00a0Sustainable Housing\nThe Long Beach Challenge will focus on solutions to create sustainable housing. Specifically, solutions that will help Long Beach meet the objectives set out in the city\U2019s Climate Action and Adaptation Plan. As the climate continues to change, there is a need to find innovative and creative solutions that reduce fossil fuel use to meet energy and transportation needs. The city of Long Beach along with other communities are addressing many challenges in developing sustainable housing that meets the needs of a growing population. Numerous approaches have been proposed to generate sustainable housing such as more high-density units, tiny houses, heating and cooling via solar energy, linking housing and transportation needs, and more.\nThis year's program will provide real data download from the California State University Long Beach, the City of Long Beach and the private sector.\U00a0 Workshops will include; Team Buidling, Ideation, Storyboarding, Prototyping, Storytelling, Experimental Work and Perfecting Your Pitch.\U00a0 Complete schedule coming soon.\nCome with your business ideas or come to lend a hand on a very critical topic that needs all of our help.\U00a0\nJoin us!\U00a0\U00a0Friday, October 26th 10am - Saturday October 27th 10am\nOn campus,\U00a0Duncan Anderson Gallery, Department of Design, CSULB Campus\nCheck out FAQ about this event!\U00a0 For questions, contact us at CSULB-IIE@csulb.edu";
+    };
+    end =     {
+        local = "2018-10-27T10:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-27T17:00:00Z";
+    };
+    "format_id" = 10;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 50022967041;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 600;
+            "top_left" =             {
+                x = 0;
+                y = 13;
+            };
+            width = 1200;
+        };
+        "edge_color" = "#3d4954";
+        "edge_color_set" = 1;
+        id = 49523107;
+        original =         {
+            height = 627;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49523107%2F159054716511%2F1%2Foriginal.jpg?auto=compress&s=ee3e6db23f2cf2955057c975b7dda5fc";
+            width = 1200;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49523107%2F159054716511%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C13%2C1200%2C600&s=a1ba878c1c4a55c056d1d301f0d9439a";
+    };
+    "logo_id" = 49523107;
+    name =     {
+        html = "2018 Climathon - Long Beach, CA";
+        text = "2018 Climathon - Long Beach, CA";
+    };
+    "online_event" = 0;
+    "organization_id" = 159054716511;
+    "organizer_id" = 14941850895;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/50022967041/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-10-26T10:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-26T17:00:00Z";
+    };
+    status = live;
+    "subcategory_id" = 1003;
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/2018-climathon-long-beach-ca-registration-50022967041?aff=ebapi";
+    "vanity_url" = "https://longbeachclimathon2018.eventbrite.com";
+    "venue_id" = 26661488;
+    version = "3.0.0";
+},
+{
+    capacity = "<null>";
+    "capacity_is_custom" = "<null>";
+    "category_id" = 102;
+    changed = "2018-10-18T23:32:26Z";
+    created = "2018-08-29T17:03:33Z";
+    currency = USD;
+    description =     {
+        html = "<H2><STRONG>CHALLENGE THE STATUS QUO</STRONG></H2>\n<P><A HREF=\"https://novvumhacks.com\" TARGET=\"_blank\" TITLE=\"Novvum Hacks: F18\" REL=\"noreferrer noopener nofollow noopener noreferrer nofollow\">Novvum Hacks</A> is a 48-hour hackathon designed to disrupt traditional processes to discover breakthrough solutions. Individuals from cross-disciplinary teams come together to solve real world problems.<SPAN CLASS=\"Apple-converted-space\">\U00a0</SPAN></P>\n<P>During the event, attendees will participate in workshops, network with top developers in Orange County and learn from the market leaders of software technology. Attendees will use their programming skills to develop creative solutions to business or social problems.<SPAN CLASS=\"Apple-converted-space\">\U00a0</SPAN></P>\n<P>Check out our website at www.novvumhacks.com</P>\n<H2><SPAN CLASS=\"Apple-converted-space\">WHAT TO EXPECT</SPAN></H2>\n<UL>\n<LI>\n<P><STRONG>Learn</STRONG> from the leading experts of GraphQL in Southern California</P>\n</LI>\n<LI>\n<P><STRONG>Network </STRONG>with like-minded individuals in the tech space</P>\n</LI>\n<LI>\n<P><STRONG>Develop </STRONG>the skills of critical thinking, teamwork, collaboration and creativity that you can harness for your projects or your job.\U00a0</P>\n</LI>\n</UL>\n<H2><SPAN CLASS=\"Apple-converted-space\">WHAT TO BRING</SPAN></H2>\n<UL>\n<LI>\n<P>Laptop</P>\n</LI>\n<LI>\n<P>A positive attitude and tons of energy (Although, coffee will be provided :) )</P>\n</LI>\n</UL>\n<H2><SPAN CLASS=\"Apple-converted-space\">WHO CAN ATTEND?\U00a0</SPAN></H2>\n<P><SPAN CLASS=\"Apple-converted-space\">Students, Working Professionals, Founders or anyone who is interested in learning about GraphQL.\U00a0</SPAN></P>\n<P><BR></P>\n<H2><SPAN CLASS=\"Apple-converted-space\">SCHEDULE</SPAN></H2>\n<P><STRONG><SPAN CLASS=\"Apple-converted-space\">Day 1\U00a0</SPAN></STRONG></P>\n<P><SPAN CLASS=\"Apple-converted-space\">10 AM: Kick off Session and Team Formation. Hacking Begins</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">11:30 AM: Workshop 1</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">12:30 PM: Lunch</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">1:30 PM: Hacking Sessions</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">4:30 PM: Workshop 2\U00a0</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">5:30 PM: Hacking continues...\U00a0</SPAN></P>\n<P><STRONG><SPAN CLASS=\"Apple-converted-space\">Day 2</SPAN></STRONG></P>\n<P><SPAN CLASS=\"Apple-converted-space\">10 AM: Breakfast</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">5 PM: Pitch Contest and Awards Ceremony\U00a0</SPAN></P>\n<P><SPAN CLASS=\"Apple-converted-space\">6 PM: Light Dinner and Networking</SPAN></P>\n<H3><BR></H3>\n<H2><STRONG>FAQs</STRONG>\U00a0</H2>\n<P><STRONG>Do I need to know any coding prior to the event?</STRONG></P>\n<P>It is recommended that you are familiar with a programming language. But if you are non-technical, there are plenty of opportunities to work with teams.\U00a0\U00a0</P>\n<P><STRONG>What are my parking options for getting to and from the event?</STRONG></P>\n<P>There is plenty of parking by the event venue.\U00a0\U00a0</P>\n<P><STRONG>How can I contact the organizer with any questions?</STRONG></P>\n<P>Email vanessa@novvum.io for any questions!\U00a0</P>\n<P>\U00a0</P>";
+        text = "CHALLENGE THE STATUS QUO\nNovvum Hacks is a 48-hour hackathon designed to disrupt traditional processes to discover breakthrough solutions. Individuals from cross-disciplinary teams come together to solve real world problems.\U00a0\nDuring the event, attendees will participate in workshops, network with top developers in Orange County and learn from the market leaders of software technology. Attendees will use their programming skills to develop creative solutions to business or social problems.\U00a0\nCheck out our website at www.novvumhacks.com\nWHAT TO EXPECT\n\n\nLearn from the leading experts of GraphQL in Southern California\n\n\nNetwork with like-minded individuals in the tech space\n\n\nDevelop the skills of critical thinking, teamwork, collaboration and creativity that you can harness for your projects or your job.\U00a0\n\n\nWHAT TO BRING\n\n\nLaptop\n\n\nA positive attitude and tons of energy (Although, coffee will be provided :) )\n\n\nWHO CAN ATTEND?\U00a0\nStudents, Working Professionals, Founders or anyone who is interested in learning about GraphQL.\U00a0\n\nSCHEDULE\nDay 1\U00a0\n10 AM: Kick off Session and Team Formation. Hacking Begins\n11:30 AM: Workshop 1\n12:30 PM: Lunch\n1:30 PM: Hacking Sessions\n4:30 PM: Workshop 2\U00a0\n5:30 PM: Hacking continues...\U00a0\nDay 2\n10 AM: Breakfast\n5 PM: Pitch Contest and Awards Ceremony\U00a0\n6 PM: Light Dinner and Networking\n\nFAQs\U00a0\nDo I need to know any coding prior to the event?\nIt is recommended that you are familiar with a programming language. But if you are non-technical, there are plenty of opportunities to work with teams.\U00a0\U00a0\nWhat are my parking options for getting to and from the event?\nThere is plenty of parking by the event venue.\U00a0\U00a0\nHow can I contact the organizer with any questions?\nEmail vanessa@novvum.io for any questions!\U00a0\n\U00a0";
+    };
+    end =     {
+        local = "2018-10-21T18:00:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-22T01:00:00Z";
+    };
+    "format_id" = 100;
+    "hide_end_date" = 0;
+    "hide_start_date" = 0;
+    id = 49657344454;
+    "is_externally_ticketed" = 0;
+    "is_free" = 1;
+    "is_locked" = 0;
+    "is_reserved_seating" = 0;
+    "is_series" = 0;
+    "is_series_parent" = 0;
+    listed = 1;
+    locale = "en_US";
+    logo =     {
+        "aspect_ratio" = 2;
+        "crop_mask" =         {
+            height = 960;
+            "top_left" =             {
+                x = 0;
+                y = 229;
+            };
+            width = 1920;
+        };
+        "edge_color" = "<null>";
+        "edge_color_set" = 1;
+        id = 49060066;
+        original =         {
+            height = 1280;
+            url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49060066%2F153367906558%2F1%2Foriginal.jpg?auto=compress&s=1b2f39dc63976421012e0cb7d30e3566";
+            width = 1920;
+        };
+        url = "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F49060066%2F153367906558%2F1%2Foriginal.jpg?h=200&w=450&auto=compress&rect=0%2C229%2C1920%2C960&s=97f7967c4fd228c46bc21c36fcc86d4c";
+    };
+    "logo_id" = 49060066;
+    name =     {
+        html = "Novvum Hacks F18: Harnessing Emerging Technologies to Solve Real World Problems";
+        text = "Novvum Hacks F18: Harnessing Emerging Technologies to Solve Real World Problems";
+    };
+    "online_event" = 0;
+    "organization_id" = 153367906558;
+    "organizer_id" = 17765224124;
+    "privacy_setting" = unlocked;
+    "resource_uri" = "https://www.eventbriteapi.com/v3/events/49657344454/";
+    shareable = 1;
+    "show_colors_in_seatmap_thumbnail" = 0;
+    "show_pick_a_seat" = 0;
+    "show_seatmap_thumbnail" = 0;
+    source = "create_2.0";
+    start =     {
+        local = "2018-10-20T09:30:00";
+        timezone = "America/Los_Angeles";
+        utc = "2018-10-20T16:30:00Z";
+    };
+    status = live;
+    "subcategory_id" = "<null>";
+    "tx_time_limit" = 480;
+    url = "https://www.eventbrite.com/e/novvum-hacks-f18-harnessing-emerging-technologies-to-solve-real-world-problems-tickets-49657344454?aff=ebapi";
+    "venue_id" = 27462054;
+    version = "3.0.0";
+}
+)
+, "location": {
+    address = "los angeles";
+    "augmented_location" =     {
+        city = "Los Angeles";
+        country = "United States";
+        region = California;
+    };
+    latitude = "34.052234";
+    longitude = "-118.243685";
+    within = "80.4672000307";
+}, "pagination": {
+    "has_more_items" = 0;
+    "object_count" = 11;
+    "page_count" = 1;
+    "page_number" = 1;
+    "page_size" = 50;
+}]
