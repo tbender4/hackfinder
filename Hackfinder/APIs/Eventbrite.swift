@@ -6,13 +6,20 @@
 //  Copyright © 2018 Thomas Bender. All rights reserved.
 //
 
+/*
+ USAGE OF Eventbrite API:
+ 1) Update search with Eventbrite.updateSearch(...)
+ 2) run getEvents()
+ */
+
+
 import Foundation
 
 class Eventbrite {
   static let baseURL = "https://www.eventbriteapi.com/v3/"
   private static let userToken = Token.personalOAuthToken   //This is kept in a separate file for security purposes. The file is listed under .gitignore and thus will NOT be pushed to the public repository.
 
-  static var workingURL: URL = URL(string: "nil")!
+  static var workingURL: URL = URL(string: "nil")!      //if it remains as nil, getEvents will default to LA
   var session: URLSession
   //The following is used to build the json URL. It does NOT hold user's parameters.
   static let search = "events/search/"
@@ -24,8 +31,6 @@ class Eventbrite {
   static let price = "&price="
   static let token = "&token="
   //end URL objects
-  
-  static var searchURL = URL(string: "nil")  //IDEA: Keep it static?
   
   
   static func generateURL (sortBy: String, locationAddress: String, locationWithin: String, isFree: Bool) -> URL {
@@ -51,7 +56,7 @@ class Eventbrite {
   //default
   static func getEvents(completion: @escaping ([Event]?, Error?) -> ()) {
     //self.workingURL = generateURL()
-    if self.workingURL.absoluteString == "nil" {
+    if self.workingURL.absoluteString == "nil" {    //
       workingURL = Eventbrite.generateURL()
     }
     let request = URLRequest(url: self.workingURL, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)

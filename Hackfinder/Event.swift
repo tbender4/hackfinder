@@ -14,11 +14,14 @@ class Event {
   var description: String
   var id: String
   var url: String
-  var date: String
-  var startTime: String? //use utc, convert from there
-  var endTime: String?   //use utc, convert from there
+  var date: String          //takes in start_time as a whole
+  var startTime: String? //use utc, convert from there    //TODO
+  var endTime: String?   //use utc, convert from there    //TODO
   var capacity: String
-  var onlineEvent: String? //optional story
+  var onlineEvent: String? //optional story               //KEK
+  
+  var originalLogo: String
+  var smallLogo: String
   
   
   init() {
@@ -31,6 +34,8 @@ class Event {
     startTime = "startTime"
     endTime = "endTime"
     capacity = "capacity"
+    originalLogo = "logo"
+    smallLogo = "smallLogo"
   }
   
   func debug() {
@@ -52,11 +57,17 @@ class Event {
     print("")
    // print (startTime)
   //  print (endTime)
-    print("Capacity")
+    print("Capacity:")
     print (capacity)
     print("")
-    
+    print("Original:")
+    print(originalLogo)
+    print("")
+    print("Small: ")
+    print(smallLogo)
+    print("")
     print("END DEBUG")
+    print("////////////////////")
   }
   
   init(event: [String: Any]) {
@@ -82,6 +93,19 @@ class Event {
     
     let capacity = event["capacity"] as? String ?? "Capacity N/A"
     self.capacity = capacity
+    
+    
+      let logo = event["logo"] as? [String: Any] ?? nil
+    if logo != nil {
+      let originalLogoDict = logo?["original"] as! [String: Any]
+      let originalLogo = originalLogoDict["url"] as! String
+      let smallLogo = logo?["url"] as! String
+      self.originalLogo = originalLogo
+      self.smallLogo = smallLogo
+    } else {
+      self.originalLogo = "original_n/a"
+      self.smallLogo = "small_n/a"
+    }
     debug()
   }
   

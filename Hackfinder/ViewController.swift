@@ -25,14 +25,14 @@ class ViewController: UIViewController {
         }
       }
     }
+    
     /*
      USAGE OF Eventbrite API:
      1) Update search with Eventbrite.updateSearch(...)
      2) run getEvents()
     */
-    
     Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    
+    getEvents()
   }
 
 }

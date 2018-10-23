@@ -12,7 +12,9 @@ Hackfinder is an iOS App that will help users find nearby hackathons using Locat
 ## User Stories
 
 The following **required** user stories are complete:
+- [x] Implement Eventbrite API parsing
 - [ ] app icon in home screen, styled launch screen
+- [ ] **Fliter View** Implement [SideMenu](https://github.com/jonkykong/SideMenu)
 - [ ] **List View** user can change location of nearby hackathons to list
 - [ ] **List View** user can scroll through list of hackathons
 - [ ] **Map View** display map using location of user
@@ -46,14 +48,22 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the ma
 
 ## Model Classes
 - Event
-  - `title`
-  - `overview`
-  - `backdrop`
-  - `avatar`
+  - [x] `name`
+  - [x] `description`
+  - [x] `id`
+  - [x] `url`
+  - [x] `date`
+  - [ ] `starttime`
+  - [ ] `endTime`
+  - [x] `capacity`
+  - [x] `originalLogo`
+  - [x] `smallLogo`
+
 - EventApiManager
-  - `apikey`
-  - `url`
-  - `session`
+  - [x] `userToken`
+  - [x] `baseURL`
+  - [x] `smallLogo`
+  - [x] `workingURL`
 
 - Map
   - `MapPins`
