@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B962BE3DABBC3D7AAE7F61 /* Pods_Hackfinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2838532BC375AAF9C3E5E67 /* Pods_Hackfinder.framework */; };
 		E905AD802175775C0043BEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905AD7F2175775C0043BEC7 /* AppDelegate.swift */; };
 		E905AD822175775C0043BEC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905AD812175775C0043BEC7 /* ViewController.swift */; };
 		E905AD852175775C0043BEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905AD832175775C0043BEC7 /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7325F3B8412524A6931B13C4 /* Pods-Hackfinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackfinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hackfinder/Pods-Hackfinder.release.xcconfig"; sourceTree = "<group>"; };
+		B0933B82D71A5B1B68FBDF6A /* Pods-Hackfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hackfinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hackfinder/Pods-Hackfinder.debug.xcconfig"; sourceTree = "<group>"; };
 		E905AD7C2175775C0043BEC7 /* Hackfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E905AD7F2175775C0043BEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E905AD812175775C0043BEC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		E9ABD088217946740040E800 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		E9ABD08A21798C4E0040E800 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E9DD51812179367200620C9F /* Eventbrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventbrite.swift; sourceTree = "<group>"; };
+		F2838532BC375AAF9C3E5E67 /* Pods_Hackfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B962BE3DABBC3D7AAE7F61 /* Pods_Hackfinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08308A5A59E66BB1B0E0EBE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2838532BC375AAF9C3E5E67 /* Pods_Hackfinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7BC1EE155CBB316F21FAAE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0933B82D71A5B1B68FBDF6A /* Pods-Hackfinder.debug.xcconfig */,
+				7325F3B8412524A6931B13C4 /* Pods-Hackfinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E905AD732175775C0043BEC7 = {
 			isa = PBXGroup;
 			children = (
 				E905AD7E2175775C0043BEC7 /* Hackfinder */,
 				E905AD7D2175775C0043BEC7 /* Products */,
+				A7BC1EE155CBB316F21FAAE8 /* Pods */,
+				08308A5A59E66BB1B0E0EBE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E905AD8E2175775D0043BEC7 /* Build configuration list for PBXNativeTarget "Hackfinder" */;
 			buildPhases = (
+				E68932ED21F6529F312383DE /* [CP] Check Pods Manifest.lock */,
 				E905AD782175775C0043BEC7 /* Sources */,
 				E905AD792175775C0043BEC7 /* Frameworks */,
 				E905AD7A2175775C0043BEC7 /* Resources */,
@@ -150,6 +175,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E68932ED21F6529F312383DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hackfinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E905AD782175775C0043BEC7 /* Sources */ = {
@@ -304,6 +354,7 @@
 		};
 		E905AD8F2175775D0043BEC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0933B82D71A5B1B68FBDF6A /* Pods-Hackfinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +374,7 @@
 		};
 		E905AD902175775D0043BEC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7325F3B8412524A6931B13C4 /* Pods-Hackfinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
