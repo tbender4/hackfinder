@@ -17,18 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperBG" translatesAutoresizingMaskIntoConstraints="NO" id="kyl-Rz-t8H">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9gK-as-vnx"/>
-                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Oji-HQ-dR9"/>
-                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Y1L-Vl-oYl"/>
-                            <constraint firstItem="kyl-Rz-t8H" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="waW-Uk-pyL"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -37,7 +26,4 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="windowShopperBG" width="414" height="736"/>
-    </resources>
 </document>
