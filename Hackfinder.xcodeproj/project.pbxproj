@@ -14,6 +14,7 @@
 		E905AD872175775D0043BEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E905AD862175775D0043BEC7 /* Assets.xcassets */; };
 		E905AD8A2175775D0043BEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905AD882175775D0043BEC7 /* LaunchScreen.storyboard */; };
 		E93E1C942176B0E500028D57 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E93E1C932176B0E500028D57 /* README.md */; };
+		E96CCFF021828B1A007313B3 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96CCFEF21828B1A007313B3 /* Address.swift */; };
 		E9ABD089217946740040E800 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD088217946740040E800 /* Token.swift */; };
 		E9ABD08B21798C4E0040E800 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD08A21798C4E0040E800 /* Event.swift */; };
 		E9DD51822179367200620C9F /* Eventbrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD51812179367200620C9F /* Eventbrite.swift */; };
@@ -30,8 +31,9 @@
 		E905AD892175775D0043BEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E905AD8B2175775D0043BEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E93E1C932176B0E500028D57 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		E96CCFEF21828B1A007313B3 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Hackfinder/Models/Address.swift; sourceTree = SOURCE_ROOT; };
 		E9ABD088217946740040E800 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		E9ABD08A21798C4E0040E800 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E9ABD08A21798C4E0040E800 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Models/Event.swift; sourceTree = "<group>"; };
 		E9DD51812179367200620C9F /* Eventbrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventbrite.swift; sourceTree = "<group>"; };
 		F2838532BC375AAF9C3E5E67 /* Pods_Hackfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,8 +88,8 @@
 		E905AD7E2175775C0043BEC7 /* Hackfinder */ = {
 			isa = PBXGroup;
 			children = (
+				E96CCFEE21828AEF007313B3 /* Models */,
 				E9DD51802179364E00620C9F /* APIs */,
-				E9ABD08A21798C4E0040E800 /* Event.swift */,
 				E905AD7F2175775C0043BEC7 /* AppDelegate.swift */,
 				E905AD812175775C0043BEC7 /* ViewController.swift */,
 				E905AD832175775C0043BEC7 /* Main.storyboard */,
@@ -97,6 +99,16 @@
 				E93E1C932176B0E500028D57 /* README.md */,
 			);
 			path = Hackfinder;
+			sourceTree = "<group>";
+		};
+		E96CCFEE21828AEF007313B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E96CCFEF21828B1A007313B3 /* Address.swift */,
+				E9ABD08A21798C4E0040E800 /* Event.swift */,
+			);
+			name = Models;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		E9DD51802179364E00620C9F /* APIs */ = {
@@ -206,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96CCFF021828B1A007313B3 /* Address.swift in Sources */,
 				E9DD51822179367200620C9F /* Eventbrite.swift in Sources */,
 				E905AD822175775C0043BEC7 /* ViewController.swift in Sources */,
 				E905AD802175775C0043BEC7 /* AppDelegate.swift in Sources */,
