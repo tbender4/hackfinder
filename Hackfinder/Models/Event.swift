@@ -23,6 +23,9 @@ class Event {
   var originalLogo: String
   var smallLogo: String
   
+  var venueID: String
+  var address: Address?
+  
   
   init() {
     //passes through one event in dictionary form.
@@ -36,6 +39,8 @@ class Event {
     capacity = "capacity"
     originalLogo = "logo"
     smallLogo = "smallLogo"
+    venueID = "00"
+    address = Address(venueID: "0")
   }
   
   func debug() {
@@ -55,8 +60,8 @@ class Event {
     print("Date: ")
     print (date)
     print("")
-   // print (startTime)
-  //  print (endTime)
+    // print (startTime)
+    //  print (endTime)
     print("Capacity:")
     print (capacity)
     print("")
@@ -65,6 +70,9 @@ class Event {
     print("")
     print("Small: ")
     print(smallLogo)
+    print("")
+    print("Venue ID:")
+    print(venueID)
     print("")
     print("END DEBUG")
     print("////////////////////")
@@ -95,7 +103,7 @@ class Event {
     self.capacity = capacity
     
     
-      let logo = event["logo"] as? [String: Any] ?? nil
+    let logo = event["logo"] as? [String: Any] ?? nil
     if logo != nil {
       let originalLogoDict = logo?["original"] as! [String: Any]
       let originalLogo = originalLogoDict["url"] as! String
@@ -106,6 +114,13 @@ class Event {
       self.originalLogo = "original_n/a"
       self.smallLogo = "small_n/a"
     }
+    
+    let venueID = event["venue_id"] as? String ?? "n/a"
+    self.venueID = venueID
+    
+    
+    address = Address(venueID: self.venueID)
+    
     debug()
   }
   
@@ -121,8 +136,8 @@ class Event {
   }
   
   
-//  init(data: [String: Any]) {
-    
-//  }
+  //  init(data: [String: Any]) {
+  
+  //  }
   
 }

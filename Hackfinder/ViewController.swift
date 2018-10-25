@@ -12,19 +12,20 @@ class ViewController: UIViewController {
 
   var events: [Event] = []    //once one event can be parsed, do the rest
   
+ // let queue = DispatchQueue.global()
+  
+  func getEvents () {
+    Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+      if let events = events {
+        self.events = events
+      } else {
+        print("error")
+      }
+    }
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    func getEvents () {
-      Eventbrite.getEvents { (events: [Event]?, error: Error?) in
-        if let events = events {
-          self.events = events
-        } else {
-          print("error")
-        }
-      }
-    }
     
     /*
      USAGE OF Eventbrite API:
@@ -32,7 +33,12 @@ class ViewController: UIViewController {
      2) run getEvents()
     */
     Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    getEvents()
+ //   getEvents()
+    
+
+      self.getEvents()
+    
+    
   }
 
 }
