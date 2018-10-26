@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uVI-5V-7JI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,19 +11,49 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="iL6-JW-H9k">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hackfinder" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="uVI-5V-7JI" customClass="ViewController" customModule="Hackfinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fjz-9v-Jsj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Ne-sR-bzX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxY-pZ-k9g">
+                                <rect key="frame" x="315" y="607" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8Au-uL-3mU"/>
+                                    <constraint firstAttribute="width" constant="40" id="Ich-PA-o9x"/>
+                                </constraints>
+                                <state key="normal" image="Circle-Center-512"/>
+                                <connections>
+                                    <action selector="centerBtnWasPressed:" destination="uVI-5V-7JI" eventType="touchUpInside" id="s4A-D8-McD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XX2-ZW-0BG" firstAttribute="bottom" secondItem="cxY-pZ-k9g" secondAttribute="bottom" constant="20" id="34U-BE-wQu"/>
+                            <constraint firstItem="XX2-ZW-0BG" firstAttribute="trailing" secondItem="cxY-pZ-k9g" secondAttribute="trailing" constant="20" id="Jl5-mu-UxT"/>
+                            <constraint firstItem="9Ne-sR-bzX" firstAttribute="leading" secondItem="XX2-ZW-0BG" secondAttribute="leading" id="cqk-eR-w3G"/>
+                            <constraint firstItem="9Ne-sR-bzX" firstAttribute="bottom" secondItem="XX2-ZW-0BG" secondAttribute="bottom" id="eE7-GY-3Uz"/>
+                            <constraint firstItem="9Ne-sR-bzX" firstAttribute="trailing" secondItem="XX2-ZW-0BG" secondAttribute="trailing" id="fbR-8j-YDn"/>
+                            <constraint firstItem="9Ne-sR-bzX" firstAttribute="top" secondItem="fjz-9v-Jsj" secondAttribute="top" id="kwE-1b-OJk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XX2-ZW-0BG"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="9Ne-sR-bzX" id="E62-TK-AM8"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ia1-MD-clG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1080.8" y="146.17691154422789"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Circle-Center-512" width="512" height="512"/>
+    </resources>
 </document>
