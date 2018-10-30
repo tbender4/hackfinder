@@ -1,0 +1,62 @@
+//
+//  ViewController.swift
+//  Hackfinder
+//
+//  Created by Thomas Bender on 10/15/18.
+//  Copyright © 2018 Thomas Bender. All rights reserved.
+//
+
+import UIKit
+import SideMenu
+
+class ListViewController: UIViewController, UITableViewDataSource {
+
+  @IBOutlet weak var tableView: UITableView!
+  
+  var events: [Event] = []    //once one event can be parsed, do the rest
+  
+  func getEvents () {
+    Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+      if let events = events {
+        self.events = events
+      } else {
+        print("error")
+      }
+    }
+    tableView.reloadData()
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    tableView.dataSource = self
+    SideMenuManager.default.menuFadeStatusBar = false
+    /*
+     USAGE OF Eventbrite API:
+     1) Update search with Eventbrite.updateSearch(...)
+     2) run getEvents()
+    */
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+ //   getEvents()
+    
+      self.getEvents()
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1) { // change 2 to desired number of seconds
+      self.tableView.reloadData()
+      // Your code with delay
+    }
+    
+  }
+  
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return events.count
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath) //need to fix
+    let event = events[indexPath.row]
+    let name = event.name
+    //cell.nameLabel.text = name
+    return cell
+  }
+
+}
+

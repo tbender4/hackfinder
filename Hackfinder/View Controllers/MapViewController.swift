@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController {
+class MapViewController: UIViewController {
 
 
     @IBOutlet weak var mapView: MKMapView!
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     }
     
 }
-extension ViewController: MKMapViewDelegate {
+extension MapViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         // Customize the pin drop
@@ -78,7 +78,7 @@ extension ViewController: MKMapViewDelegate {
     }
 }
 
-extension ViewController: CLLocationManagerDelegate {
+extension MapViewController: CLLocationManagerDelegate {
     func configureLocationServices(){ // are we authorized to access the location
         if authorizationStatus == .notDetermined {
             locationManager.requestAlwaysAuthorization() // Whether the app is closed or open we are always going to request location

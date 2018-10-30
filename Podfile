@@ -6,5 +6,6 @@ target 'Hackfinder' do
   use_frameworks!
 
   # Pods for Hackfinder
+  pod 'SideMenu'
 
 end
