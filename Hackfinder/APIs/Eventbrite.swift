@@ -81,6 +81,8 @@ class Eventbrite {
     self.workingURL = generateURL(sortBy: sortBy, locationAddress: locationAddress, locationWithin: locationWithin, isFree: isFree)
   }
   
+  
+  
   init() {
     print("Generating default url")
     session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)

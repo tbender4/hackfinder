@@ -20,23 +20,12 @@ class ViewController: UIViewController {
     
     var events: [Event] = []    //once one event can be parsed, do the rest
   
+ // let queue = DispatchQueue.global()
+  
+
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    mapView.delegate = self
-    locationManager.delegate = self
-    configureLocationServices()
-        
-    func getEvents () {
-      Eventbrite.getEvents { (events: [Event]?, error: Error?) in
-        if let events = events {
-          self.events = events
-        } else {
-          print("error")
-        }
-      }
-    }
     
     /*
      USAGE OF Eventbrite API:
@@ -44,8 +33,23 @@ class ViewController: UIViewController {
      2) run getEvents()
     */
     Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    getEvents()
+ //   getEvents()
+    
+
+      self.getEvents()
+    centerMapOnUserLocation()
+    
   }
+        
+    func getEvents () {
+        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+            if let events = events {
+                self.events = events
+            } else {
+                print("error")
+            }
+        }
+    }
     @IBAction func centerBtnWasPressed(_ sender: Any) {
         if authorizationStatus == .authorizedAlways || authorizationStatus == .authorizedWhenInUse {
             centerMapOnUserLocation()

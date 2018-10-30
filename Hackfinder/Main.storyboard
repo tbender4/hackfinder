@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qKq-3L-y7O">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0W7-1H-I7j">
+            <objects>
+                <viewController id="qKq-3L-y7O" customClass="ViewController" customModule="Hackfinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="40A-0x-VcF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vhm-GZ-8hP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2oY-t0-Ygz">
+                                <rect key="frame" x="315" y="607" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Atf-KO-Dav"/>
+                                    <constraint firstAttribute="width" constant="40" id="zAu-py-V4K"/>
+                                </constraints>
+                                <state key="normal" image="Circle-Center-512"/>
+                                <connections>
+                                    <action selector="centerBtnWasPressed:" destination="qKq-3L-y7O" eventType="touchUpInside" id="O9N-7j-Y55"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vhm-GZ-8hP" firstAttribute="trailing" secondItem="9vl-8c-J5q" secondAttribute="trailing" id="5qO-fg-CWX"/>
+                            <constraint firstAttribute="trailing" secondItem="2oY-t0-Ygz" secondAttribute="trailing" constant="20" id="8Be-yI-bjL"/>
+                            <constraint firstItem="Vhm-GZ-8hP" firstAttribute="top" secondItem="40A-0x-VcF" secondAttribute="top" id="Ont-Vu-ve0"/>
+                            <constraint firstAttribute="bottom" secondItem="2oY-t0-Ygz" secondAttribute="bottom" constant="20" id="VDO-8f-iL5"/>
+                            <constraint firstItem="Vhm-GZ-8hP" firstAttribute="bottom" secondItem="9vl-8c-J5q" secondAttribute="bottom" id="aKG-Bc-I32"/>
+                            <constraint firstItem="Vhm-GZ-8hP" firstAttribute="leading" secondItem="9vl-8c-J5q" secondAttribute="leading" id="y6i-G9-IP7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9vl-8c-J5q"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Vhm-GZ-8hP" id="jde-Db-Nfb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iky-qR-hvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="178.56071964017991"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Circle-Center-512" width="512" height="512"/>
+    </resources>
+</document>
