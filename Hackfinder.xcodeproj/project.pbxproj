@@ -18,6 +18,7 @@
 		E9909ECE218801AE0098EFD3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9909EC9218801AE0098EFD3 /* Event.swift */; };
 		E9909ECF218801AE0098EFD3 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9909ECB218801AE0098EFD3 /* ListViewController.swift */; };
 		E9909ED0218801AE0098EFD3 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9909ECC218801AE0098EFD3 /* FilterViewController.swift */; };
+		E9909ED22188F1C90098EFD3 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9909ED12188F1C80098EFD3 /* EventCell.swift */; };
 		E9ABD089217946740040E800 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ABD088217946740040E800 /* Token.swift */; };
 		E9DD51822179367200620C9F /* Eventbrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DD51812179367200620C9F /* Eventbrite.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		E9909EC9218801AE0098EFD3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E9909ECB218801AE0098EFD3 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		E9909ECC218801AE0098EFD3 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		E9909ED12188F1C80098EFD3 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		E9ABD088217946740040E800 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		E9DD51812179367200620C9F /* Eventbrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventbrite.swift; sourceTree = "<group>"; };
 		F2838532BC375AAF9C3E5E67 /* Pods_Hackfinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hackfinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +94,8 @@
 		E905AD7E2175775C0043BEC7 /* Hackfinder */ = {
 			isa = PBXGroup;
 			children = (
+				E9909ECA218801AE0098EFD3 /* View Controllers */,
+				E9909EC7218801AE0098EFD3 /* Models */,
 				E9DD51802179364E00620C9F /* APIs */,
 				E905AD7F2175775C0043BEC7 /* AppDelegate.swift */,
 				E905AD862175775D0043BEC7 /* Assets.xcassets */,
@@ -117,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				E9909ECB218801AE0098EFD3 /* ListViewController.swift */,
+				E9909ED12188F1C80098EFD3 /* EventCell.swift */,
 				E905AD812175775C0043BEC7 /* MapViewController.swift */,
 				E9909ECC218801AE0098EFD3 /* FilterViewController.swift */,
 			);
@@ -127,8 +132,6 @@
 		E9DD51802179364E00620C9F /* APIs */ = {
 			isa = PBXGroup;
 			children = (
-				E9909EC7218801AE0098EFD3 /* Models */,
-				E9909ECA218801AE0098EFD3 /* View Controllers */,
 				E9DD51812179367200620C9F /* Eventbrite.swift */,
 				E9ABD088217946740040E800 /* Token.swift */,
 			);
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DD51822179367200620C9F /* Eventbrite.swift in Sources */,
+				E9909ED22188F1C90098EFD3 /* EventCell.swift in Sources */,
 				E905AD822175775C0043BEC7 /* MapViewController.swift in Sources */,
 				E9909ED0218801AE0098EFD3 /* FilterViewController.swift in Sources */,
 				E905AD802175775C0043BEC7 /* AppDelegate.swift in Sources */,

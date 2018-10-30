@@ -167,7 +167,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9L-u3-vbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3716" y="178.56071964017991"/>
+            <point key="canvasLocation" x="3800.8000000000002" y="924.28785607196414"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="xcq-m1-bvs">
@@ -186,7 +186,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUR-GV-tFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2764" y="178.56071964017991"/>
+            <point key="canvasLocation" x="2984.8000000000002" y="923.38830584707648"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mWI-Cq-uGg">
@@ -199,6 +199,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="5E1-Yn-qh8" kind="relationship" relationship="viewControllers" id="LAS-0p-xSm"/>
+                        <segue destination="Il8-Ow-Z70" kind="relationship" relationship="viewControllers" id="f4G-8K-2Qr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n9n-12-Cqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -224,8 +225,115 @@
             </objects>
             <point key="canvasLocation" x="1108" y="178.56071964017991"/>
         </scene>
+        <!--List View Controller-->
+        <scene sceneID="Hxm-k5-MGt">
+            <objects>
+                <viewController id="JXf-0d-pUL" customClass="ListViewController" customModule="Hackfinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PTK-Xo-3z9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kse-Qy-vwI">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" rowHeight="196" id="Fri-qD-Vg0" customClass="EventCell" customModule="Hackfinder" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="196"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fri-qD-Vg0" id="sfV-cB-O5j">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="195.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018-11-04T00:00:00Z" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIv-Ok-HAT">
+                                                    <rect key="frame" x="165" y="71" width="210" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="210" id="91K-Ky-Qer"/>
+                                                        <constraint firstAttribute="height" constant="21" id="wMf-29-5o1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="16007 Crenshaw Blvd Torrance, CA 90506" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNz-nd-i1G">
+                                                    <rect key="frame" x="201" y="82" width="159" height="75"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="159" id="01g-cT-0pG"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Amazon Alexa Skill Development Workshop &amp; Hackathon" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqE-K1-EzE">
+                                                    <rect key="frame" x="21" y="17" width="339" height="46"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="rqE-K1-EzE" firstAttribute="leading" secondItem="sfV-cB-O5j" secondAttribute="leadingMargin" constant="5" id="57t-4K-DfE"/>
+                                                <constraint firstItem="rqE-K1-EzE" firstAttribute="trailing" secondItem="hNz-nd-i1G" secondAttribute="trailing" id="CYx-u7-zPu"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rqE-K1-EzE" secondAttribute="trailing" constant="-1" id="FQ5-qJ-Qew"/>
+                                                <constraint firstAttribute="trailing" secondItem="HIv-Ok-HAT" secondAttribute="trailing" id="ITZ-Vi-HqE"/>
+                                                <constraint firstItem="hNz-nd-i1G" firstAttribute="top" secondItem="rqE-K1-EzE" secondAttribute="bottom" constant="19" id="U8z-gj-fv4"/>
+                                                <constraint firstItem="HIv-Ok-HAT" firstAttribute="top" secondItem="rqE-K1-EzE" secondAttribute="bottom" constant="8" symbolic="YES" id="VbU-lg-xOk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="hNz-nd-i1G" secondAttribute="bottom" constant="28" id="YPj-b5-8fE"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="HIv-Ok-HAT" secondAttribute="bottom" constant="93" id="ec1-O5-CT9"/>
+                                                <constraint firstItem="rqE-K1-EzE" firstAttribute="top" secondItem="sfV-cB-O5j" secondAttribute="topMargin" constant="6" id="jg1-nh-lcp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="hNz-nd-i1G" id="wCT-kk-V26"/>
+                                            <outlet property="dateLabel" destination="HIv-Ok-HAT" id="OuY-EC-yUV"/>
+                                            <outlet property="nameLabel" destination="rqE-K1-EzE" id="PCq-GL-PK5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="npZ-98-b1r"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SyG-hq-GEh">
+                        <barButtonItem key="rightBarButtonItem" title="Filter..." id="NFx-aP-P72">
+                            <connections>
+                                <segue destination="uAr-E3-gUh" kind="presentation" id="DCa-Gx-k9C"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Kse-Qy-vwI" id="u2f-ab-VIl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hJ-W8-5hs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="922.48875562218893"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="0lM-Tz-HYI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Il8-Ow-Z70" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="List" id="gcY-h6-ley"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vHe-Vn-8om">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JXf-0d-pUL" kind="relationship" relationship="rootViewController" id="uM1-lT-5BK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ber-5A-ANO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="922.48875562218893"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Circle-Center-512" width="512" height="512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="DCa-Gx-k9C"/>
+    </inferredMetricsTieBreakers>
 </document>

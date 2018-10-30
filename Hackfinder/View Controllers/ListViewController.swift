@@ -7,11 +7,10 @@
 //
 
 import UIKit
-import SideMenu
 
 class ListViewController: UIViewController, UITableViewDataSource {
-
   @IBOutlet weak var tableView: UITableView!
+  
   
   var events: [Event] = []    //once one event can be parsed, do the rest
   
@@ -29,7 +28,6 @@ class ListViewController: UIViewController, UITableViewDataSource {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = self
-    SideMenuManager.default.menuFadeStatusBar = false
     /*
      USAGE OF Eventbrite API:
      1) Update search with Eventbrite.updateSearch(...)
@@ -39,7 +37,7 @@ class ListViewController: UIViewController, UITableViewDataSource {
  //   getEvents()
     
       self.getEvents()
-    DispatchQueue.main.asyncAfter(deadline: .now() + 1) { // change 2 to desired number of seconds
+    DispatchQueue.main.asyncAfter(deadline: .now() + 2) { // change 2 to desired number of seconds
       self.tableView.reloadData()
       // Your code with delay
     }
@@ -51,10 +49,16 @@ class ListViewController: UIViewController, UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath) //need to fix
+    let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) as! EventCell
+  //  let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) //need to fix
     let event = events[indexPath.row]
     let name = event.name
-    //cell.nameLabel.text = name
+    let date = event.date
+    let address = event.address?.addressMultiLine
+    //let addressText: String = (address?.joined(separator: "\n"))!
+    cell.nameLabel.text = name
+    cell.dateLabel.text = date
+    //cell.addressLabel.text = addressText
     return cell
   }
 
