@@ -167,7 +167,39 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9L-u3-vbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3800.8000000000002" y="924.28785607196414"/>
+            <point key="canvasLocation" x="3028" y="922"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="rUa-ow-l7B">
+            <objects>
+                <viewController id="Ykl-PC-dEV" customClass="DetailViewController" customModule="Hackfinder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0pY-94-xhB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9s-Kw-zT7">
+                                <rect key="frame" x="0.0" y="64" width="375" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMz-Ok-Ag8">
+                                <rect key="frame" x="0.0" y="328" width="375" height="290"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UnN-aB-wsB"/>
+                    </view>
+                    <connections>
+                        <outlet property="LogoImageView" destination="r9s-Kw-zT7" id="Fj1-2y-Yn8"/>
+                        <outlet property="overviewLabel" destination="fMz-Ok-Ag8" id="OcK-3l-YXJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9e-9R-yzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="1678.1109445277364"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="xcq-m1-bvs">
@@ -186,7 +218,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dUR-GV-tFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2984.8000000000002" y="923.38830584707648"/>
+            <point key="canvasLocation" x="2047" y="922"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mWI-Cq-uGg">
@@ -194,6 +226,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kFb-qp-uiO" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CnO-Ky-ntu">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -287,6 +320,7 @@
                                             <outlet property="addressLabel" destination="hNz-nd-i1G" id="wCT-kk-V26"/>
                                             <outlet property="dateLabel" destination="HIv-Ok-HAT" id="OuY-EC-yUV"/>
                                             <outlet property="nameLabel" destination="rqE-K1-EzE" id="PCq-GL-PK5"/>
+                                            <segue destination="Ykl-PC-dEV" kind="show" id="Gog-PX-L97"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
