@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftDate
 
 class ListViewController: UIViewController, UITableViewDataSource {
   @IBOutlet weak var tableView: UITableView!
@@ -55,13 +56,17 @@ class ListViewController: UIViewController, UITableViewDataSource {
     let name = event.name
     
     //implement cocoapod and do this properly
-    let date = event.date
+    //2018-11-16T22:00:00Z
+    let dateISOString = event.date
+    let date = dateISOString.toISODate(region: Region.ISO)!
+    let dateLabelString = date.toFormat("E, MMMM dd")
+    
     
     let address = event.address?.addressMultiLine
     //let addressText: String = (address?.joined(separator: "\n"))!
     
     cell.nameLabel.text = name
-    //cell.dateLabel.text = formattedDate as String
+    cell.dateLabel.text = dateLabelString
     //cell.addressLabel.text = addressText
     return cell
   }
