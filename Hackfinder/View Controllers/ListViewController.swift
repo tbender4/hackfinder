@@ -53,11 +53,15 @@ class ListViewController: UIViewController, UITableViewDataSource {
   //  let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) //need to fix
     let event = events[indexPath.row]
     let name = event.name
+    
+    //implement cocoapod and do this properly
     let date = event.date
+    
     let address = event.address?.addressMultiLine
     //let addressText: String = (address?.joined(separator: "\n"))!
+    
     cell.nameLabel.text = name
-    cell.dateLabel.text = date
+    //cell.dateLabel.text = formattedDate as String
     //cell.addressLabel.text = addressText
     return cell
   }
