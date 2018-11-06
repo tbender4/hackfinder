@@ -68,6 +68,8 @@ class ListViewController: UIViewController, UITableViewDataSource {
     cell.dateLabel.text = formattedDate(date: event.date)
     cell.addressLabel.text = addressText
     return cell
+    
+    //TODO: Move to separate function in EventCell?
   }
 
 }

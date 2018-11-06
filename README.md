@@ -16,8 +16,8 @@ The following **required** user stories are complete:
 - [ ] app icon in home screen, styled launch screen
 - [ ] **Fliter View** Implement [SideMenu](https://github.com/jonkykong/SideMenu)
 - [ ] **List View** user can change location of nearby hackathons to list
-- [ ] **List View** user can scroll through list of hackathons
-- [ ] **Map View** display map using location of user
+- [x] **List View** user can scroll through list of hackathons
+- [x] **Map View** display map using location of user
 - [ ] **Map View** have pins for nearby hackathons by default
 - [ ] **Map View** user can click on pin to bring up detail view of event
 - [ ] **Detail View** show all information provided by eventbrite api
@@ -47,6 +47,12 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for findin
 The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the map view integration.
 
 ## Model Classes
+
+- UserEvent
+  - [x] `events`
+  - [x] `getEvents`
+  - [x] `safeToReload`
+  
 - Event
   - [x] `name`
   - [x] `description`
@@ -58,23 +64,32 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the ma
   - [x] `capacity`
   - [x] `originalLogo`
   - [x] `smallLogo`
+  
+  - [x] `init(event: [String: Any])`
+  - [x] `func getAddress`
+  - [x] `helper events func`
 
-- EventApiManager
+
+- Eventbrite
   - [x] `userToken`
   - [x] `baseURL`
-  - [x] `smallLogo`
-  - [x] `workingURL`
+  
+  - [x] `func generateURL`
+  - [x] `func generateVenueURL`
+  - [x] `func getEvents`
+  - [x] `func getVenueInfo`
+  - [x] `func updateSearch`
+  
+  
 
 - Map
   - `MapPins`
 
 - EventCell
-  - `title`
-  - `overview`
-  - `avatar`
-  - `date`
-  - `rsvp`
-  - 
+  - [x] `name`
+  - [x] `date`
+  - [x] `address`
+  - [x] `tableView
 
 - MapViewController
   - `map`
@@ -127,7 +142,8 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the ma
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+**As of 11/06; commit 632109d** 
+<img src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
