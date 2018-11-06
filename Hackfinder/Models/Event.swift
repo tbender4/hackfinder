@@ -88,7 +88,7 @@ class Event {
     self.venueID = venueID
     
     
-    group.enter()
+//    group.enter()
     getAddress()
     
   }
@@ -98,10 +98,10 @@ class Event {
       if let address = address {
        // print(address.city)
         self.address = address
-        self.group.leave()
+//        self.group.leave()
       } else {
         print("error in getting address")
-        self.group.leave()
+//        self.group.leave()
       }
     }
   }

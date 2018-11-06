@@ -32,7 +32,6 @@ class Address {
 //  let venueID: String?
   
   var name: String?
-  
   var addressOne: String?
   var addressTwo: String?
   var city: String?
