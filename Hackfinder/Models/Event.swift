@@ -80,7 +80,7 @@ class Event {
       if let address = address {
        // print(address.city)
         self.address = address
-        ListViewController.addressCount += 1
+        UserEvents.addressCount += 1
 //        self.group.leave()
       } else {
         print("error in getting address")

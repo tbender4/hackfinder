@@ -12,18 +12,13 @@ class UserEvents {
   //We need to move everything from ListViewController to this separate class
   //so that BOTH ListViewController and MapViewController will
   //share the same data.
-  var events: [Event] = []
+  static var events: [Event] = []
   static var addressCount = 0
-  let group = DispatchGroup()   //to pause
-  let queue = DispatchQueue(label: "eventQueue")
+  static let group = DispatchGroup()   //to pause
+  static let queue = DispatchQueue(label: "eventQueue")
   
-  init() {
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    group.enter()
-  }
-  
-  func getEvents () {
-    
+  static func getEvents () {
+    UserEvents.group.enter()
     Eventbrite.getEvents { (events: [Event]?, error: Error?) in
       if let events = events {
         self.events = events
@@ -35,6 +30,12 @@ class UserEvents {
     }
   }
   
+  static func safeToReload() -> Bool {
+    if UserEvents.addressCount == UserEvents.events.count {
+      return true
+    }
+    return false
+  }
   
   
 }

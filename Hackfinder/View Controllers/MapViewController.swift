@@ -22,8 +22,6 @@ class MapViewController: UIViewController {
   
  // let queue = DispatchQueue.global()
   
-
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -36,20 +34,20 @@ class MapViewController: UIViewController {
  //   getEvents()
     
 
-      self.getEvents()
+      UserEvents.getEvents()
     centerMapOnUserLocation()
     
   }
         
-    func getEvents () {
-        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
-            if let events = events {
-                self.events = events
-            } else {
-                print("error")
-            }
-        }
-    }
+//    func getEvents () {
+//        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+//            if let events = events {
+//                self.events = events
+//            } else {
+//                print("error")
+//            }
+//        }
+//    }
     @IBAction func centerBtnWasPressed(_ sender: Any) {
         if authorizationStatus == .authorizedAlways || authorizationStatus == .authorizedWhenInUse {
             centerMapOnUserLocation()
