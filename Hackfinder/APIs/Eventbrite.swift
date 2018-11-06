@@ -14,6 +14,7 @@
 
 
 import Foundation
+import Alamofire
 
 class Eventbrite {
   static let baseURL = "https://www.eventbriteapi.com/v3/"
@@ -76,6 +77,33 @@ class Eventbrite {
     }
     task.resume()
   }
+  
+  static func getVenueInfo(venueID: String, completion: @escaping (Address?, Error?) -> ()) {
+    print(venueID)
+    let url = generateVenueURL(venueID: venueID)
+    print(url)
+    let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+    let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+    let task = session.dataTask(with: request) { (data, response, error) in
+      if let error = error {
+        print(error.localizedDescription)
+      } else if let data = data {
+        //do code
+        let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+        let address = Address(venue: dataDictionary)
+        completion(address, nil)
+      } else {
+        completion(nil, error)
+      }
+    }
+    task.resume()
+  }
+  static func generateVenueURL(venueID: String) -> URL {
+    //https://www.eventbriteapi.com/v3/venues/27321840/?token=KB5QEQ6C22MFGF7HJKIS
+    let urlString = "https://www.eventbriteapi.com/v3/venues/" + venueID + "?token=" + Token.personalOAuthToken
+    return URL(string: urlString)!
+  }
+  
   
   static func updateSearch(sortBy: String, locationAddress: String, locationWithin: String, isFree: Bool) {
     self.workingURL = generateURL(sortBy: sortBy, locationAddress: locationAddress, locationWithin: locationWithin, isFree: isFree)

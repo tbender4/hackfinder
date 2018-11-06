@@ -8,6 +8,7 @@ target 'Hackfinder' do
   # Pods for Hackfinder
   pod 'SideMenu'
   pod 'SwiftDate'
+  pod 'Alamofire'
   pod 'AlamofireImage'
 
 end

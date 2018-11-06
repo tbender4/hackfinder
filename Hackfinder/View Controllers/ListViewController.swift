@@ -13,17 +13,30 @@ class ListViewController: UIViewController, UITableViewDataSource {
   @IBOutlet weak var tableView: UITableView!
   
   
-  var events: [Event] = []    //once one event can be parsed, do the rest
+  var events: [Event] = []
+  let group = DispatchGroup()   //to pause
+  let queue = DispatchQueue(label: "eventQueue")
   
   func getEvents () {
+    
     Eventbrite.getEvents { (events: [Event]?, error: Error?) in
       if let events = events {
         self.events = events
+        self.group.leave()
       } else {
         print("error")
+        self.group.leave()
       }
     }
-    tableView.reloadData()
+  }
+  
+  func setAddress (event: Event) -> Event {
+    let venueID = event.venueID
+    Eventbrite.getVenueInfo(venueID: venueID) { (address: Address?, error: Error?) in
+     event.address = address
+      print(address?.city ?? "city error")
+    }
+    return event
   }
   
   override func viewDidLoad() {
@@ -33,17 +46,20 @@ class ListViewController: UIViewController, UITableViewDataSource {
      USAGE OF Eventbrite API:
      1) Update search with Eventbrite.updateSearch(...)
      2) run getEvents()
-    */
+     */
     Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
- //   getEvents()
+    //   getEvents()
     
-      self.getEvents()
-    DispatchQueue.main.asyncAfter(deadline: .now() + 2) { // change 2 to desired number of seconds
+    group.enter()
+    self.getEvents()
+    
+    group.notify(queue: .main) {
       self.tableView.reloadData()
-      // Your code with delay
     }
-    
+    // Your code with delay
   }
+  
+
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return events.count
@@ -63,11 +79,11 @@ class ListViewController: UIViewController, UITableViewDataSource {
     
     
     let address = event.address?.addressMultiLine
-    //let addressText: String = (address?.joined(separator: "\n"))!
+    let addressText: String = (address?.joined(separator: "\n") ?? "error")
     
     cell.nameLabel.text = name
     cell.dateLabel.text = dateLabelString
-    //cell.addressLabel.text = addressText
+    cell.addressLabel.text = addressText
     return cell
   }
 

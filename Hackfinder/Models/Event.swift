@@ -27,56 +27,25 @@ class Event {
   var address: Address?
   
   
-  init() {
-    //passes through one event in dictionary form.
-    name = "name"
-    description = "description"
-    id = "idNumber"
-    url = "url"
-    date = "date"
-    startTime = "startTime"
-    endTime = "endTime"
-    capacity = "capacity"
-    originalLogo = "logo"
-    smallLogo = "smallLogo"
-    venueID = "00"
-    address = Address(venueID: "0")
-  }
+//  init() {
+//    //passes through one event in dictionary form.
+//    name = "name"
+//    description = "description"
+//    id = "idNumber"
+//    url = "url"
+//    date = "date"
+//    startTime = "startTime"
+//    endTime = "endTime"
+//    capacity = "capacity"
+//    originalLogo = "logo"
+//    smallLogo = "smallLogo"
+//    venueID = "00"
+//    address = Address(venueID: "0")
+//  }
   
-  func debug() {
-    print("DEBUG CALLED")
-    print("Name:")
-    print(name)
-    print("")
-    print("Description:")
-    print(description)
-    print("")
-    print("ID:")
-    print (id)
-    print("")
-    print("URL:")
-    print (url)
-    print("")
-    print("Date: ")
-    print (date)
-    print("")
-    // print (startTime)
-    //  print (endTime)
-    print("Capacity:")
-    print (capacity)
-    print("")
-    print("Original:")
-    print(originalLogo)
-    print("")
-    print("Small: ")
-    print(smallLogo)
-    print("")
-    print("Venue ID:")
-    print(venueID)
-    print("")
-    print("END DEBUG")
-    print("////////////////////")
-  }
+  let group = DispatchGroup()
+  
+
   
   init(event: [String: Any]) {
     
@@ -119,11 +88,74 @@ class Event {
     self.venueID = venueID
     
     
-    address = Address(venueID: self.venueID)
+    group.enter()
+    getAddress()
     
-    debug()
   }
   
+  func getAddress() {
+    Eventbrite.getVenueInfo(venueID: self.venueID) { (address: Address?, error: Error?) in
+      if let address = address {
+       // print(address.city)
+        self.address = address
+        self.group.leave()
+      } else {
+        print("error in getting address")
+        self.group.leave()
+      }
+    }
+  }
+  
+  
+  
+//  func getEvents () {
+//
+//    Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+//      if let events = events {
+//        self.events = events
+//        self.group.leave()
+//      } else {
+//        print("error")
+//        self.group.leave()
+//      }
+//    }
+//  }
+//
+  
+  func debug() {
+    print("DEBUG CALLED")
+    print("Name:")
+    print(name)
+    print("")
+    print("Description:")
+    print(description)
+    print("")
+    print("ID:")
+    print (id)
+    print("")
+    print("URL:")
+    print (url)
+    print("")
+    print("Date: ")
+    print (date)
+    print("")
+    // print (startTime)
+    //  print (endTime)
+    print("Capacity:")
+    print (capacity)
+    print("")
+    print("Original:")
+    print(originalLogo)
+    print("")
+    print("Small: ")
+    print(smallLogo)
+    print("")
+    print("Venue ID:")
+    print(venueID)
+    print("")
+    print("END DEBUG")
+    print("////////////////////")
+  }
   
   
   class func events(dictionaries: [[String: Any]]) -> [Event] {

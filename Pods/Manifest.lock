@@ -6,6 +6,7 @@ PODS:
   - SwiftDate (5.0.10)
 
 DEPENDENCIES:
+  - Alamofire
   - AlamofireImage
   - SideMenu
   - SwiftDate
@@ -23,6 +24,6 @@ SPEC CHECKSUMS:
   SideMenu: e5094f0b2e7d9609e100a90ae69025abd994f882
   SwiftDate: fcdaa7ca22a903faf6d7ed231239a88d174dcae3
 
-PODFILE CHECKSUM: e8bd9572f3c32807cc5d045a0a0596e60f4b55ea
+PODFILE CHECKSUM: 6db31657a41567cf4ecefbb06a1a060b5e6c0f82
 
 COCOAPODS: 1.5.3
