@@ -142,7 +142,7 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for the ma
 
 Here's a walkthrough of implemented user stories:
 
-**As of 11/06; commit** 632109d
+**As of 11/06; commit:** 052f3d4b8c429ee7a1bef26254900e595a4fccb5
 
 <img src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
