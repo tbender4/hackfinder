@@ -42,12 +42,7 @@ class Address {
   var longitude: String?   //use in map view
   var addressMultiLine: [String]?   //use localized_multi_line_address_display
   
-  func debug () {
 
-    print(city)
-    print(region)
-    print(postalCode)
-  }
   init(venue: [String: Any]) {
     let name = venue["name"] as? String
     let addressDictionary = venue["address"] as? [String: Any]
@@ -72,7 +67,6 @@ class Address {
     self.longitude = longitude
     self.addressMultiLine = addressMultiLine
     
-    //debug()
   }
   
 //  func getVenueInfo () {

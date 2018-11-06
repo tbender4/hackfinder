@@ -26,25 +26,8 @@ class Event {
   var venueID: String
   var address: Address?
   
-  
-//  init() {
-//    //passes through one event in dictionary form.
-//    name = "name"
-//    description = "description"
-//    id = "idNumber"
-//    url = "url"
-//    date = "date"
-//    startTime = "startTime"
-//    endTime = "endTime"
-//    capacity = "capacity"
-//    originalLogo = "logo"
-//    smallLogo = "smallLogo"
-//    venueID = "00"
-//    address = Address(venueID: "0")
-//  }
-  
+
   let group = DispatchGroup()
-  
 
   
   init(event: [String: Any]) {
@@ -90,7 +73,6 @@ class Event {
     
 //    group.enter()
     getAddress()
-    
   }
   
   func getAddress() {
@@ -98,6 +80,7 @@ class Event {
       if let address = address {
        // print(address.city)
         self.address = address
+        ListViewController.addressCount += 1
 //        self.group.leave()
       } else {
         print("error in getting address")
@@ -105,22 +88,7 @@ class Event {
       }
     }
   }
-  
-  
-  
-//  func getEvents () {
-//
-//    Eventbrite.getEvents { (events: [Event]?, error: Error?) in
-//      if let events = events {
-//        self.events = events
-//        self.group.leave()
-//      } else {
-//        print("error")
-//        self.group.leave()
-//      }
-//    }
-//  }
-//
+
   
   func debug() {
     print("DEBUG CALLED")

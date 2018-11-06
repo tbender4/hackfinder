@@ -14,8 +14,32 @@ class ListViewController: UIViewController, UITableViewDataSource {
   
   
   var events: [Event] = []
+  static var addressCount = 0
   let group = DispatchGroup()   //to pause
   let queue = DispatchQueue(label: "eventQueue")
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    tableView.dataSource = self
+    /*
+     USAGE OF Eventbrite API:
+     1) Update search with Eventbrite.updateSearch(...)
+     2) run getEvents()
+     */
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+    
+    group.enter()
+    self.getEvents()
+    
+    group.notify(queue: .main) {
+      self.queue.async {
+        while ListViewController.addressCount != self.events.count {
+          //intentionally blank. hackjob to wait for address to finish first.
+        }
+        self.tableView.reloadData()
+      }
+    }
+  }
   
   func getEvents () {
     
@@ -30,34 +54,6 @@ class ListViewController: UIViewController, UITableViewDataSource {
     }
   }
   
-//  func setAddress (event: Event) -> Event {
-//    let venueID = event.venueID
-//    Eventbrite.getVenueInfo(venueID: venueID) { (address: Address?, error: Error?) in
-//     event.address = address
-//      print(address?.city ?? "city error")
-//    }
-//    return event
-//  }
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    tableView.dataSource = self
-    /*
-     USAGE OF Eventbrite API:
-     1) Update search with Eventbrite.updateSearch(...)
-     2) run getEvents()
-     */
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    //   getEvents()
-    
-    group.enter()
-    self.getEvents()
-    
-    group.notify(queue: .main) {
-      self.tableView.reloadData()
-    }
-  }
-  
   func formattedDate(date: String) -> String {
     let dateISO = date.toISODate(region: Region.ISO)!
     return dateISO.toFormat("E, MMMM dd")
@@ -69,14 +65,8 @@ class ListViewController: UIViewController, UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) as! EventCell
-  //  let cell = tableView.dequeueReusableCell(withIdentifier: "EventCell", for: indexPath) //need to fix
     let event = events[indexPath.row]
     let name = event.name
-    
-    //implement cocoapod and do this properly //Done!
-    //2018-11-16T22:00:00Z
-    
-    
     
     var address = event.address?.addressMultiLine
     if let venueName = event.address?.name {
