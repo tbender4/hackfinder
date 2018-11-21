@@ -17,10 +17,14 @@ class MapViewController: UIViewController {
     var locationManager = CLLocationManager()
     let authorizationStatus = CLLocationManager.authorizationStatus() // Keeps Track
     let regionRadius: Double = 1000
-    
     var events: [Event] = []    //once one event can be parsed, do the rest
-  
+//    let coords = [  CLLocation(latitude: xxxx, longitude: xxxx),
+//                    CLLocation(latitude: xxx, longitude: xxx),
+//                    CLLocation(latitude: xxx, longitude:xxx)
+//    ];
  // let queue = DispatchQueue.global()
+    var coords : [CLLocation] = []
+    
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -37,8 +41,33 @@ class MapViewController: UIViewController {
       UserEvents.getEvents()
     centerMapOnUserLocation()
     
+    UserEvents.group.notify(queue: .main) {
+        DispatchQueue.global().async {
+            while true {
+                if UserEvents.safeToReload() {
+                    //self.tableView.reloadData()
+                    //print(UserEvents.events[0].address?.latitude as! String)
+                    
+                    for coor in UserEvents.events{
+                        let lat = Double(coor.address?.latitude as! String)
+                        let long = Double(coor.address?.longitude as! String)
+                        let loc = CLLocation(latitude: lat!, longitude: long!)
+                        self.coords.append(loc)
+                    }
+                    
+                    self.addAnnotations(coords: self.coords)
+                    
+                    break
+                }
+            }
+        }
+    }
+    
+    
+    
   }
-        
+    
+    
 //    func getEvents () {
 //        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
 //            if let events = events {
@@ -53,6 +82,35 @@ class MapViewController: UIViewController {
             centerMapOnUserLocation()
         }
     }
+    
+    func addAnnotations(coords: [CLLocation]){
+        for coord in coords{
+            let CLLCoordType = CLLocationCoordinate2D(latitude: coord.coordinate.latitude,
+                                                      longitude: coord.coordinate.longitude);
+            let anno = MKPointAnnotation();
+            anno.coordinate = CLLCoordType;
+            mapView.addAnnotation(anno);
+        }
+        
+    }
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation{
+            return nil;
+        }else{
+            let pinIdent = "Pin";
+            var pinView: MKPinAnnotationView;
+            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: pinIdent) as? MKPinAnnotationView {
+                dequeuedView.annotation = annotation;
+                pinView = dequeuedView;
+            }else{
+                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinIdent);
+    
+            }
+        return pinView;
+    }
+}
+    
     
 }
 extension MapViewController: MKMapViewDelegate {
