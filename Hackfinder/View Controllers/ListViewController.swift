@@ -9,7 +9,7 @@
 import UIKit
 import SwiftDate
 
-class ListViewController: UIViewController, UITableViewDataSource {
+class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   @IBOutlet weak var tableView: UITableView!
   
   let userEvents = UserEvents()
@@ -22,6 +22,7 @@ class ListViewController: UIViewController, UITableViewDataSource {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = self
+    tableView.delegate = self
     /*
      USAGE OF Eventbrite API:
      1) Update search with Eventbrite.updateSearch(...)
@@ -71,6 +72,6 @@ class ListViewController: UIViewController, UITableViewDataSource {
     
     //TODO: Move to separate function in EventCell?
   }
-
+    
 }
 

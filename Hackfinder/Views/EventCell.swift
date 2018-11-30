@@ -10,14 +10,22 @@ import UIKit
 
 class EventCell: UITableViewCell {
 
-  @IBOutlet weak var nameLabel: UILabel!
-  @IBOutlet weak var dateLabel: UILabel!
-  @IBOutlet weak var addressLabel: UILabel!
-  
-  
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    @IBOutlet weak var addressLabel: UILabel!
+    
+    @IBOutlet weak var innerVIew: UIView!
+    
+    
+    
+    @IBOutlet weak var view: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        customize()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -25,5 +33,11 @@ class EventCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    
+    func customize(){
+        innerVIew.layer.cornerRadius = 20
+    }
+    
 
 }
