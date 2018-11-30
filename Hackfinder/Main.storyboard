@@ -381,7 +381,7 @@
         <scene sceneID="0lM-Tz-HYI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Il8-Ow-Z70" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="List" image="iconfinder_menu-alt_134216" id="gcY-h6-ley"/>
+                    <tabBarItem key="tabBarItem" title="List" image="terminal_21" id="gcY-h6-ley"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vHe-Vn-8om">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -405,6 +405,7 @@
         <image name="Circle-Center-512" width="512" height="512"/>
         <image name="iconfinder_menu-alt_134216" width="25" height="25"/>
         <image name="iconfinder_move_134218" width="25" height="25"/>
+        <image name="terminal_21" width="21" height="21"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="qbv-YP-6uE"/>
