@@ -36,7 +36,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
       DispatchQueue.global().async {
         while true {
           if UserEvents.safeToReload() {
-            self.tableView.reloadData()
+        
             break
           }
         }

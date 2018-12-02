@@ -16,6 +16,7 @@ class MapViewController: UIViewController {
 
     @IBOutlet weak var pullUpview: UIView!
     
+    
     @IBOutlet weak var pullUpViewHeight: NSLayoutConstraint!
     
     @IBOutlet weak var mapView: MKMapView!
@@ -31,13 +32,15 @@ class MapViewController: UIViewController {
     var coords : [CLLocation] = []
     var selectedAnnotation: MKPointAnnotation?
     var loadedEvents: [Event] = []
-    
+    var numberOfEvents = 0
     var screenSize = UIScreen.main.bounds
     var title3 = UILabel()
     var title4 = UILabel()
     var title5 = UILabel()
     var clickForInfo = UIButton()
-    
+    var currentLocation: CLLocation!
+    var farthestDistance = 0
+    var i = 0
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -83,22 +86,27 @@ class MapViewController: UIViewController {
                         let long = Double(ev.address?.longitude as! String)
                         let loc = CLLocation(latitude: lat!, longitude: long!)
                         self.coords.append(loc)
+                    
+                    }
+                    
+                    for c in self.coords{
+                        let distance = self.currentLocation.distance(from: c)
+                        if Int(distance) > self.farthestDistance {
+                            self.farthestDistance = Int(distance)
+                        }
                     }
                     
                     self.addAnnotations(coords: self.coords)
-                    
                     break
                 }
             }
         }
     }
-    
-    
-    
-    
-    
+
   }
     
+    
+   
     
 //    func getEvents () {
 //        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
@@ -113,30 +121,26 @@ class MapViewController: UIViewController {
         if authorizationStatus == .authorizedAlways || authorizationStatus == .authorizedWhenInUse {
             centerMapOnUserLocation()
         }
+        
     }
     
     func addAnnotations(coords: [CLLocation]){
-//        for coord in coords{
-//            let CLLCoordType = CLLocationCoordinate2D(latitude: coord.coordinate.latitude,
-//                                                      longitude: coord.coordinate.longitude);
-//            let anno = MKPointAnnotation();
-//            anno.title = "myAnnotation"
-//            anno.coordinate = CLLCoordType;
-//            mapView.addAnnotation(anno);
-//        }
         
         for e in loadedEvents{
             let lat = Double(e.address?.latitude as! String)
             let long = Double(e.address?.longitude as! String)
-           // let loc = CLLocation(latitude: lat!, longitude: long!)
             let CLLCoordType = CLLocationCoordinate2D(latitude: lat!,
                                                       longitude: long!);
-            let anno = MKPointAnnotation();
-            anno.title = "\(e.name)"
+            let anno = MKPointAnnotation()
+            var strDate = e.date.prefix(10)
+            strDate = strDate.suffix(5)
+            anno.title = "\(strDate.prefix(2))/\(strDate.suffix(2))"
             anno.coordinate = CLLCoordType;
-            mapView.addAnnotation(anno);
+            mapView.addAnnotation(anno)
+            
         }
-        
+     
+      
     }
     
     func pullUpView(lat: String, long: String){
@@ -166,7 +170,9 @@ class MapViewController: UIViewController {
             UIView.animate(withDuration: 0.3) {
                 self.view.layoutIfNeeded()
             }
-            pullUpview.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+            //pullUpview.backgroundColor = #colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)
+            
+            pullUpview.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
             
             if thisLat == latitude && thisLong == longitude {
                 //                print(ev.name)
@@ -189,7 +195,6 @@ class MapViewController: UIViewController {
                 
                 var strTime = ev.date.suffix(9)
                 strTime = strTime.prefix(8)
-                print(ev.date)
                 var strTimes = formatt(time: String(strTime))
                 addAllFunc(name: ev.name, date: String(strDate), time: String(strTimes))
                 }
@@ -271,21 +276,24 @@ class MapViewController: UIViewController {
         title3.frame = CGRect(x: 1, y: 20, width: 300, height: 120)
         title3.text = "\(name)"
         title3.numberOfLines = 0
-        title3.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        //title3.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        title3.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         pullUpview.addSubview(title3)
         
         title4 = UILabel()
         title4.frame = CGRect(x: 1, y: 80, width: 300, height: 120)
         title4.text = "Date: \(date)"
         title4.numberOfLines = 0
-        title4.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        //title4.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        title4.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         pullUpview.addSubview(title4)
         
         title5 = UILabel()
         title5.frame = CGRect(x: 1, y: 120, width: 300, height: 120)
         title5.text = "Time: \(time)"
         title5.numberOfLines = 0
-        title5.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        //title5.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        title5.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         pullUpview.addSubview(title5)
         
         clickForInfo = UIButton()
@@ -333,45 +341,41 @@ class MapViewController: UIViewController {
         }
     }
     
-//    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
-//        if annotation is MKUserLocation{
-//            return nil;
-//        }else{
-//            let pinIdent = "Pin";
-//            var pinView: MKPinAnnotationView;
-//            if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: pinIdent) as? MKPinAnnotationView {
-//                dequeuedView.annotation = annotation;
-//                pinView = dequeuedView;
-//            }else{
-//                pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: pinIdent);
-//
-//            }
-//        return pinView;
-//    }
-//
-//    }
-    
     
 }
 extension MapViewController: MKMapViewDelegate {
     
-//    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-//        // Customize the pin drop
-//
-//        if annotation is MKUserLocation {
-//            return nil
-//        }
-//        let pinAnnotation = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "droppablePin")
-//
-//        pinAnnotation.animatesDrop = true
-//
-//        return pinAnnotation
-//    }
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        // Customize the pin drop
+       
+        if annotation is MKUserLocation {
+            return nil
+        }
+
+
+        let pinAnnotation = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "droppablePin")
+        //pinAnnotation.pinTintColor = #colorLiteral(red: 0.521568656, green: 0.1098039225, blue: 0.05098039284, alpha: 1)
+        pinAnnotation.pinTintColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+        let annotationLabel = UILabel(frame: CGRect(x: -35, y: -30, width: 70, height: 26))
+        annotationLabel.text = annotation.title!
+        annotationLabel.textAlignment = .center
+        annotationLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+        annotationLabel.font = UIFont(name: "Avenir", size: 22)
+        annotationLabel.backgroundColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
+        annotationLabel.layer.cornerRadius = 5
+        annotationLabel.clipsToBounds = true
+        pinAnnotation.addSubview(annotationLabel)
+        pinAnnotation.animatesDrop = true
+ 
+        return pinAnnotation
+    }
+    
     
     func centerMapOnUserLocation(){ // Center the coordinate on user location
         guard let coordinate = locationManager.location?.coordinate else {return}
-        let coordinateRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters: regionRadius * 2.0, longitudinalMeters: regionRadius * 2.0)
+        let coordinateRegion = MKCoordinateRegion(center: coordinate, latitudinalMeters: Double(farthestDistance+(farthestDistance/3)) * 2.0, longitudinalMeters: Double(farthestDistance+(farthestDistance/4)) * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)
+        currentLocation = locationManager.location
         animateViewDown()
     }
     
@@ -389,6 +393,7 @@ extension MapViewController: CLLocationManagerDelegate {
     func configureLocationServices(){ // are we authorized to access the location
         if authorizationStatus == .notDetermined {
             locationManager.requestAlwaysAuthorization() // Whether the app is closed or open we are always going to request location
+            centerMapOnUserLocation()
         }else{
             return
         }
