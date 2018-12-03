@@ -191,12 +191,14 @@ class MapViewController: UIViewController {
                 pullUpview.addSubview(title2)
                 removeAllFunc()
                 
-                let strDate = ev.date.prefix(10)
-                
+                var strDate = ev.date.prefix(10)
+                let year = strDate.prefix(4)
+                strDate = strDate.suffix(5)
+                let origDate = "\(strDate.prefix(2))/\(strDate.suffix(2))/\(year)"
                 var strTime = ev.date.suffix(9)
                 strTime = strTime.prefix(8)
-                var strTimes = formatt(time: String(strTime))
-                addAllFunc(name: ev.name, date: String(strDate), time: String(strTimes))
+                let strTimes = formatt(time: String(strTime))
+                addAllFunc(name: ev.name, date: String(origDate), time: String(strTimes))
             }
             
         }
@@ -277,12 +279,14 @@ class MapViewController: UIViewController {
         title3.text = "\(name)"
         title3.numberOfLines = 0
         //title3.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+        title3.font = UIFont(name: "Avenir", size: 18)
         title3.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         pullUpview.addSubview(title3)
         
         title4 = UILabel()
         title4.frame = CGRect(x: 1, y: 80, width: 300, height: 120)
         title4.text = "Date: \(date)"
+        title4.font = UIFont(name: "Avenir", size: 16)
         title4.numberOfLines = 0
         //title4.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
         title4.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
@@ -291,6 +295,7 @@ class MapViewController: UIViewController {
         title5 = UILabel()
         title5.frame = CGRect(x: 1, y: 120, width: 300, height: 120)
         title5.text = "Time: \(time)"
+        title5.font = UIFont(name: "Avenir", size: 16)
         title5.numberOfLines = 0
         //title5.textColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
         title5.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
