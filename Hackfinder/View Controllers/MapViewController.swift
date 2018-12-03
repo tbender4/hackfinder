@@ -11,9 +11,9 @@ import MapKit
 import CoreLocation
 
 class MapViewController: UIViewController {
-
-
-
+    
+    
+    
     @IBOutlet weak var pullUpview: UIView!
     
     
@@ -24,11 +24,11 @@ class MapViewController: UIViewController {
     let authorizationStatus = CLLocationManager.authorizationStatus() // Keeps Track
     let regionRadius: Double = 1000
     var events: [Event] = []    //once one event can be parsed, do the rest
-//    let coords = [  CLLocation(latitude: xxxx, longitude: xxxx),
-//                    CLLocation(latitude: xxx, longitude: xxx),
-//                    CLLocation(latitude: xxx, longitude:xxx)
-//    ];
- // let queue = DispatchQueue.global()
+    //    let coords = [  CLLocation(latitude: xxxx, longitude: xxxx),
+    //                    CLLocation(latitude: xxx, longitude: xxx),
+    //                    CLLocation(latitude: xxx, longitude:xxx)
+    //    ];
+    // let queue = DispatchQueue.global()
     var coords : [CLLocation] = []
     var selectedAnnotation: MKPointAnnotation?
     var loadedEvents: [Event] = []
@@ -41,82 +41,82 @@ class MapViewController: UIViewController {
     var currentLocation: CLLocation!
     var farthestDistance = 0
     var i = 0
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-    /*
-     USAGE OF Eventbrite API:
-     1) Update search with Eventbrite.updateSearch(...)
-     2) run getEvents()
-    */
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
- //   getEvents()
     
-    mapView.delegate = self
-    UserEvents.getEvents()
-    centerMapOnUserLocation()
-    
-    mapView.layer.cornerRadius = 20
-    view.backgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
-    UserEvents.group.notify(queue: .main) {
-        DispatchQueue.global().async {
-            while true {
-                if UserEvents.safeToReload() {
-                    //self.tableView.reloadData()
-                    //print(UserEvents.events[0].address?.latitude as! String)
-                    
-                    for coor in UserEvents.events{
-//                        let lat = Double(coor.address?.latitude as! String)
-//                        let long = Double(coor.address?.longitude as! String)
-//                        let loc = CLLocation(latitude: lat!, longitude: long!)
-//                        self.loadedEvents.
-//                        let name = coor.name
-//                        let desc = coor.description
-//                        let startTime = coor.startTime
-//                        let date = coor.date
-//                        print(name)
-//                        self.coords.append(loc)
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        /*
+         USAGE OF Eventbrite API:
+         1) Update search with Eventbrite.updateSearch(...)
+         2) run getEvents()
+         */
+        Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+        //   getEvents()
+        
+        mapView.delegate = self
+        UserEvents.getEvents()
+        centerMapOnUserLocation()
+        
+        mapView.layer.cornerRadius = 20
+        view.backgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
+        UserEvents.group.notify(queue: .main) {
+            DispatchQueue.global().async {
+                while true {
+                    if UserEvents.safeToReload() {
+                        //self.tableView.reloadData()
+                        //print(UserEvents.events[0].address?.latitude as! String)
                         
-                        self.loadedEvents.append(coor)
-                    }
-                    
-                    for ev in self.loadedEvents{
-                        let lat = Double(ev.address?.latitude as! String)
-                        let long = Double(ev.address?.longitude as! String)
-                        let loc = CLLocation(latitude: lat!, longitude: long!)
-                        self.coords.append(loc)
-                    
-                    }
-                    
-                    for c in self.coords{
-                        let distance = self.currentLocation.distance(from: c)
-                        if Int(distance) > self.farthestDistance {
-                            self.farthestDistance = Int(distance)
+                        for coor in UserEvents.events{
+                            //                        let lat = Double(coor.address?.latitude as! String)
+                            //                        let long = Double(coor.address?.longitude as! String)
+                            //                        let loc = CLLocation(latitude: lat!, longitude: long!)
+                            //                        self.loadedEvents.
+                            //                        let name = coor.name
+                            //                        let desc = coor.description
+                            //                        let startTime = coor.startTime
+                            //                        let date = coor.date
+                            //                        print(name)
+                            //                        self.coords.append(loc)
+                            
+                            self.loadedEvents.append(coor)
                         }
+                        
+                        for ev in self.loadedEvents{
+                            let lat = Double(ev.address?.latitude as! String)
+                            let long = Double(ev.address?.longitude as! String)
+                            let loc = CLLocation(latitude: lat!, longitude: long!)
+                            self.coords.append(loc)
+                            
+                        }
+                        
+                        for c in self.coords{
+                            let distance = self.currentLocation.distance(from: c)
+                            if Int(distance) > self.farthestDistance {
+                                self.farthestDistance = Int(distance)
+                            }
+                        }
+                        
+                        self.addAnnotations(coords: self.coords)
+                        break
                     }
-                    
-                    self.addAnnotations(coords: self.coords)
-                    break
                 }
             }
         }
+        
     }
-
-  }
     
     
-   
     
-//    func getEvents () {
-//        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
-//            if let events = events {
-//                self.events = events
-//            } else {
-//                print("error")
-//            }
-//        }
-//    }
+    
+    //    func getEvents () {
+    //        Eventbrite.getEvents { (events: [Event]?, error: Error?) in
+    //            if let events = events {
+    //                self.events = events
+    //            } else {
+    //                print("error")
+    //            }
+    //        }
+    //    }
     @IBAction func centerBtnWasPressed(_ sender: Any) {
         if authorizationStatus == .authorizedAlways || authorizationStatus == .authorizedWhenInUse {
             centerMapOnUserLocation()
@@ -139,15 +139,15 @@ class MapViewController: UIViewController {
             mapView.addAnnotation(anno)
             
         }
-     
-      
+        
+        
     }
     
     func pullUpView(lat: String, long: String){
         for ev in loadedEvents{
-//            if lat == ev.address?.latitude && long == ev.address?.longitude{
-//                print("\(lat), \(long)")
-//            }
+            //            if lat == ev.address?.latitude && long == ev.address?.longitude{
+            //                print("\(lat), \(long)")
+            //            }
             
             let latit = ev.address?.latitude as! String
             let longit = ev.address?.longitude as! String
@@ -155,15 +155,15 @@ class MapViewController: UIViewController {
             let longitude = Double(round(1000*Double(longit)!)/1000)
             let thisLat = Double(round(1000*Double(lat)!)/1000)
             let thisLong = Double(round(1000*Double(long)!)/1000)
-//            print("\(thisLat), \(thisLong)")
-//            print("\(latitude), \(longitude)")
-//            print(" ")
+            //            print("\(thisLat), \(thisLong)")
+            //            print("\(latitude), \(longitude)")
+            //            print(" ")
             
-//            if thisLat == latitude && thisLong == longitude {
-//                print(ev.name)
-//            }
+            //            if thisLat == latitude && thisLong == longitude {
+            //                print(ev.name)
+            //            }
             
-          
+            
             pullUpViewHeight.constant = 300
             pullUpview.layer.cornerRadius = 20;
             pullUpview.layer.masksToBounds = true;
@@ -197,7 +197,7 @@ class MapViewController: UIViewController {
                 strTime = strTime.prefix(8)
                 var strTimes = formatt(time: String(strTime))
                 addAllFunc(name: ev.name, date: String(strDate), time: String(strTimes))
-                }
+            }
             
         }
         
@@ -324,7 +324,7 @@ class MapViewController: UIViewController {
             clickForInfo.removeFromSuperview()
         }
         
-    
+        
     }
     
     
@@ -347,16 +347,16 @@ extension MapViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         // Customize the pin drop
-       
+        
         if annotation is MKUserLocation {
             return nil
         }
-
-
+        
+        
         let pinAnnotation = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "droppablePin")
         //pinAnnotation.pinTintColor = #colorLiteral(red: 0.521568656, green: 0.1098039225, blue: 0.05098039284, alpha: 1)
         pinAnnotation.pinTintColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        let annotationLabel = UILabel(frame: CGRect(x: -35, y: -30, width: 70, height: 26))
+        let annotationLabel = UILabel(frame: CGRect(x: -30, y: -30, width: 70, height: 26))
         annotationLabel.text = annotation.title!
         annotationLabel.textAlignment = .center
         annotationLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
@@ -366,7 +366,7 @@ extension MapViewController: MKMapViewDelegate {
         annotationLabel.clipsToBounds = true
         pinAnnotation.addSubview(annotationLabel)
         pinAnnotation.animatesDrop = true
- 
+        
         return pinAnnotation
     }
     

@@ -323,7 +323,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.72156862745098038" green="0.88627450980392153" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="Gzj-bT-Cdp" firstAttribute="leading" secondItem="TlQ-lq-oDh" secondAttribute="leading" constant="8" id="ABq-rp-H85"/>
                                                         <constraint firstItem="qAG-Cg-s9J" firstAttribute="top" secondItem="TlQ-lq-oDh" secondAttribute="top" constant="8.5" id="E4Z-Ud-Riz"/>
@@ -405,9 +405,9 @@
         <image name="Circle-Center-512" width="512" height="512"/>
         <image name="iconfinder_menu-alt_134216" width="25" height="25"/>
         <image name="iconfinder_move_134218" width="25" height="25"/>
-        <image name="terminal_21" width="21" height="21"/>
+        <image name="terminal_21" width="10.079999923706055" height="10.079999923706055"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qbv-YP-6uE"/>
+        <segue reference="DCa-Gx-k9C"/>
     </inferredMetricsTieBreakers>
 </document>
