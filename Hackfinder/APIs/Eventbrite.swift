@@ -33,6 +33,7 @@ class Eventbrite {
   static let token = "&token="
   //end URL objects
   
+
   
   static func generateURL (sortBy: String, locationAddress: String, locationWithin: String, isFree: Bool) -> URL {
     var price = ""
@@ -53,6 +54,7 @@ class Eventbrite {
   static func generateURL () -> URL{
     return generateURL(sortBy: "best", locationAddress: "los+angeles", locationWithin: "50", isFree: false)
   }
+  
   
   //default
   static func getEvents(completion: @escaping ([Event]?, Error?) -> ()) {

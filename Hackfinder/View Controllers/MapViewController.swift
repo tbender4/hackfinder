@@ -39,12 +39,21 @@ class MapViewController: UIViewController {
     var title5 = UILabel()
     var clickForInfo = UIButton()
     var currentLocation: CLLocation!
-    var farthestDistance = 0
+  var farthestDistance:Double = 0
     var i = 0
-    
+  
+  //viewcontroller testing
+  //
+  
+  //end view controller testing
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+      
+      //viewcontroller testing
+      
+      //end view controller testing
+      
         /*
          USAGE OF Eventbrite API:
          1) Update search with Eventbrite.updateSearch(...)
@@ -88,17 +97,20 @@ class MapViewController: UIViewController {
                             self.coords.append(loc)
                             
                         }
-                        
+                      
+                      if self.currentLocation != nil {
                         for c in self.coords{
-                            let distance = self.currentLocation.distance(from: c)
-                            if Int(distance) > self.farthestDistance {
-                                self.farthestDistance = Int(distance)
-                            }
+                          let distance:Double = self.currentLocation.distance(from: c)
+                          if Double(distance) > Double(self.farthestDistance) {
+                            self.farthestDistance = Double(distance)
+                          }
                         }
                         
                         self.addAnnotations(coords: self.coords)
                         break
-                    }
+                      }
+                  }
+
                 }
             }
         }
