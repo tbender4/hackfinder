@@ -19,8 +19,12 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //  let group = DispatchGroup()   //to pause
 //  let queue = DispatchQueue(label: "eventQueue")
   
-  func refresh() {
-    self.tableView.reloadData()
+  func refresh () {
+    UserEvents.getEvents {
+      if $0 {
+        self.tableView.reloadData()
+      }
+    }
   }
   
   override func viewDidLoad() {
@@ -37,11 +41,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //    group.enter()
 //    UserEvents.getEvents()
     Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    UserEvents.getEvents {
-      if $0 {
-        self.tableView.reloadData()
-      }
-    }
+    refresh()
   }
     
 //    UserEvents.group.notify(queue: .main) {
