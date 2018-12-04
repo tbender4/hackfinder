@@ -27,8 +27,6 @@ class Event {
   var address: Address?
   
 
-  let group = DispatchGroup()
-
   
   init(event: [String: Any]) {
     
@@ -69,9 +67,8 @@ class Event {
     
     let venueID = event["venue_id"] as? String ?? "n/a"
     self.venueID = venueID
+
     
-    
-//    group.enter()
     getAddress()
   }
   
@@ -81,10 +78,8 @@ class Event {
        // print(address.city)
         self.address = address
         UserEvents.addressCount += 1
-//        self.group.leave()
       } else {
         print("error in getting address")
-//        self.group.leave()
       }
     }
   }

@@ -17,12 +17,15 @@ class UserEvents {
   static let group = DispatchGroup()   //to pause
   static let queue = DispatchQueue(label: "eventQueue")
   
-  static func getEvents () {
+  static func getEvents (completion: @escaping (Bool) -> Void) {
     UserEvents.group.enter()
     Eventbrite.getEvents { (events: [Event]?, error: Error?) in
       if let events = events {
         self.events = events
         self.group.leave()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+          completion(true)
+        }
       } else {
         print("error")
         self.group.leave()
@@ -36,6 +39,7 @@ class UserEvents {
     }
     return false
   }
+  
   
   
 }
