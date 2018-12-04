@@ -10,10 +10,23 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var overView: String?
+    var image: String?
+
+    
     @IBOutlet weak var LogoImageView: UIImageView!
     @IBOutlet weak var overviewLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let overView = overView{
+            overviewLabel.text = overView.description
+        }
+        /* if let image = image{
+         LogoImageView.image = UserEvents.logo
+         }*/
+        
+
 
         // Do any additional setup after loading the view.
     }

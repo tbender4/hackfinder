@@ -71,6 +71,20 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     return cell
     
     //TODO: Move to separate function in EventCell?
+    /*
+    override func prepareForSegue(segue: UIStoryboard!, sender: AnyObject?){
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell){
+            if let indexPath = tableView.indexPathForSelectedRow{
+                if segue.identifier == "detailVc"{
+                    let detailVc = segue.destination as! DetailViewController
+                    detailVc.overView = UserEvents.events.description
+                }
+            }
+        }}*/
+
+    
+    
   }
     
 }
