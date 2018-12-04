@@ -322,6 +322,10 @@
                                                             <color key="textColor" red="0.19607843137254902" green="0.3411764705882353" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p8j-HU-fyG">
+                                                            <rect key="frame" x="187" y="38" width="160" height="112"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -351,6 +355,7 @@
                                             <outlet property="dateLabel" destination="zSR-4X-p6d" id="RsD-hg-ppX"/>
                                             <outlet property="innerVIew" destination="TlQ-lq-oDh" id="5TN-Me-MMY"/>
                                             <outlet property="nameLabel" destination="qAG-Cg-s9J" id="Aad-zC-a7U"/>
+                                            <outlet property="poster" destination="p8j-HU-fyG" id="BDe-4E-akH"/>
                                             <outlet property="view" destination="sfV-cB-O5j" id="uHy-L6-k3X"/>
                                             <segue destination="Ykl-PC-dEV" kind="show" id="Gog-PX-L97"/>
                                         </connections>
@@ -408,6 +413,6 @@
         <image name="terminal_21" width="10.079999923706055" height="10.079999923706055"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="qbv-YP-6uE"/>
+        <segue reference="DCa-Gx-k9C"/>
     </inferredMetricsTieBreakers>
 </document>

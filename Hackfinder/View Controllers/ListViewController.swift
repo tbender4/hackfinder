@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftDate
+import AlamofireImage
 
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   @IBOutlet weak var tableView: UITableView!
@@ -78,9 +79,13 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     let addressText: String = (address?.joined(separator: "\n") ?? "")
     
+    let posterString: String = event.smallLogo
+    //posterString.
+    
     cell.nameLabel.text = name
     cell.dateLabel.text = formattedDate(date: event.date)
     cell.addressLabel.text = addressText
+    
     return cell
     
     //TODO: Move to separate function in EventCell?

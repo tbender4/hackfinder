@@ -19,7 +19,8 @@ class EventCell: UITableViewCell {
     @IBOutlet weak var innerVIew: UIView!
     
     
-    
+  @IBOutlet weak var poster: UIImageView!
+  
     @IBOutlet weak var view: UIView!
     
     override func awakeFromNib() {

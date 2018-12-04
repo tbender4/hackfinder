@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     var overView: String?
-    var image: String?
+    var imageURLString: String?
 
     
     @IBOutlet weak var LogoImageView: UIImageView!
