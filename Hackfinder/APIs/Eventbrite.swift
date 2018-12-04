@@ -18,7 +18,7 @@ import Alamofire
 import CoreLocation
 
 enum URLKeys {
-  static let baseURL = "https://www.eventbriteapi.com/v3/events/search?q=hackathon?q=hackathon"
+  static let baseURL = "https://www.eventbriteapi.com/v3/events/search?q=hackathon"
   static let search = "events/search/"
   static let query = "?q=hackathon"
   static let sortBy = "&sort_by="
@@ -55,9 +55,9 @@ class Eventbrite {
     if isFree == true {
       self.price = "free"
     }
-    let url = URLKeys.baseURL + self.sortBy
+    let url = URLKeys.baseURL + URLKeys.sortBy + self.sortBy
       + URLKeys.locationAddress + self.locationAddress
-      + URLKeys.locationWithin + self.locationWithin
+      + URLKeys.locationWithin + self.locationWithin + URLKeys.unit
       + URLKeys.price + self.price
       + URLKeys.token + self.userToken
     
@@ -73,9 +73,9 @@ class Eventbrite {
     if isFree == true {
       self.price = "free"
     }
-    let url = URLKeys.baseURL + self.sortBy
+    let url = URLKeys.baseURL + URLKeys.sortBy + self.sortBy
     + URLKeys.locationAddress + self.locationAddress
-    + URLKeys.locationWithin + self.locationWithin
+    + URLKeys.locationWithin + self.locationWithin + URLKeys.unit
     + URLKeys.price + self.price
     + URLKeys.token + self.userToken
 
