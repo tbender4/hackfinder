@@ -15,43 +15,77 @@
 
 import Foundation
 import Alamofire
+import CoreLocation
+
+enum URLKeys {
+  static let baseURL = "https://www.eventbriteapi.com/v3/events/search?q=hackathon?q=hackathon"
+  static let search = "events/search/"
+  static let query = "?q=hackathon"
+  static let sortBy = "&sort_by="
+  static let locationAddress = "&location.address="
+  static let locationLatitude = "&location.latitude="
+  static let locationLongitude = "location.latitude="
+  static let locationWithin = "&location.within="
+  static let unit = "mi"  //TODO: allow changing of unit for international users
+  static let price = "&price="
+  static let token = "&token="
+}
 
 class Eventbrite {
-  static let baseURL = "https://www.eventbriteapi.com/v3/"
   private static let userToken = Token.personalOAuthToken   //This is kept in a separate file for security purposes. The file is listed under .gitignore and thus will NOT be pushed to the public repository.
 
   static var workingURL: URL = URL(string: "nil")!      //if it remains as nil, getEvents will default to LA
   var session: URLSession
   //The following is used to build the json URL. It does NOT hold user's parameters.
-  static let search = "events/search/"
-  static let query = "?q=hackathon"
-  static let sortBy = "&sort_by="
-  static let locationAddress = "&location.address="
-  static let locationWithin = "&location.within="
-  static let unit = "mi"  //TODO: allow changing of unit for international users
-  static let price = "&price="
-  static let token = "&token="
-  //end URL objects
-  
 
+  //end URL objects
+
+  static var isUsingCoordinates: Bool = true
+  static var sortBy: String = ""
+  static var locationAddress: String = ""
+  static var locationWithin: String = ""
+  static var price: String = ""
+  static var locationCoordinates: CLLocation?
+  
+  static func generateURL (sortBy: String, locationCoordinates: CLLocation, locationWithin: String, isFree: Bool) -> URL{
+    isUsingCoordinates = true
+    self.sortBy = sortBy
+    self.locationCoordinates = locationCoordinates
+    self.locationWithin = locationWithin
+    if isFree == true {
+      self.price = "free"
+    }
+    let url = URLKeys.baseURL + self.sortBy
+      + URLKeys.locationAddress + self.locationAddress
+      + URLKeys.locationWithin + self.locationWithin
+      + URLKeys.price + self.price
+      + URLKeys.token + self.userToken
+    
+    print(url)
+    return URL(string: url)!
+  }
   
   static func generateURL (sortBy: String, locationAddress: String, locationWithin: String, isFree: Bool) -> URL {
-    var price = ""
+    isUsingCoordinates = false
+    self.sortBy = sortBy
+    self.locationAddress = locationAddress
+    self.locationWithin = locationWithin
     if isFree == true {
-      price = "free"
+      self.price = "free"
     }
-    let url = Eventbrite.baseURL + Eventbrite.search + Eventbrite.query
-      + Eventbrite.sortBy + sortBy
-      + Eventbrite.locationAddress + locationAddress
-      + Eventbrite.locationWithin + locationWithin + Eventbrite.unit
-      + Eventbrite.price + price
-      + Eventbrite.token + Eventbrite.userToken
+    let url = URLKeys.baseURL + self.sortBy
+    + URLKeys.locationAddress + self.locationAddress
+    + URLKeys.locationWithin + self.locationWithin
+    + URLKeys.price + self.price
+    + URLKeys.token + self.userToken
+
     print(url)
     return URL(string: url)!
   }
   
   //generic defaults for testing purposes
   static func generateURL () -> URL{
+    Eventbrite.isUsingCoordinates = false
     return generateURL(sortBy: "best", locationAddress: "los+angeles", locationWithin: "50", isFree: false)
   }
   

@@ -12,12 +12,20 @@ import SwiftDate
 class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   @IBOutlet weak var tableView: UITableView!
   
-  let userEvents = UserEvents()
-  let readyToReload = false
+//  let userEvents = UserEvents()
+//  let readyToReload = false
 //  var events: [Event] = []
 //  static var addressCount = 0
 //  let group = DispatchGroup()   //to pause
 //  let queue = DispatchQueue(label: "eventQueue")
+  
+  func refresh () {
+    UserEvents.getEvents {
+      if $0 {
+        self.tableView.reloadData()
+      }
+    }
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -32,17 +40,22 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //
 //    group.enter()
 //    UserEvents.getEvents()
-    UserEvents.group.notify(queue: .main) {
-      DispatchQueue.global().async {
-        while true {
-          if UserEvents.safeToReload() {
-        
-            break
-          }
-        }
-      }
-    }
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+    refresh()
   }
+    
+//    UserEvents.group.notify(queue: .main) {
+//      DispatchQueue.global().async {
+//        while true {
+//          if UserEvents.safeToReload() {
+//
+//            break
+//          }
+//        }
+//      }
+//    }
+//  }
+    
 
   
   func formattedDate(date: String) -> String {
