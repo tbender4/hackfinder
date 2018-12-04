@@ -23,7 +23,7 @@ class MapViewController: UIViewController {
   var locationManager = CLLocationManager()
   let authorizationStatus = CLLocationManager.authorizationStatus() // Keeps Track
   let regionRadius: Double = 1000
-  //var events: [Event] = []    //once one event can be parsed, do the rest
+  var events: [Event] = []    //once one event can be parsed, do the rest
   //    let coords = [  CLLocation(latitude: xxxx, longitude: xxxx),
   //                    CLLocation(latitude: xxx, longitude: xxx),
   //                    CLLocation(latitude: xxx, longitude:xxx)
@@ -39,72 +39,70 @@ class MapViewController: UIViewController {
   var title5 = UILabel()
   var clickForInfo = UIButton()
   var currentLocation: CLLocation!
-  var farthestDistance:Double = 0
+  var farthestDistance = 0
   var i = 0
   
-
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    
     /*
      USAGE OF Eventbrite API:
      1) Update search with Eventbrite.updateSearch(...)
      2) run getEvents()
      */
-    
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
     //   getEvents()
     
     mapView.delegate = self
-    //UserEvents.getEvents()
+    UserEvents.getEvents {
+      if $0{
+      }
+    }
+    self.configureLocationServices()
     centerMapOnUserLocation()
     
     mapView.layer.cornerRadius = 20
     view.backgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
-    
-    if self.currentLocation != nil {
-      //use cL
-    } else {
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    }
-    UserEvents.getEvents {
-      if $0 {
-        print(UserEvents.events.count)
-        //self.tableView.reloadData()
-        //print(UserEvents.events[0].address?.latitude as! String)
-        
-        for coor in UserEvents.events{
-//          let lat = Double(coor.address?.latitude as! String)
-//          let long = Double(coor.address?.longitude as! String)
-//          let loc = CLLocation(latitude: lat!, longitude: long!)
-//          self.loadedEvents.append(coor)
-//          let name = coor.name
-//          let desc = coor.description
-//          let startTime = coor.startTime
-//          let date = coor.date
-//          print(name)
-//          self.coords.append(loc)
-          
-          self.loadedEvents.append(coor)
-        }
-        
-        if self.currentLocation != nil {      //temporary fix
-          for ev in self.loadedEvents{
-            let lat = Double(ev.address?.latitude as! String)
-            let long = Double(ev.address?.longitude as! String)
-            let loc = CLLocation(latitude: lat!, longitude: long!)
-            self.coords.append(loc)
+    UserEvents.group.notify(queue: .main) {
+      DispatchQueue.global().async {
+        while true {
+          if UserEvents.safeToReload() {
+            //self.tableView.reloadData()
+            //print(UserEvents.events[0].address?.latitude as! String)
             
-          }
-          
-          for c in self.coords{
-            let distance:Double = self.currentLocation.distance(from: c)
-            if Double(distance) > Double(self.farthestDistance) {
-              self.farthestDistance = Double(distance)
+            for coor in UserEvents.events{
+              //                        let lat = Double(coor.address?.latitude as! String)
+              //                        let long = Double(coor.address?.longitude as! String)
+              //                        let loc = CLLocation(latitude: lat!, longitude: long!)
+              //                        self.loadedEvents.
+              //                        let name = coor.name
+              //                        let desc = coor.description
+              //                        let startTime = coor.startTime
+              //                        let date = coor.date
+              //                        print(name)
+              //                        self.coords.append(loc)
+              
+              self.loadedEvents.append(coor)
             }
+            
+            for ev in self.loadedEvents{
+              let lat = Double(ev.address?.latitude as! String)
+              let long = Double(ev.address?.longitude as! String)
+              let loc = CLLocation(latitude: lat!, longitude: long!)
+              self.coords.append(loc)
+              
+            }
+            
+            for c in self.coords{
+              let distance = self.currentLocation.distance(from: c)
+              if Int(distance) > self.farthestDistance {
+                self.farthestDistance = Int(distance)
+              }
+            }
+            
+            self.addAnnotations(coords: self.coords)
+            break
           }
-          
-          self.addAnnotations(coords: self.coords)
-          
         }
       }
     }
@@ -417,6 +415,5 @@ extension MapViewController: CLLocationManagerDelegate {
   
   
 }
-
 
 

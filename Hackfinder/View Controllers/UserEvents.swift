@@ -23,7 +23,7 @@ class UserEvents {
       if let events = events {
         self.events = events
         self.group.leave()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
           completion(true)
         }
       } else {
