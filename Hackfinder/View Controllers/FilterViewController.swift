@@ -43,6 +43,7 @@ class FilterViewController: UITableViewController {
   
   func sortBy (preference: Int) {  //distance/best/date
     //change parameters
+    
     if preference == distance {
       
     } else if preference == best {

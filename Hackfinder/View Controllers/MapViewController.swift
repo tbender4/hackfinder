@@ -50,62 +50,51 @@ class MapViewController: UIViewController {
      1) Update search with Eventbrite.updateSearch(...)
      2) run getEvents()
      */
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
     //   getEvents()
     
     mapView.delegate = self
-    UserEvents.getEvents {
-      if $0{
-      }
-    }
+
     self.configureLocationServices()
     centerMapOnUserLocation()
-    
-    mapView.layer.cornerRadius = 20
-    view.backgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
-    UserEvents.group.notify(queue: .main) {
-      DispatchQueue.global().async {
-        while true {
-          if UserEvents.safeToReload() {
-            //self.tableView.reloadData()
-            //print(UserEvents.events[0].address?.latitude as! String)
-            
-            for coor in UserEvents.events{
-              //                        let lat = Double(coor.address?.latitude as! String)
-              //                        let long = Double(coor.address?.longitude as! String)
-              //                        let loc = CLLocation(latitude: lat!, longitude: long!)
-              //                        self.loadedEvents.
-              //                        let name = coor.name
-              //                        let desc = coor.description
-              //                        let startTime = coor.startTime
-              //                        let date = coor.date
-              //                        print(name)
-              //                        self.coords.append(loc)
-              
-              self.loadedEvents.append(coor)
-            }
-            
-            for ev in self.loadedEvents{
-              let lat = Double(ev.address?.latitude as! String)
-              let long = Double(ev.address?.longitude as! String)
-              let loc = CLLocation(latitude: lat!, longitude: long!)
-              self.coords.append(loc)
-              
-            }
-            
-            for c in self.coords{
-              let distance = self.currentLocation.distance(from: c)
-              if Int(distance) > self.farthestDistance {
-                self.farthestDistance = Int(distance)
-              }
-            }
-            
-            self.addAnnotations(coords: self.coords)
-            break
+    //Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+    Eventbrite.updateSearch(sortBy: "best", locationCoordinates: currentLocation, locationWithin: "50", isFree: false)
+    UserEvents.getEvents {
+      if $0{
+        for coor in UserEvents.events{
+          //                        let lat = Double(coor.address?.latitude as! String)
+          //                        let long = Double(coor.address?.longitude as! String)
+          //                        let loc = CLLocation(latitude: lat!, longitude: long!)
+          //                        self.loadedEvents.
+          //                        let name = coor.name
+          //                        let desc = coor.description
+          //                        let startTime = coor.startTime
+          //                        let date = coor.date
+          //                        print(name)
+          //                        self.coords.append(loc)
+          
+          self.loadedEvents.append(coor)
+        }
+        
+        for ev in self.loadedEvents{
+          let lat = Double(ev.address?.latitude as! String)
+          let long = Double(ev.address?.longitude as! String)
+          let loc = CLLocation(latitude: lat!, longitude: long!)
+          self.coords.append(loc)
+          
+        }
+        
+        for c in self.coords{
+          let distance = self.currentLocation.distance(from: c)
+          if Int(distance) > self.farthestDistance {
+            self.farthestDistance = Int(distance)
           }
         }
+        
+        self.addAnnotations(coords: self.coords)
       }
     }
+    mapView.layer.cornerRadius = 20
+    view.backgroundColor = #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
     
   }
   
