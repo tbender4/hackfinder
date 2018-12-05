@@ -56,8 +56,8 @@ class MapViewController: UIViewController {
 
     self.configureLocationServices()
     centerMapOnUserLocation()
-    //Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
-    Eventbrite.updateSearch(sortBy: "best", locationCoordinates: currentLocation, locationWithin: "50", isFree: false)
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "san+franciso", locationWithin: "50", isFree: false)
+    //Eventbrite.updateSearch(sortBy: "best", locationCoordinates: currentLocation, locationWithin: "50", isFree: false)
     UserEvents.getEvents {
       if $0{
         for coor in UserEvents.events{
@@ -294,15 +294,15 @@ class MapViewController: UIViewController {
     title5.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     pullUpview.addSubview(title5)
     
-    clickForInfo = UIButton()
-    clickForInfo.frame = CGRect(x: 90, y: 220, width: 200, height: 50)
-    clickForInfo.setTitle("Tap For More Info", for: UIControl.State.normal)
-    clickForInfo.setTitleColor(#colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1), for: .normal)
-    clickForInfo.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-    clickForInfo.layer.cornerRadius = 5
-    clickForInfo.layer.borderWidth = 2
-    clickForInfo.layer.borderColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
-    pullUpview.addSubview(clickForInfo)
+//    clickForInfo = UIButton()
+//    clickForInfo.frame = CGRect(x: 90, y: 220, width: 200, height: 50)
+//    clickForInfo.setTitle("Tap For More Info", for: UIControl.State.normal)
+//    clickForInfo.setTitleColor(#colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1), for: .normal)
+//    clickForInfo.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+//    clickForInfo.layer.cornerRadius = 5
+//    clickForInfo.layer.borderWidth = 2
+//    clickForInfo.layer.borderColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+//    pullUpview.addSubview(clickForInfo)
   }
   
   func removeAllFunc(){

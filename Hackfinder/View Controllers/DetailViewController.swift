@@ -12,23 +12,35 @@ class DetailViewController: UIViewController {
 
     var overView: String?
     var imageURLString: String?
+    var name: String?
+    var date: String?
 
-    
+  @IBOutlet weak var nameLbl: UILabel!
+  @IBOutlet weak var dateLbl: UILabel!
+  
     @IBOutlet weak var LogoImageView: UIImageView!
     @IBOutlet weak var overviewLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let overView = overView{
-            overviewLabel.text = overView.description
-        }
+//        if let overView = overView{
+//            overviewLabel.text = overView.description
+//        }
         /* if let image = image{
          LogoImageView.image = UserEvents.logo
          }*/
-        
+      
+      
+      
 
 
         // Do any additional setup after loading the view.
+      
+      nameLbl.text = name
+      dateLbl.text = date
+      let url = URL(string: imageURLString!)!
+      LogoImageView.af_setImage(withURL: url)
+      overviewLabel.text = overView
     }
   
 
@@ -44,4 +56,5 @@ class DetailViewController: UIViewController {
     }
     */
 
+  
 }

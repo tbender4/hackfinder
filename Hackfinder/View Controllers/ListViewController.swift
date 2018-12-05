@@ -41,7 +41,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //
 //    group.enter()
 //    UserEvents.getEvents()
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "san+francisco", locationWithin: "50", isFree: false)
     refresh()
   }
     
@@ -79,8 +79,8 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     let addressText: String = (address?.joined(separator: "\n") ?? "")
     
-    let posterString: String = event.smallLogo
-    //posterString.
+    let posterString:URL = URL(string: event.smallLogo)!
+    cell.poster.af_setImage(withURL: posterString)
     
     cell.nameLabel.text = name
     cell.dateLabel.text = formattedDate(date: event.date)
@@ -103,6 +103,18 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     
     
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let cell = sender as! UITableViewCell
+    if let indexPath = tableView.indexPath(for: cell){
+      let event = UserEvents.events[indexPath.row]
+      let detailViewController = segue.destination as! DetailViewController
+      detailViewController.overView = event.description
+      detailViewController.imageURLString = event.originalLogo
+      detailViewController.name = event.name
+      detailViewController.date = event.date
+    }
   }
     
 }
