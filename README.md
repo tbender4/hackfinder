@@ -4,7 +4,7 @@
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
-Time spent: **10** hours spent in total
+Time spent: **70** hours spent in total
 
 Description: 
 Hackfinder is an iOS App that will help users find nearby hackathons using Location Services, or by searching for a specific location.
@@ -13,15 +13,15 @@ Hackfinder is an iOS App that will help users find nearby hackathons using Locat
 
 The following **required** user stories are complete:
 - [x] Implement Eventbrite API parsing
-- [ ] app icon in home screen, styled launch screen
-- [ ] **Fliter View** Implement [SideMenu](https://github.com/jonkykong/SideMenu)
-- [ ] **List View** user can change location of nearby hackathons to list
+- [x] app icon in home screen, styled launch screen
+- [x] **Fliter View** Implement [SideMenu](https://github.com/jonkykong/SideMenu)
+- [x] **List View** user can change location of nearby hackathons to list
 - [x] **List View** user can scroll through list of hackathons
 - [x] **Map View** display map using location of user
-- [ ] **Map View** have pins for nearby hackathons by default
-- [ ] **Map View** user can click on pin to bring up detail view of event
-- [ ] **Detail View** show all information provided by eventbrite api
-- [ ] **Detail View** user is redirected to eventbrite website/app to RSVP
+- [x] **Map View** have pins for nearby hackathons by default
+- [x] **Map View** user can click on pin to bring up detail view of event
+- [x] **Detail View** show all information provided by eventbrite api
+- [x] **Detail View** user is redirected to eventbrite website/app to RSVP
 
 The following **optional** user stories are implemented:
 
@@ -30,10 +30,10 @@ The following **optional** user stories are implemented:
 - [ ] calendar view
 - [ ] networking error
 - [ ] caching of events for offline
-- [ ] direction integration or redirection to eventbrite's website
-- [ ] user notified when new hackathons are in their area
-- [ ] **User View** user can save upcoming hackathons in a separate list
-- [ ] **User View** user will be periodically notified when saved hackathon is coming up
+- [x] direction integration or redirection to eventbrite's website
+- [x] user notified when new hackathons are in their area
+- [x] **User View** user can save upcoming hackathons in a separate list
+- [x] **User View** user will be periodically notified when saved hackathon is coming up
 - [ ] **User View** user can save default locations
 
 ## Wireframe
