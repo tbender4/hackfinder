@@ -41,7 +41,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
 //
 //    group.enter()
 //    UserEvents.getEvents()
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "san+francisco", locationWithin: "50", isFree: false)
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
     refresh()
   }
     

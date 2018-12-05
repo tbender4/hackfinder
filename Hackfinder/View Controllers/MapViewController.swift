@@ -41,6 +41,9 @@ class MapViewController: UIViewController {
   var currentLocation: CLLocation!
   var farthestDistance = 0
   var i = 0
+    
+    var imagee = "";
+    var desc = "";
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -56,7 +59,7 @@ class MapViewController: UIViewController {
 
     self.configureLocationServices()
     centerMapOnUserLocation()
-    Eventbrite.updateSearch(sortBy: "best", locationAddress: "san+franciso", locationWithin: "50", isFree: false)
+    Eventbrite.updateSearch(sortBy: "best", locationAddress: "new+york", locationWithin: "50", isFree: false)
     //Eventbrite.updateSearch(sortBy: "best", locationCoordinates: currentLocation, locationWithin: "50", isFree: false)
     UserEvents.getEvents {
       if $0{
@@ -192,6 +195,12 @@ class MapViewController: UIViewController {
         strTime = strTime.prefix(8)
         let strTimes = formatt(time: String(strTime))
         addAllFunc(name: ev.name, date: String(origDate), time: String(strTimes))
+        
+        let image = ev.originalLogo
+        self.imagee = image
+        
+        let description = ev.description
+        self.desc = description
       }
       
     }
@@ -294,16 +303,44 @@ class MapViewController: UIViewController {
     title5.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
     pullUpview.addSubview(title5)
     
-//    clickForInfo = UIButton()
-//    clickForInfo.frame = CGRect(x: 90, y: 220, width: 200, height: 50)
-//    clickForInfo.setTitle("Tap For More Info", for: UIControl.State.normal)
-//    clickForInfo.setTitleColor(#colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1), for: .normal)
-//    clickForInfo.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-//    clickForInfo.layer.cornerRadius = 5
-//    clickForInfo.layer.borderWidth = 2
-//    clickForInfo.layer.borderColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
-//    pullUpview.addSubview(clickForInfo)
+    clickForInfo = UIButton()
+    clickForInfo.frame = CGRect(x: 90, y: 220, width: 200, height: 50)
+    clickForInfo.setTitle("Tap For More Info", for: UIControl.State.normal)
+    clickForInfo.setTitleColor(#colorLiteral(red: 0.1294117719, green: 0.2156862766, blue: 0.06666667014, alpha: 1), for: .normal)
+    clickForInfo.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    clickForInfo.layer.cornerRadius = 5
+    clickForInfo.layer.borderWidth = 2
+    clickForInfo.layer.borderColor = #colorLiteral(red: 0.1960784346, green: 0.3411764801, blue: 0.1019607857, alpha: 1)
+    clickForInfo.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+    pullUpview.addSubview(clickForInfo)
+    
   }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetailView"{
+            if let destination = segue.destination as? DetailViewController {
+                destination.name = title3.text
+                destination.date = title4.text
+                destination.imageURLString = imagee
+                destination.overView = desc
+            }
+        }
+    }
+    
+    @IBAction func buttonAction(_ sender: UIButton){
+        let detailView = DetailViewController()
+        detailView.name = title3.text!
+        detailView.date = title4.text!
+        detailView.imageURLString = self.imagee
+        detailView.overView = self.desc
+        
+        
+        self.performSegue(withIdentifier: "toDetailView", sender: self)
+        
+    }
+
+    
+    
   
   func removeAllFunc(){
     if title3 != nil {

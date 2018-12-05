@@ -35,12 +35,12 @@ class DetailViewController: UIViewController {
 
 
         // Do any additional setup after loading the view.
-      
-      nameLbl.text = name
-      dateLbl.text = date
+    print(name)
+      nameLbl?.text = name!
+      dateLbl?.text = date!
       let url = URL(string: imageURLString!)!
-      LogoImageView.af_setImage(withURL: url)
-      overviewLabel.text = overView
+      LogoImageView?.af_setImage(withURL: url)
+      overviewLabel?.text = overView
     }
   
 

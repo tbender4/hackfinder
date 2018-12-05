@@ -67,6 +67,7 @@
                         <outlet property="mapView" destination="Vhm-GZ-8hP" id="jde-Db-Nfb"/>
                         <outlet property="pullUpViewHeight" destination="S33-yl-ZAl" id="MML-Pm-23O"/>
                         <outlet property="pullUpview" destination="Iuw-WP-AwK" id="i9U-if-560"/>
+                        <segue destination="Ykl-PC-dEV" kind="show" identifier="toDetailView" id="3w8-Pa-B0u"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iky-qR-hvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -458,6 +459,7 @@
         <image name="terminal_21" width="10.079999923706055" height="10.079999923706055"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DCa-Gx-k9C"/>
+        <segue reference="qbv-YP-6uE"/>
+        <segue reference="3w8-Pa-B0u"/>
     </inferredMetricsTieBreakers>
 </document>
