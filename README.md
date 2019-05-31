@@ -39,7 +39,7 @@ The following **optional** user stories are implemented:
 
 ## Wireframe
 
-<img src='https://raw.githubusercontent.com/hackfinder00/hackfinder/master/wireframe.png'>
+<img src='https://github.com/tbender4/hackfinder/blob/master/wireframe.png'>
 
 ## API Endpoints
 
