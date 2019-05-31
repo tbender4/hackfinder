@@ -7,9 +7,6 @@ Hackfinder is an iOS App that will help users find nearby hackathons using Locat
 
 This was the final group project from taking Codepath's iOS Development course during Fall 2018. Core functionality was completed to meet the presentation day's deadline. This fork has critical improvements in functionality and is a rolling continuation.
 
-Here's a walkthrough of implemented user stories:
-
-**As of 11/06:**
 
 <img align="right" src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
