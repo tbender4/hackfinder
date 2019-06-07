@@ -9,15 +9,6 @@ This was the final group project from taking **Codepath's iOS Development** cour
 
 My contribution for the project was all of backend; interfacing the Eventbrite API to pull all information and parse into `Swift dictionaries`, implementing networking with `URLSession`  and images with `AlamofireImage`, and other minor `Cocapods`.
 
-## Screenshots
-
-<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' />
-
-<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' />
-
-<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' />
-
-<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
  
 ## User Stories
 
@@ -45,6 +36,12 @@ The following **optional** user stories are implemented:
 - [ ] **User View** user can save upcoming hackathons in a separate list
 - [ ] **User View** user will be periodically notified when saved hackathon is coming up
 - [ ] **User View** user can save default locations
+
+## Screenshots
+
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' /> <img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' />
+
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' /> <img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
 
 ## Wireframe
 
