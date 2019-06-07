@@ -2,23 +2,23 @@
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
-<img align="right" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' />
- 
-<img align="right" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' />
- 
-<img align="right" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' />
- 
-<img align="right" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
- 
 <img align="right" src='https://github.com/tbender4/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-Description: 
 Hackfinder is an iOS App that will help users find nearby hackathons using Location Services, or by searching for a specific location.
 
 This was the final group project from taking **Codepath's iOS Development** course during Fall 2018. Core functionality was completed to meet the presentation day's deadline. This fork is my effort to give it critical improvements in functionality.
 
 My contribution for the project was all of backend; interfacing the Eventbrite API to pull all information and parse into `Swift dictionaries`, implementing networking with `URLSession`  and images with `AlamofireImage`, and other minor `Cocapods`.
 
+## Screenshots
 
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' />
+
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' />
+
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' />
+
+<img align="center" src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
+ 
 ## User Stories
 
 The following **required** user stories are complete:
