@@ -2,13 +2,18 @@
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
+<img src='https://github.com/hackfinder00/hackfinder/raw/master/screenshots/map.png' title='map' width='566' height='1004'  alt='map' />
+<img src='https://github.com/hackfinder00/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='564' height='1004'  alt='map' />
+<img src='https://github.com/hackfinder00/hackfinder/raw/master/screenshots/listview.png' title='listview' width='563' height='1001'  alt='map' />
+<img src='https://github.com/hackfinder00/hackfinder/raw/master/screenshots/detail.png' title='detail' width='564' height='1001'  alt='map' />
+<img align="right" src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Description: 
 Hackfinder is an iOS App that will help users find nearby hackathons using Location Services, or by searching for a specific location.
 
-This was the final group project from taking Codepath's iOS Development course during Fall 2018. Core functionality was completed to meet the presentation day's deadline. This fork has critical improvements in functionality and is a rolling continuation.
+This was the final group project from taking **Codepath's iOS Development** course during Fall 2018. Core functionality was completed to meet the presentation day's deadline. This fork is my effort to give it critical improvements in functionality.
 
+My contribution for the project was all of backend; interfacing the Eventbrite API to pull all information and parse into `Swift dictionaries`, implementing networking with `URLSession`  and images with `AlamofireImage`, and other minor `Cocapods`.
 
-<img align="right" src='https://github.com/hackfinder00/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## User Stories
 
@@ -47,82 +52,7 @@ The [Eventbrite API](https://cloud.google.com/maps-platform/) is used for findin
 
 The [Google Maps API](https://cloud.google.com/maps-platform/) is used for the map view integration.
 
-## Model Classes
-
-- UserEvent
-  - [x] `events`
-  - [x] `getEvents`
-  - [x] `safeToReload`
-  
-- Event
-  - [x] `name`
-  - [x] `description`
-  - [x] `id`
-  - [x] `url`
-  - [x] `date`
-  - [ ] `starttime`
-  - [ ] `endTime`
-  - [x] `capacity`
-  - [x] `originalLogo`
-  - [x] `smallLogo`
-  
-  - [x] `init(event: [String: Any])`
-  - [x] `func getAddress`
-  - [x] `helper events func`
-
-
-- Eventbrite
-  - [x] `userToken`
-  - [x] `baseURL`
-  
-  - [x] `func generateURL`
-  - [x] `func generateVenueURL`
-  - [x] `func getEvents`
-  - [x] `func getVenueInfo`
-  - [x] `func updateSearch`
-  
-  
-
-- Map
-  - `MapPins`
-
-- EventCell
-  - [x] `name`
-  - [x] `date`
-  - [x] `address`
-  - [x] `tableView
-
-- MapViewController
-  - `map`
-  - `search`
-
-- ListViewController
-  - `search`
-  - `filter`
-  - `cell`
-
-- DetailViewController
-  - `title`
-  - `overview`
-  - `date`
-  - `rsvp`
-  - `backdrop`
-  - `avatar`
-
-- FilterViewController
-  - `sortBy`
-  - `location`
-  - `date`
-  - `isFree`
-  
-## Considerations
-- Product Pitch
-  - There is no app on the App Store with a focus on finding hackathon events. 
-  - The target audience is computer science students that want to attend hackathons that fits best with their schedule, the preferred distance, and preference details into gaining in the event.
-  
-- Key stakeholders
-  - Educational facilities such as Colleges, Universites. Tech companies can recruit students from hackathons events.
-  - The app with ease the opportunity to gain experience of programming under pressure, and to expanding their network with students and Tech companies. 
+## Usage
   
 - Core flows
   - Key functions would be the Map View that can use Location Services to interactively show nearby hackathons. List View with the Filter View can work together to narrow the user's options. The Details View is to show the user more information of the hackthon they've selected to see if the event is right for them.  
