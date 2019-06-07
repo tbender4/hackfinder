@@ -2,10 +2,7 @@
 
 **hackfinder** is a Hackathon search app using the [Eventbrite API](https://www.eventbrite.com/developer/v3/).
 
-<img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' />
-<img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' />
-<img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' />
-<img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
+<img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/map.png' title='map' width='377' height='669'  alt='map' /> <img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/halfview.png' title='halfview' width='376' height='669'  alt='map' /> <img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/listview.png' title='listview' width='375' height='667'  alt='map' /> <img src='https://github.com/tbender4/hackfinder/raw/master/screenshots/detail.png' title='detail' width='376' height='667'  alt='map' />
 
 <img align="right" src='https://github.com/tbender4/hackfinder/raw/master/demo11-06.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 Description: 
